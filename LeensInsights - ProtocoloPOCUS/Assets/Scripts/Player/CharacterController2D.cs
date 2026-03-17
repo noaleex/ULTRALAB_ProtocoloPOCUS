@@ -1,23 +1,34 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
     [SerializeField] float speed = 2f;
+
     Vector2 motionVector;
-    
+
+    PlayerAction controls;
+
     void Awake()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
+
+        controls = new PlayerAction();
+
+        controls.Player.Move.performed += ctx => motionVector = ctx.ReadValue<Vector2>();
+        controls.Player.Move.canceled += ctx => motionVector = Vector2.zero;
     }
 
-    private void Update()
+    void OnEnable()
     {
-        motionVector = new Vector2(
-            Input.GetAxisRaw("Horizontal"),
-            Input.GetAxisRaw("Vertical")
-            );
+        controls.Enable();
+    }
+
+    void OnDisable()
+    {
+        controls.Disable();
     }
 
     void FixedUpdate()
@@ -25,8 +36,8 @@ public class CharacterController2D : MonoBehaviour
         Move();
     }
 
-    private void Move()
+    void Move()
     {
-        rigidbody2d.velocity = motionVector * speed;
+        rigidbody2d.linearVelocity = motionVector * speed;
     }
 }
