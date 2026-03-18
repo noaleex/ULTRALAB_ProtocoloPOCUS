@@ -6,10 +6,9 @@ public class CharacterController2D : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
     [SerializeField] float speed = 2f;
-
     Vector2 motionVector;
-
     PlayerAction controls;
+    Animator animator;
 
     void Awake()
     {
@@ -19,6 +18,8 @@ public class CharacterController2D : MonoBehaviour
 
         controls.Player.Move.performed += ctx => motionVector = ctx.ReadValue<Vector2>();
         controls.Player.Move.canceled += ctx => motionVector = Vector2.zero;
+
+        animator = GetComponent<Animator>();
     }
 
     void OnEnable()
@@ -34,6 +35,8 @@ public class CharacterController2D : MonoBehaviour
     void FixedUpdate()
     {
         Move();
+        animator.SetFloat("horizontal", motionVector.x);
+        animator.SetFloat("vertical", motionVector.y);
     }
 
     void Move()
