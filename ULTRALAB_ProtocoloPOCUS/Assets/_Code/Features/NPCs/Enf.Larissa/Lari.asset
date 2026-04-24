@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd81a6fe40be39c4e83a96c320938fd9, type: 3}
+  m_Name: Lari
+  m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
+  npcName: Fisio
+  npcPortrait: {fileID: 0}
+  dialogueLines:
+  - "Lembre-se que o POCUS n\xE3o \xE9 s\xF3 para o pulm\xE3o. A avalia\xE7\xE3o
+    da espessura do quadr\xEDceps \xE9 essencial na sarcopenia."
+  - "Se a imagem mostrar um tecido muito fino ou com muita gordura entre as fibras,
+    voc\xEA j\xE1 sabe o que \xE9."
+  - "Ajuste bem o ganho. No m\xFAsculo, o contraste ajuda muito a definir a f\xE1scia
+    e o osso."
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  voicePitch: 1
+  autoProgressLines: 
+  autoProgressDelay: 1.5
