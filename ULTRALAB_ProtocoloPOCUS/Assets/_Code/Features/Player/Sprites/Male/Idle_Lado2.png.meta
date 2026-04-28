@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1385cfb68ad2c9844a05c2b1c72ec9c3
+guid: 7fd9578baaa8f484589d159456e3ff6f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7623622488024250296
-    second: P764_Left_0
+      213: -7602149076757641690
+    second: Idle_Lado2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -74,7 +74,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: P764_Left_0
+      name: Idle_Lado2_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 3
+        x: 20
+        y: 0
         width: 24
-        height: 54
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84882a32db3733690800000000000000
-      internalID: -7623622488024250296
+      spriteID: 6260c4e41bdbf7690800000000000000
+      internalID: -7602149076757641690
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      P764_Left_0: -7623622488024250296
+      Idle_Lado2_0: -7602149076757641690
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
