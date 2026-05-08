@@ -68,5 +68,8 @@ TagManager:
   - name: Cortina_Aberta
     uniqueID: 679906869
     locked: 0
+  - name: UI
+    uniqueID: 382699877
+    locked: 0
   m_RenderingLayers:
   - Default
