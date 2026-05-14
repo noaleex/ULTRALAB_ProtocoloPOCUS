@@ -5,7 +5,7 @@ using System.Collections;
 using NUnit.Framework;
 using UnityEditor.SearchService;
 using JetBrains.Annotations;
-using UnityEngine.UI; // Must include this for Image components
+using UnityEngine.UI;
 
 
 public class NPC : MonoBehaviour, IInteractable
