@@ -14,6 +14,7 @@ public class NPC : MonoBehaviour, IInteractable
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
     public Image portraitImage;
+    public GameObject interactIcon;
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
@@ -98,6 +99,8 @@ public class NPC : MonoBehaviour, IInteractable
         dialogueText.SetText("");
         dialoguePanel.SetActive(false);
         PauseController.SetPause(false);
+
+        interactIcon.SetActive(true);
     }
 
 }

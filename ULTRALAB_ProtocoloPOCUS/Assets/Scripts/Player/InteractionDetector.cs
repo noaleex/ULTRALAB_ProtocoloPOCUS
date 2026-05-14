@@ -27,7 +27,7 @@ public class InteractionDetector : MonoBehaviour
             interactionIcon.SetActive(true);
         }
     }
-    private void OntriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.TryGetComponent(out IInteractable interactable) && interactable == interactableInRange)
         {
