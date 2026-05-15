@@ -51,6 +51,8 @@ public class NPC : MonoBehaviour, IInteractable
         PauseController.SetPause(true);
 
         StartCoroutine(TypeLine());
+
+        interactIcon.SetActive(false);
     }
 
     void NextLine()
