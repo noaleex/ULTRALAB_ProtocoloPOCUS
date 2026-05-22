@@ -263,8 +263,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 499
+      x: 235
+      y: 377
       width: 16
       height: 10
     spriteID: ef968b06043887342abe869b20c8f0f5
@@ -275,7 +275,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 234, y: 477}
+    uvTransform: {x: 227, y: 355}
   - name: "TileSheet_Laborat\xC3\xB3rio_8"
     originalName: 
     pivot: {x: 0.5, y: 1.1428572}
@@ -284,8 +284,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 366
+      x: 235
+      y: 198
       width: 18
       height: 14
     spriteID: 774ef46065c5a0d4eb9b4b4e820721e3
@@ -296,7 +296,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 235, y: 366}
+    uvTransform: {x: 228, y: 198}
   - name: "TileSheet_Laborat\xC3\xB3rio_9"
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -347,7 +347,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 215
       width: 32
       height: 16
@@ -359,7 +359,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 199}
+    uvTransform: {x: 268, y: 199}
   - name: "TileSheet_Laborat\xC3\xB3rio_12"
     originalName: 
     pivot: {x: 0.5, y: 1}
@@ -368,7 +368,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 239
       width: 32
       height: 16
@@ -380,7 +380,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 239}
+    uvTransform: {x: 268, y: 239}
   - name: "TileSheet_Laborat\xC3\xB3rio_13"
     originalName: 
     pivot: {x: 0.5, y: 0.7619048}
@@ -389,7 +389,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 157
       width: 32
       height: 21
@@ -401,7 +401,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 157}
+    uvTransform: {x: 268, y: 157}
   - name: "TileSheet_Laborat\xC3\xB3rio_14"
     originalName: 
     pivot: {x: 0.5, y: 0.7619048}
@@ -410,7 +410,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 186
       width: 32
       height: 21
@@ -422,7 +422,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 186}
+    uvTransform: {x: 268, y: 186}
   - name: "TileSheet_Laborat\xC3\xB3rio_15"
     originalName: 
     pivot: {x: 0.53333336, y: -0.06666667}
@@ -431,8 +431,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 869
+      x: 308
+      y: 4
       width: 30
       height: 15
     spriteID: fd12177539d2e504a9021f9b5ab9689d
@@ -443,7 +443,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 852}
+    uvTransform: {x: 308, y: -13}
   - name: "TileSheet_Laborat\xC3\xB3rio_16"
     originalName: 
     pivot: {x: 0.4666667, y: -0.06666667}
@@ -452,8 +452,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 892
+      x: 308
+      y: 27
       width: 30
       height: 15
     spriteID: 4bb10a314cfc879468df626c7a7219fa
@@ -464,7 +464,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 200, y: 875}
+    uvTransform: {x: 306, y: 10}
   - name: "TileSheet_Laborat\xC3\xB3rio_17"
     originalName: 
     pivot: {x: 0.48387095, y: 0}
@@ -473,8 +473,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 423
+      x: 268
+      y: 618
       width: 31
       height: 16
     spriteID: 0a23aca6d8b32604caf1eb6a3a962b0c
@@ -485,7 +485,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 201, y: 407}
+    uvTransform: {x: 267, y: 602}
   - name: "TileSheet_Laborat\xC3\xB3rio_18"
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -494,7 +494,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 263
       width: 32
       height: 16
@@ -506,7 +506,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 247}
+    uvTransform: {x: 268, y: 247}
   - name: "TileSheet_Laborat\xC3\xB3rio_19"
     originalName: 
     pivot: {x: 0.516129, y: 0}
@@ -515,8 +515,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 447
+      x: 268
+      y: 642
       width: 31
       height: 16
     spriteID: 7e0ab0b706c315942bcba5d85d951262
@@ -527,7 +527,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 431}
+    uvTransform: {x: 268, y: 626}
   - name: "TileSheet_Laborat\xC3\xB3rio_20"
     originalName: 
     pivot: {x: 0.4666667, y: 0.5}
@@ -536,8 +536,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 84
-      y: 880
+      x: 124
+      y: 43
       width: 30
       height: 32
     spriteID: 1ec5404f877509243995f51d6a2a2d48
@@ -548,7 +548,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 82, y: 880}
+    uvTransform: {x: 122, y: 43}
   - name: "TileSheet_Laborat\xC3\xB3rio_21"
     originalName: 
     pivot: {x: 0.4666667, y: 1}
@@ -557,8 +557,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 124
-      y: 999
+      x: 268
+      y: 705
       width: 30
       height: 16
     spriteID: b6a58dad3f6098d4eade8cd91685d538
@@ -569,7 +569,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 122, y: 999}
+    uvTransform: {x: 266, y: 705}
   - name: "TileSheet_Laborat\xC3\xB3rio_22"
     originalName: 
     pivot: {x: 0.53333336, y: 1}
@@ -578,8 +578,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 510
+      x: 268
+      y: 729
       width: 30
       height: 16
     spriteID: b9649df1527de9049b5879dea879709b
@@ -590,7 +590,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 510}
+    uvTransform: {x: 268, y: 729}
   - name: "TileSheet_Laborat\xC3\xB3rio_23"
     originalName: 
     pivot: {x: 0.53333336, y: 0.5}
@@ -599,8 +599,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 84
-      y: 920
+      x: 124
+      y: 83
       width: 30
       height: 32
     spriteID: 9d70a5ed15e5422458bf7862573dc5da
@@ -611,7 +611,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 84, y: 920}
+    uvTransform: {x: 124, y: 83}
   - name: "TileSheet_Laborat\xC3\xB3rio_24"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -641,7 +641,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 287
       width: 32
       height: 16
@@ -653,7 +653,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 287}
+    uvTransform: {x: 268, y: 287}
   - name: "TileSheet_Laborat\xC3\xB3rio_26"
     originalName: 
     pivot: {x: 0.5, y: 1}
@@ -662,7 +662,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 311
       width: 32
       height: 16
@@ -674,7 +674,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 311}
+    uvTransform: {x: 268, y: 311}
   - name: "TileSheet_Laborat\xC3\xB3rio_27"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -704,8 +704,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 534
+      x: 268
+      y: 753
       width: 32
       height: 15
     spriteID: 4118fd8525cfaca42a9a15d75c6c65e8
@@ -716,7 +716,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 517}
+    uvTransform: {x: 268, y: 736}
   - name: "TileSheet_Laborat\xC3\xB3rio_29"
     originalName: 
     pivot: {x: 0.5, y: 1}
@@ -725,7 +725,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 335
       width: 32
       height: 16
@@ -737,7 +737,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 335}
+    uvTransform: {x: 268, y: 335}
   - name: "TileSheet_Laborat\xC3\xB3rio_30"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -767,8 +767,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 557
+      x: 268
+      y: 776
       width: 32
       height: 15
     spriteID: 98dc85cb4b6f97242b39c335ec125ff4
@@ -779,7 +779,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 540}
+    uvTransform: {x: 268, y: 759}
   - name: "TileSheet_Laborat\xC3\xB3rio_32"
     originalName: 
     pivot: {x: 0.64, y: 1}
@@ -788,8 +788,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 939
+      x: 235
+      y: 80
       width: 25
       height: 16
     spriteID: 22f74fb2090adeb498bc2d6810ea37a6
@@ -800,7 +800,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 939}
+    uvTransform: {x: 235, y: 80}
   - name: "TileSheet_Laborat\xC3\xB3rio_33"
     originalName: 
     pivot: {x: 0.64, y: 0.5}
@@ -809,8 +809,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 124
-      y: 959
+      x: 163
+      y: 551
       width: 25
       height: 32
     spriteID: e951d96ea9cfa06428824c390040c0f5
@@ -821,7 +821,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 124, y: 959}
+    uvTransform: {x: 163, y: 551}
   - name: "TileSheet_Laborat\xC3\xB3rio_34"
     originalName: 
     pivot: {x: 0.64, y: -0.06666667}
@@ -830,8 +830,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 963
+      x: 235
+      y: 128
       width: 25
       height: 15
     spriteID: 53e76b7da2ad53a4bbd7235a9e3b3ef7
@@ -842,7 +842,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 946}
+    uvTransform: {x: 235, y: 111}
   - name: "TileSheet_Laborat\xC3\xB3rio_35"
     originalName: 
     pivot: {x: 0.5, y: 0.30434784}
@@ -851,8 +851,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 838
+      x: 268
+      y: 995
       width: 20
       height: 23
     spriteID: 2cae4ae0695f1524fa6b7b888bbaf48b
@@ -863,7 +863,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 196, y: 829}
+    uvTransform: {x: 262, y: 986}
   - name: "TileSheet_Laborat\xC3\xB3rio_36"
     originalName: 
     pivot: {x: 0.5185185, y: 0.53333336}
@@ -872,8 +872,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 124
-      y: 921
+      x: 163
+      y: 445
       width: 27
       height: 30
     spriteID: cb181b5dba1c7ef47bced25af06024bf
@@ -884,7 +884,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 122, y: 921}
+    uvTransform: {x: 161, y: 445}
   - name: "TileSheet_Laborat\xC3\xB3rio_37"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -893,8 +893,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 84
-      y: 960
+      x: 124
+      y: 123
       width: 30
       height: 32
     spriteID: 241bf8963ab10cc409307e21f79f1926
@@ -905,7 +905,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 83, y: 960}
+    uvTransform: {x: 123, y: 123}
   - name: "TileSheet_Laborat\xC3\xB3rio_38"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -915,7 +915,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 4
+      y: 163
       width: 30
       height: 32
     spriteID: 31488c65585bec2468711fc1c9dc53a8
@@ -926,7 +926,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 123, y: 4}
+    uvTransform: {x: 123, y: 163}
   - name: "TileSheet_Laborat\xC3\xB3rio_39"
     originalName: 
     pivot: {x: 0.4074074, y: 0.5}
@@ -936,7 +936,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 721
+      y: 880
       width: 27
       height: 32
     spriteID: 06d72c1a0cd0d7d479d687bd963362b6
@@ -947,7 +947,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 119, y: 721}
+    uvTransform: {x: 119, y: 880}
   - name: "TileSheet_Laborat\xC3\xB3rio_40"
     originalName: 
     pivot: {x: 0.5925926, y: 0.5}
@@ -957,7 +957,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 761
+      y: 920
       width: 27
       height: 32
     spriteID: 736bb87c1d63b0d4d917c7c6cc407ff0
@@ -968,7 +968,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 124, y: 761}
+    uvTransform: {x: 124, y: 920}
   - name: "TileSheet_Laborat\xC3\xB3rio_41"
     originalName: 
     pivot: {x: 0.4074074, y: 0.5}
@@ -978,7 +978,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 801
+      y: 960
       width: 27
       height: 32
     spriteID: 386332a69479a3540a3f2b51526a6fea
@@ -989,7 +989,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 119, y: 801}
+    uvTransform: {x: 119, y: 960}
   - name: "TileSheet_Laborat\xC3\xB3rio_42"
     originalName: 
     pivot: {x: 0.5925926, y: 0.5}
@@ -998,8 +998,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 124
-      y: 841
+      x: 163
+      y: 225
       width: 27
       height: 32
     spriteID: 0e11ca485b600bf4ebb2336c9c331821
@@ -1010,7 +1010,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 124, y: 841}
+    uvTransform: {x: 163, y: 225}
   - name: "TileSheet_Laborat\xC3\xB3rio_43"
     originalName: 
     pivot: {x: 0.35999998, y: 0.5}
@@ -1019,8 +1019,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 397
+      x: 163
+      y: 591
       width: 25
       height: 32
     spriteID: 07c2af8edefd97b4b8f96e17e645f14e
@@ -1031,7 +1031,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 155, y: 397}
+    uvTransform: {x: 156, y: 591}
   - name: "TileSheet_Laborat\xC3\xB3rio_44"
     originalName: 
     pivot: {x: 0.64, y: 0.5}
@@ -1040,8 +1040,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 437
+      x: 163
+      y: 631
       width: 25
       height: 32
     spriteID: 13c1f933c82e1ec45a0cb6c666e2a75f
@@ -1052,7 +1052,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 437}
+    uvTransform: {x: 163, y: 631}
   - name: "TileSheet_Laborat\xC3\xB3rio_45"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1082,8 +1082,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 119
+      x: 203
+      y: 419
       width: 21
       height: 15
     spriteID: 01bf6c0e38fb16149acce0e26924995d
@@ -1094,7 +1094,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 237, y: 119}
+    uvTransform: {x: 198, y: 419}
   - name: "TileSheet_Laborat\xC3\xB3rio_47"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1104,7 +1104,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 44
+      y: 203
       width: 30
       height: 32
     spriteID: 6b1ce84b070475a4b81e778200b60791
@@ -1115,19 +1115,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 123, y: 44}
+    uvTransform: {x: 123, y: 203}
   - name: "TileSheet_Laborat\xC3\xB3rio_48"
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: 0.05882353}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 915
+      x: 268
+      y: 931
       width: 28
-      height: 16
+      height: 17
     spriteID: 476c7671688589b4ab6be2252a5af07f
     spriteBone: []
     spriteOutline: []
@@ -1136,7 +1136,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 200, y: 899}
+    uvTransform: {x: 266, y: 916}
   - name: "TileSheet_Laborat\xC3\xB3rio_49"
     originalName: 
     pivot: {x: 0.48387095, y: 0.61538464}
@@ -1145,8 +1145,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 329
+      x: 163
+      y: 483
       width: 31
       height: 26
     spriteID: 51a7338be1817d846bc27a5ba7dfefaf
@@ -1157,7 +1157,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 161, y: 329}
+    uvTransform: {x: 162, y: 483}
   - name: "TileSheet_Laborat\xC3\xB3rio_50"
     originalName: 
     pivot: {x: 0.516129, y: 0.61538464}
@@ -1166,8 +1166,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 363
+      x: 163
+      y: 517
       width: 31
       height: 26
     spriteID: 0bfe91ade2824134cb22c0b2563b70c4
@@ -1178,19 +1178,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 363}
+    uvTransform: {x: 163, y: 517}
   - name: "TileSheet_Laborat\xC3\xB3rio_51"
     originalName: 
-    pivot: {x: 0.4666667, y: 0}
+    pivot: {x: 0.4666667, y: 0.05882353}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 580
+      x: 124
+      y: 1000
       width: 30
-      height: 16
+      height: 17
     spriteID: 34d8f08c8208e1241a2732ba373639b6
     spriteBone: []
     spriteOutline: []
@@ -1199,19 +1199,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 200, y: 564}
+    uvTransform: {x: 122, y: 985}
   - name: "TileSheet_Laborat\xC3\xB3rio_52"
     originalName: 
-    pivot: {x: 0.53333336, y: 0}
+    pivot: {x: 0.53333336, y: 0.05882353}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 604
+      x: 268
+      y: 471
       width: 30
-      height: 16
+      height: 17
     spriteID: 0731aea6501d8a94cb4ff35c98a48268
     spriteBone: []
     spriteOutline: []
@@ -1220,7 +1220,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 588}
+    uvTransform: {x: 268, y: 456}
   - name: "TileSheet_Laborat\xC3\xB3rio_53"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1230,7 +1230,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 84
+      y: 243
       width: 30
       height: 32
     spriteID: 8cac16e35b5868a47bdb60f86bbd78f3
@@ -1241,7 +1241,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 123, y: 84}
+    uvTransform: {x: 123, y: 243}
   - name: "TileSheet_Laborat\xC3\xB3rio_54"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1251,7 +1251,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 124
+      y: 283
       width: 30
       height: 32
     spriteID: 5cb130d04fea1f24290b81653608e316
@@ -1262,7 +1262,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 123, y: 124}
+    uvTransform: {x: 123, y: 283}
   - name: "TileSheet_Laborat\xC3\xB3rio_55"
     originalName: 
     pivot: {x: 0.5, y: 0.48387095}
@@ -1272,7 +1272,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 204
+      y: 363
       width: 30
       height: 31
     spriteID: 135f5118f19e6034bababe2a86e217f6
@@ -1283,7 +1283,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 123, y: 203}
+    uvTransform: {x: 123, y: 362}
   - name: "TileSheet_Laborat\xC3\xB3rio_56"
     originalName: 
     pivot: {x: 0.5, y: 0.4666667}
@@ -1293,7 +1293,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 363
+      y: 522
       width: 30
       height: 30
     spriteID: 2b6a95b87781bab49ba861c4fc75cfab
@@ -1304,7 +1304,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 123, y: 361}
+    uvTransform: {x: 123, y: 520}
   - name: "TileSheet_Laborat\xC3\xB3rio_57"
     originalName: 
     pivot: {x: 0.48387095, y: 0.5}
@@ -1314,7 +1314,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 84
-      y: 644
+      y: 724
       width: 31
       height: 32
     spriteID: 869aba3c8a06fab4896b59063760f084
@@ -1325,19 +1325,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 83, y: 644}
+    uvTransform: {x: 83, y: 724}
   - name: "TileSheet_Laborat\xC3\xB3rio_58"
     originalName: 
-    pivot: {x: 0.4666667, y: 0}
+    pivot: {x: 0.4666667, y: 0.05882353}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 628
+      x: 268
+      y: 496
       width: 30
-      height: 16
+      height: 17
     spriteID: 542ab038c855bdb4fac9b703d1b83c1e
     spriteBone: []
     spriteOutline: []
@@ -1346,7 +1346,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 200, y: 612}
+    uvTransform: {x: 266, y: 481}
   - name: "TileSheet_Laborat\xC3\xB3rio_59"
     originalName: 
     pivot: {x: 0.516129, y: 0.5}
@@ -1356,7 +1356,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 84
-      y: 684
+      y: 764
       width: 31
       height: 32
     spriteID: 1742256efd2978243b128163310e8bc1
@@ -1367,19 +1367,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 84, y: 684}
+    uvTransform: {x: 84, y: 764}
   - name: "TileSheet_Laborat\xC3\xB3rio_60"
     originalName: 
-    pivot: {x: 0.53333336, y: 0}
+    pivot: {x: 0.53333336, y: 0.05882353}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 652
+      x: 268
+      y: 521
       width: 30
-      height: 16
+      height: 17
     spriteID: 8409913ed761a3b4ea046d3e6dec9cd4
     spriteBone: []
     spriteOutline: []
@@ -1388,7 +1388,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 636}
+    uvTransform: {x: 268, y: 506}
   - name: "TileSheet_Laborat\xC3\xB3rio_61"
     originalName: 
     pivot: {x: 0, y: 3.2}
@@ -1397,8 +1397,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 1015
+      x: 235
+      y: 425
       width: 16
       height: 5
     spriteID: beb061d73055fc840a7dddc9bc23897e
@@ -1409,7 +1409,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 146, y: 1015}
+    uvTransform: {x: 219, y: 425}
   - name: "TileSheet_Laborat\xC3\xB3rio_62"
     originalName: 
     pivot: {x: 2, y: 3.2}
@@ -1418,8 +1418,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 186
-      y: 1015
+      x: 203
+      y: 642
       width: 8
       height: 5
     spriteID: 94e597b28bcc1ae4a95cf309224235e4
@@ -1430,7 +1430,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 186, y: 1015}
+    uvTransform: {x: 203, y: 642}
   - name: "TileSheet_Laborat\xC3\xB3rio_63"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2153,8 +2153,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 1009
+      x: 308
+      y: 50
       width: 26
       height: 11
     spriteID: a21912a6e1d6351428af908ae3254a82
@@ -2165,7 +2165,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 200, y: 1009}
+    uvTransform: {x: 306, y: 50}
   - name: "TileSheet_Laborat\xC3\xB3rio_98"
     originalName: 
     pivot: {x: 0.5185185, y: 0.5}
@@ -2174,8 +2174,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 124
-      y: 881
+      x: 163
+      y: 265
       width: 27
       height: 32
     spriteID: fee8f86c37ed00f48873138f001901d1
@@ -2186,19 +2186,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 122, y: 881}
+    uvTransform: {x: 161, y: 265}
   - name: "TileSheet_Laborat\xC3\xB3rio_99"
     originalName: 
-    pivot: {x: 0.5, y: -0.6}
+    pivot: {x: 0.5, y: -0.45454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 481
-      width: 18
-      height: 10
+      x: 235
+      y: 358
+      width: 20
+      height: 11
     spriteID: 2e2691a1f421f384e98299c7e0415335
     spriteBone: []
     spriteOutline: []
@@ -2207,7 +2207,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 235, y: 459}
+    uvTransform: {x: 229, y: 337}
   - name: "TileSheet_Laborat\xC3\xB3rio_100"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2258,8 +2258,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 388
+      x: 235
+      y: 220
       width: 16
       height: 15
     spriteID: d7d97f5d1bd32ee4b95046299ef2d4f7
@@ -2270,7 +2270,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 226, y: 388}
+    uvTransform: {x: 219, y: 220}
   - name: "TileSheet_Laborat\xC3\xB3rio_103"
     originalName: 
     pivot: {x: 2.2857144, y: 1.0666667}
@@ -2279,8 +2279,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 226
-      y: 471
+      x: 291
+      y: 956
       width: 7
       height: 15
     spriteID: 75cadc336edbf754cbde62e8f9353a15
@@ -2291,7 +2291,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 226, y: 471}
+    uvTransform: {x: 291, y: 956}
   - name: "TileSheet_Laborat\xC3\xB3rio_104"
     originalName: 
     pivot: {x: 0, y: 0.44827586}
@@ -2300,8 +2300,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 801
+      x: 203
+      y: 244
       width: 16
       height: 29
     spriteID: 84ce7b26f95126a4aa378403b8fa9285
@@ -2312,7 +2312,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 186, y: 798}
+    uvTransform: {x: 187, y: 241}
   - name: "TileSheet_Laborat\xC3\xB3rio_105"
     originalName: 
     pivot: {x: 2.2857144, y: 0.44827586}
@@ -2321,8 +2321,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 226
-      y: 801
+      x: 292
+      y: 666
       width: 7
       height: 29
     spriteID: 1e4d6e12225d0d945a0a1f425964a9d7
@@ -2333,7 +2333,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 226, y: 798}
+    uvTransform: {x: 292, y: 663}
   - name: "TileSheet_Laborat\xC3\xB3rio_106"
     originalName: 
     pivot: {x: 0.5, y: 0.5925926}
@@ -2342,8 +2342,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 189
+      x: 163
+      y: 305
       width: 32
       height: 27
     spriteID: bda8d3be2db617a42b73b1d142ef36d4
@@ -2354,7 +2354,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 189}
+    uvTransform: {x: 163, y: 305}
   - name: "TileSheet_Laborat\xC3\xB3rio_107"
     originalName: 
     pivot: {x: 0.5, y: 0.72727275}
@@ -2363,7 +2363,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 97
       width: 32
       height: 22
@@ -2375,7 +2375,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 97}
+    uvTransform: {x: 268, y: 97}
   - name: "TileSheet_Laborat\xC3\xB3rio_108"
     originalName: 
     pivot: {x: 0.5, y: 0.5925926}
@@ -2384,8 +2384,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 224
+      x: 163
+      y: 340
       width: 32
       height: 27
     spriteID: c190de63fb843ce4085057a788c7c2d9
@@ -2396,7 +2396,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 224}
+    uvTransform: {x: 163, y: 340}
   - name: "TileSheet_Laborat\xC3\xB3rio_109"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2468,7 +2468,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
+      x: 163
       y: 4
       width: 32
       height: 29
@@ -2480,7 +2480,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 1}
+    uvTransform: {x: 163, y: 1}
   - name: "TileSheet_Laborat\xC3\xB3rio_113"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2510,7 +2510,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 127
       width: 32
       height: 22
@@ -2522,7 +2522,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 127}
+    uvTransform: {x: 268, y: 127}
   - name: "TileSheet_Laborat\xC3\xB3rio_115"
     originalName: 
     pivot: {x: 0.5, y: 0.5925926}
@@ -2531,8 +2531,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 259
+      x: 163
+      y: 375
       width: 32
       height: 27
     spriteID: a9aa244b02d21f743b8a1d0d361d19ea
@@ -2543,7 +2543,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 259}
+    uvTransform: {x: 163, y: 375}
   - name: "TileSheet_Laborat\xC3\xB3rio_116"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2615,8 +2615,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 294
+      x: 163
+      y: 410
       width: 32
       height: 27
     spriteID: dbd050865a3993a4d944cb9aa48e25aa
@@ -2627,7 +2627,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 294}
+    uvTransform: {x: 163, y: 410}
   - name: "TileSheet_Laborat\xC3\xB3rio_120"
     originalName: 
     pivot: {x: 0.5, y: 0.44827586}
@@ -2636,7 +2636,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
+      x: 163
       y: 41
       width: 32
       height: 29
@@ -2648,7 +2648,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 38}
+    uvTransform: {x: 163, y: 38}
   - name: "TileSheet_Laborat\xC3\xB3rio_121"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2678,8 +2678,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 986
+      x: 203
+      y: 281
       width: 23
       height: 15
     spriteID: a293184551fb4144cacce5c4f7e7f2c9
@@ -2690,7 +2690,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 193, y: 986}
+    uvTransform: {x: 194, y: 281}
   - name: "TileSheet_Laborat\xC3\xB3rio_123"
     originalName: 
     pivot: {x: 0.6956522, y: 1.0666667}
@@ -2699,8 +2699,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 4
+      x: 203
+      y: 304
       width: 23
       height: 15
     spriteID: d73876498fd8df94fb230c7a8dd0199e
@@ -2711,7 +2711,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 242, y: 4}
+    uvTransform: {x: 203, y: 304}
   - name: "TileSheet_Laborat\xC3\xB3rio_124"
     originalName: 
     pivot: {x: 0.33333334, y: 0.5}
@@ -2720,8 +2720,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 615
+      x: 163
+      y: 849
       width: 24
       height: 32
     spriteID: 13bb9e0c599cb81409cc4d8c07b618d2
@@ -2732,7 +2732,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 154, y: 615}
+    uvTransform: {x: 155, y: 849}
   - name: "TileSheet_Laborat\xC3\xB3rio_125"
     originalName: 
     pivot: {x: 0.6666667, y: 0.5}
@@ -2741,8 +2741,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 655
+      x: 163
+      y: 889
       width: 24
       height: 32
     spriteID: a9e45fa5d6f9f0b43977922aedb89d5d
@@ -2753,7 +2753,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 655}
+    uvTransform: {x: 163, y: 889}
   - name: "TileSheet_Laborat\xC3\xB3rio_126"
     originalName: 
     pivot: {x: 0.33333334, y: 0.5}
@@ -2762,8 +2762,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 695
+      x: 163
+      y: 929
       width: 24
       height: 32
     spriteID: eaf7676d053c4e84bb3888a650a179d6
@@ -2774,7 +2774,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 154, y: 695}
+    uvTransform: {x: 155, y: 929}
   - name: "TileSheet_Laborat\xC3\xB3rio_127"
     originalName: 
     pivot: {x: 0.6666667, y: 0.5}
@@ -2783,8 +2783,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 735
+      x: 163
+      y: 969
       width: 24
       height: 32
     spriteID: 011df1d5112f1b144b71b6930c3a5be3
@@ -2795,7 +2795,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 735}
+    uvTransform: {x: 163, y: 969}
   - name: "TileSheet_Laborat\xC3\xB3rio_128"
     originalName: 
     pivot: {x: 0.30434784, y: 1.0666667}
@@ -2804,8 +2804,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 27
+      x: 203
+      y: 327
       width: 23
       height: 15
     spriteID: a4ba2d158dcec6845b9a4ed997c83d2a
@@ -2816,7 +2816,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 233, y: 27}
+    uvTransform: {x: 194, y: 327}
   - name: "TileSheet_Laborat\xC3\xB3rio_129"
     originalName: 
     pivot: {x: 0.6956522, y: 1.0666667}
@@ -2825,8 +2825,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 50
+      x: 203
+      y: 350
       width: 23
       height: 15
     spriteID: 1c3d85f6ef8238e49abe668a1572c140
@@ -2837,7 +2837,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 242, y: 50}
+    uvTransform: {x: 203, y: 350}
   - name: "TileSheet_Laborat\xC3\xB3rio_130"
     originalName: 
     pivot: {x: 0.33333334, y: 0.5}
@@ -2846,8 +2846,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 775
+      x: 203
+      y: 4
       width: 24
       height: 32
     spriteID: 88109a962261bf042827999bf148c3b7
@@ -2858,7 +2858,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 154, y: 775}
+    uvTransform: {x: 195, y: 4}
   - name: "TileSheet_Laborat\xC3\xB3rio_131"
     originalName: 
     pivot: {x: 0.6666667, y: 0.5}
@@ -2867,8 +2867,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 815
+      x: 203
+      y: 44
       width: 24
       height: 32
     spriteID: f6077876fe61f5343aebe9f34bdef06e
@@ -2879,7 +2879,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 815}
+    uvTransform: {x: 203, y: 44}
   - name: "TileSheet_Laborat\xC3\xB3rio_132"
     originalName: 
     pivot: {x: 0.33333334, y: 0.5}
@@ -2888,8 +2888,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 855
+      x: 203
+      y: 84
       width: 24
       height: 32
     spriteID: e2e4c6c49c0b4fe4ea83e6fe38b9e683
@@ -2900,7 +2900,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 154, y: 855}
+    uvTransform: {x: 195, y: 84}
   - name: "TileSheet_Laborat\xC3\xB3rio_133"
     originalName: 
     pivot: {x: 0.6666667, y: 0.5}
@@ -2909,8 +2909,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 895
+      x: 203
+      y: 124
       width: 24
       height: 32
     spriteID: 29e41ab69857d5a46883bf7e28c6b35c
@@ -2921,7 +2921,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 895}
+    uvTransform: {x: 203, y: 124}
   - name: "TileSheet_Laborat\xC3\xB3rio_134"
     originalName: 
     pivot: {x: 0.30434784, y: 1.0666667}
@@ -2930,8 +2930,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 73
+      x: 203
+      y: 373
       width: 23
       height: 15
     spriteID: 21d6f189cac3a3148863d2e56d419655
@@ -2942,7 +2942,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 233, y: 73}
+    uvTransform: {x: 194, y: 373}
   - name: "TileSheet_Laborat\xC3\xB3rio_135"
     originalName: 
     pivot: {x: 0.6956522, y: 1.0666667}
@@ -2951,8 +2951,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 96
+      x: 203
+      y: 396
       width: 23
       height: 15
     spriteID: 1800aeae4f8adea4386f59be09053565
@@ -2963,7 +2963,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 242, y: 96}
+    uvTransform: {x: 203, y: 396}
   - name: "TileSheet_Laborat\xC3\xB3rio_136"
     originalName: 
     pivot: {x: 0.33333334, y: 0.5}
@@ -2972,8 +2972,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 935
+      x: 203
+      y: 164
       width: 24
       height: 32
     spriteID: c86dd7ec7f1a41e4587638c0e8635d6f
@@ -2984,7 +2984,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 154, y: 935}
+    uvTransform: {x: 195, y: 164}
   - name: "TileSheet_Laborat\xC3\xB3rio_137"
     originalName: 
     pivot: {x: 0.6666667, y: 0.5}
@@ -2993,8 +2993,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 975
+      x: 203
+      y: 204
       width: 24
       height: 32
     spriteID: cd2132d3fb3df18469c814effb59e8c2
@@ -3005,7 +3005,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 975}
+    uvTransform: {x: 203, y: 204}
   - name: "TileSheet_Laborat\xC3\xB3rio_138"
     originalName: 
     pivot: {x: 0.5, y: 0.64}
@@ -3014,8 +3014,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 477
+      x: 163
+      y: 671
       width: 32
       height: 25
     spriteID: 17dfffbb22a78d541a85a09cb3ab4268
@@ -3026,7 +3026,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 477}
+    uvTransform: {x: 163, y: 671}
   - name: "TileSheet_Laborat\xC3\xB3rio_139"
     originalName: 
     pivot: {x: 0.5, y: 0.05882353}
@@ -3036,7 +3036,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 84
-      y: 1000
+      y: 1001
       width: 32
       height: 17
     spriteID: 737e8ecb2e4e08f49946ad8b0cd9c8cd
@@ -3047,7 +3047,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 84, y: 985}
+    uvTransform: {x: 84, y: 986}
   - name: "TileSheet_Laborat\xC3\xB3rio_140"
     originalName: 
     pivot: {x: 0.42857146, y: 0.5}
@@ -3057,7 +3057,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 401
+      y: 560
       width: 28
       height: 32
     spriteID: 71832da5c41e591468cb94d4caea9f75
@@ -3068,7 +3068,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 120, y: 401}
+    uvTransform: {x: 120, y: 560}
   - name: "TileSheet_Laborat\xC3\xB3rio_141"
     originalName: 
     pivot: {x: 0.5714286, y: 0.5}
@@ -3078,7 +3078,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 441
+      y: 600
       width: 28
       height: 32
     spriteID: 64d7b65e7b29ad9469381b25431e9253
@@ -3089,7 +3089,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 124, y: 441}
+    uvTransform: {x: 124, y: 600}
   - name: "TileSheet_Laborat\xC3\xB3rio_142"
     originalName: 
     pivot: {x: 0.42857146, y: 0.5}
@@ -3099,7 +3099,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 481
+      y: 640
       width: 28
       height: 32
     spriteID: 6aa58d43aa405734c85e6b75e668c870
@@ -3110,7 +3110,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 120, y: 481}
+    uvTransform: {x: 120, y: 640}
   - name: "TileSheet_Laborat\xC3\xB3rio_143"
     originalName: 
     pivot: {x: 0.5714286, y: 0.5}
@@ -3120,7 +3120,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 521
+      y: 680
       width: 28
       height: 32
     spriteID: d50dc4c80d594e844bcd4ebcde4b7b24
@@ -3131,7 +3131,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 124, y: 521}
+    uvTransform: {x: 124, y: 680}
   - name: "TileSheet_Laborat\xC3\xB3rio_144"
     originalName: 
     pivot: {x: 0.48387095, y: 0.516129}
@@ -3141,7 +3141,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 84
-      y: 763
+      y: 923
       width: 31
       height: 31
     spriteID: aee58903e32263145a6b8484203d0da6
@@ -3152,7 +3152,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 83, y: 763}
+    uvTransform: {x: 83, y: 923}
   - name: "TileSheet_Laborat\xC3\xB3rio_145"
     originalName: 
     pivot: {x: 2, y: 0.5}
@@ -3161,7 +3161,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 226
+      x: 292
       y: 359
       width: 8
       height: 32
@@ -3173,7 +3173,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 226, y: 359}
+    uvTransform: {x: 292, y: 359}
   - name: "TileSheet_Laborat\xC3\xB3rio_146"
     originalName: 
     pivot: {x: 0.4666667, y: 0.5}
@@ -3183,7 +3183,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 164
+      y: 323
       width: 30
       height: 32
     spriteID: d74080ebdf7ae25489e3ce1d26835716
@@ -3194,7 +3194,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 122, y: 164}
+    uvTransform: {x: 122, y: 323}
   - name: "TileSheet_Laborat\xC3\xB3rio_147"
     originalName: 
     pivot: {x: 2, y: 0.5}
@@ -3203,8 +3203,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 225
-      y: 699
+      x: 291
+      y: 822
       width: 8
       height: 32
     spriteID: df2a5471db04edc4cbb342c1e6b40109
@@ -3215,7 +3215,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 225, y: 699}
+    uvTransform: {x: 291, y: 822}
   - name: "TileSheet_Laborat\xC3\xB3rio_148"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3245,8 +3245,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 142
+      x: 203
+      y: 442
       width: 8
       height: 32
     spriteID: 4c0450e4b993eec4fa624c0dc758e377
@@ -3257,7 +3257,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 242, y: 142}
+    uvTransform: {x: 203, y: 442}
   - name: "TileSheet_Laborat\xC3\xB3rio_150"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3287,7 +3287,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 4
       width: 32
       height: 23
@@ -3299,7 +3299,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 4}
+    uvTransform: {x: 268, y: 4}
   - name: "TileSheet_Laborat\xC3\xB3rio_152"
     originalName: 
     pivot: {x: 0.55172414, y: 0.5925926}
@@ -3308,8 +3308,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 510
+      x: 163
+      y: 744
       width: 29
       height: 27
     spriteID: 14a7d35a9d5b84a48ab2086cd8dc58d7
@@ -3320,7 +3320,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 510}
+    uvTransform: {x: 163, y: 744}
   - name: "TileSheet_Laborat\xC3\xB3rio_153"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3350,7 +3350,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
+      x: 163
       y: 78
       width: 32
       height: 29
@@ -3362,7 +3362,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 75}
+    uvTransform: {x: 163, y: 75}
   - name: "TileSheet_Laborat\xC3\xB3rio_155"
     originalName: 
     pivot: {x: 0.55172414, y: 0.5}
@@ -3372,7 +3372,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 243
+      y: 402
       width: 29
       height: 32
     spriteID: e5bb0029387257048ac794916d7e988d
@@ -3383,7 +3383,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 124, y: 243}
+    uvTransform: {x: 124, y: 402}
   - name: "TileSheet_Laborat\xC3\xB3rio_156"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3413,7 +3413,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 35
       width: 32
       height: 23
@@ -3425,7 +3425,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 35}
+    uvTransform: {x: 268, y: 35}
   - name: "TileSheet_Laborat\xC3\xB3rio_158"
     originalName: 
     pivot: {x: 0.55172414, y: 0.5925926}
@@ -3434,8 +3434,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 545
+      x: 163
+      y: 779
       width: 29
       height: 27
     spriteID: 61eb2deac5bcff04e910d9c650b7c5cf
@@ -3446,7 +3446,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 545}
+    uvTransform: {x: 163, y: 779}
   - name: "TileSheet_Laborat\xC3\xB3rio_159"
     originalName: 
     pivot: {x: 0.5, y: 0.44827586}
@@ -3455,7 +3455,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
+      x: 163
       y: 115
       width: 32
       height: 29
@@ -3467,7 +3467,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 112}
+    uvTransform: {x: 163, y: 112}
   - name: "TileSheet_Laborat\xC3\xB3rio_160"
     originalName: 
     pivot: {x: 0.55172414, y: 0.5}
@@ -3477,7 +3477,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 283
+      y: 442
       width: 29
       height: 32
     spriteID: aa6552dd013653245826348a1840cccc
@@ -3488,7 +3488,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 124, y: 283}
+    uvTransform: {x: 124, y: 442}
   - name: "TileSheet_Laborat\xC3\xB3rio_161"
     originalName: 
     pivot: {x: 0.5, y: 0.6956522}
@@ -3497,7 +3497,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 66
       width: 32
       height: 23
@@ -3509,7 +3509,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 66}
+    uvTransform: {x: 268, y: 66}
   - name: "TileSheet_Laborat\xC3\xB3rio_162"
     originalName: 
     pivot: {x: 0.55172414, y: 0.5925926}
@@ -3518,8 +3518,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
-      y: 580
+      x: 163
+      y: 814
       width: 29
       height: 27
     spriteID: 31a2409bf448a5e43aa4ef1cf95f3c05
@@ -3530,7 +3530,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 580}
+    uvTransform: {x: 163, y: 814}
   - name: "TileSheet_Laborat\xC3\xB3rio_163"
     originalName: 
     pivot: {x: 0.5, y: 0.44827586}
@@ -3539,7 +3539,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 162
+      x: 163
       y: 152
       width: 32
       height: 29
@@ -3551,7 +3551,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 149}
+    uvTransform: {x: 163, y: 149}
   - name: "TileSheet_Laborat\xC3\xB3rio_164"
     originalName: 
     pivot: {x: 0.55172414, y: 0.5}
@@ -3561,7 +3561,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 323
+      y: 482
       width: 29
       height: 32
     spriteID: 4bbc5a24268f329458eb210476167d18
@@ -3572,7 +3572,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 124, y: 323}
+    uvTransform: {x: 124, y: 482}
   - name: "TileSheet_Laborat\xC3\xB3rio_165"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3687,7 +3687,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 84
-      y: 802
+      y: 962
       width: 31
       height: 31
     spriteID: b762bb5daf123494dbdda06ab750be26
@@ -3698,7 +3698,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 83, y: 802}
+    uvTransform: {x: 83, y: 962}
   - name: "TileSheet_Laborat\xC3\xB3rio_171"
     originalName: 
     pivot: {x: 2, y: 0.5}
@@ -3707,8 +3707,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 182
+      x: 203
+      y: 482
       width: 8
       height: 32
     spriteID: 6302c88b8991f184a9bc3d91d215e95e
@@ -3719,7 +3719,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 242, y: 182}
+    uvTransform: {x: 203, y: 482}
   - name: "TileSheet_Laborat\xC3\xB3rio_172"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3749,8 +3749,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 222
+      x: 203
+      y: 522
       width: 8
       height: 32
     spriteID: cef37105f05e2194099dc1c9b236d88a
@@ -3761,7 +3761,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 242, y: 222}
+    uvTransform: {x: 203, y: 522}
   - name: "TileSheet_Laborat\xC3\xB3rio_174"
     originalName: 
     pivot: {x: 0.5714286, y: 0.5}
@@ -3771,7 +3771,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 561
+      y: 720
       width: 28
       height: 32
     spriteID: 14d408dc7f24919409f4445c0dc33dd0
@@ -3782,7 +3782,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 124, y: 561}
+    uvTransform: {x: 124, y: 720}
   - name: "TileSheet_Laborat\xC3\xB3rio_175"
     originalName: 
     pivot: {x: 0.42857146, y: 0.5}
@@ -3792,7 +3792,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 601
+      y: 760
       width: 28
       height: 32
     spriteID: 1905c1c806743994aa7a17f7900d8eab
@@ -3803,7 +3803,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 120, y: 601}
+    uvTransform: {x: 120, y: 760}
   - name: "TileSheet_Laborat\xC3\xB3rio_176"
     originalName: 
     pivot: {x: 0.42857146, y: 0.5}
@@ -3813,7 +3813,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 641
+      y: 800
       width: 28
       height: 32
     spriteID: 167ca1b5ae7c44149a548c2ed47a09db
@@ -3824,7 +3824,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 120, y: 641}
+    uvTransform: {x: 120, y: 800}
   - name: "TileSheet_Laborat\xC3\xB3rio_177"
     originalName: 
     pivot: {x: 0.5714286, y: 0.5}
@@ -3834,7 +3834,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 124
-      y: 681
+      y: 840
       width: 28
       height: 32
     spriteID: 8cc881881bf096541b4aa8d1daaec607
@@ -3845,7 +3845,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 124, y: 681}
+    uvTransform: {x: 124, y: 840}
   - name: "TileSheet_Laborat\xC3\xB3rio_178"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3875,8 +3875,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 262
+      x: 203
+      y: 562
       width: 8
       height: 32
     spriteID: d5151945fc3b6cd4a921eae6606ec0f5
@@ -3887,7 +3887,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 218, y: 262}
+    uvTransform: {x: 179, y: 562}
   - name: "TileSheet_Laborat\xC3\xB3rio_180"
     originalName: 
     pivot: {x: -1, y: 0.5}
@@ -3896,8 +3896,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 302
+      x: 203
+      y: 602
       width: 8
       height: 32
     spriteID: 0cf4f27a7241ca5438c382593ed0093c
@@ -3908,7 +3908,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 218, y: 302}
+    uvTransform: {x: 179, y: 602}
   - name: "TileSheet_Laborat\xC3\xB3rio_181"
     originalName: 
     pivot: {x: 0.516129, y: 0.516129}
@@ -3917,8 +3917,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 84
-      y: 841
+      x: 124
+      y: 4
       width: 31
       height: 31
     spriteID: 7116b5bd4fc938e4684f30f8b264efd7
@@ -3929,7 +3929,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 84, y: 841}
+    uvTransform: {x: 124, y: 4}
   - name: "TileSheet_Laborat\xC3\xB3rio_182"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3959,7 +3959,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 359
       width: 16
       height: 32
@@ -3971,7 +3971,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 359}
+    uvTransform: {x: 268, y: 359}
   - name: "TileSheet_Laborat\xC3\xB3rio_184"
     originalName: 
     pivot: {x: 0.5, y: 1.0666667}
@@ -3980,8 +3980,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 676
+      x: 268
+      y: 799
       width: 32
       height: 15
     spriteID: 4be97564c64d0cc4f8c3234c91cdc9d0
@@ -3992,7 +3992,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 676}
+    uvTransform: {x: 268, y: 799}
   - name: "TileSheet_Laborat\xC3\xB3rio_185"
     originalName: 
     pivot: {x: -0.06666667, y: 0.5}
@@ -4001,8 +4001,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 699
+      x: 268
+      y: 822
       width: 15
       height: 32
     spriteID: d809857516b96e140ad0128c06094389
@@ -4013,7 +4013,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 185, y: 699}
+    uvTransform: {x: 251, y: 822}
   - name: "TileSheet_Laborat\xC3\xB3rio_186"
     originalName: 
     pivot: {x: -0.06666667, y: 0.48387095}
@@ -4022,8 +4022,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 762
+      x: 268
+      y: 956
       width: 15
       height: 31
     spriteID: 9ae5a718bd185574a99368ade03c0c81
@@ -4034,7 +4034,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 185, y: 761}
+    uvTransform: {x: 251, y: 955}
   - name: "TileSheet_Laborat\xC3\xB3rio_187"
     originalName: 
     pivot: {x: 0.5, y: 0.48387095}
@@ -4044,7 +4044,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 84
-      y: 724
+      y: 804
       width: 32
       height: 31
     spriteID: 3b8d4703c94c27744b3748dcd72606ef
@@ -4055,7 +4055,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 84, y: 723}
+    uvTransform: {x: 84, y: 803}
   - name: "TileSheet_Laborat\xC3\xB3rio_188"
     originalName: 
     pivot: {x: 1, y: 0.48387095}
@@ -4064,8 +4064,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 471
+      x: 268
+      y: 666
       width: 16
       height: 31
     spriteID: 1f7b89cf7bbe2dc4d904acb86c676ff1
@@ -4076,7 +4076,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 470}
+    uvTransform: {x: 268, y: 665}
   - name: "TileSheet_Laborat\xC3\xB3rio_189"
     originalName: 
     pivot: {x: -0.06666667, y: 1.0666667}
@@ -4085,8 +4085,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 458
+      x: 235
+      y: 313
       width: 15
       height: 15
     spriteID: 23b239b9cd27f7243aac7a72a850e489
@@ -4097,7 +4097,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 225, y: 458}
+    uvTransform: {x: 218, y: 313}
   - name: "TileSheet_Laborat\xC3\xB3rio_190"
     originalName: 
     pivot: {x: 0.5, y: 1.0666667}
@@ -4106,8 +4106,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
-      y: 739
+      x: 268
+      y: 862
       width: 32
       height: 15
     spriteID: 9cff90847bca93f4ba93b73401db4690
@@ -4118,7 +4118,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 739}
+    uvTransform: {x: 268, y: 862}
   - name: "TileSheet_Laborat\xC3\xB3rio_191"
     originalName: 
     pivot: {x: 1, y: 1.0666667}
@@ -4127,8 +4127,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 411
+      x: 235
+      y: 243
       width: 16
       height: 15
     spriteID: 10a0b679febe61445afb0361a40cf850
@@ -4139,7 +4139,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 242, y: 411}
+    uvTransform: {x: 235, y: 243}
   - name: "TileSheet_Laborat\xC3\xB3rio_192"
     originalName: 
     pivot: {x: -0.06666667, y: 0}
@@ -4148,8 +4148,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 434
+      x: 235
+      y: 266
       width: 15
       height: 16
     spriteID: 4a74039cf465b17428e84b34d07a52d9
@@ -4160,7 +4160,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 225, y: 418}
+    uvTransform: {x: 218, y: 250}
   - name: "TileSheet_Laborat\xC3\xB3rio_193"
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -4169,7 +4169,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 202
+      x: 268
       y: 399
       width: 32
       height: 16
@@ -4181,7 +4181,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 202, y: 383}
+    uvTransform: {x: 268, y: 383}
   - name: "TileSheet_Laborat\xC3\xB3rio_194"
     originalName: 
     pivot: {x: 1, y: 0}
@@ -4190,8 +4190,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 242
-      y: 342
+      x: 235
+      y: 174
       width: 16
       height: 16
     spriteID: d7ca2e910f990ea489c089b09cb1e45e
@@ -4202,7 +4202,511 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 242, y: 326}
+    uvTransform: {x: 235, y: 158}
+  - name: "TileSheet_Laborat\xC3\xB3rio_195"
+    originalName: 
+    pivot: {x: 0, y: 1.0666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 290
+      width: 16
+      height: 15
+    spriteID: 4f4a7360ecc899b438848550ded0e4bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 219, y: 290}
+  - name: "TileSheet_Laborat\xC3\xB3rio_196"
+    originalName: 
+    pivot: {x: 0, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 336
+      width: 16
+      height: 14
+    spriteID: ebf08cac78a1fcd4c861c150b1680c4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 219, y: 318}
+  - name: "TileSheet_Laborat\xC3\xB3rio_197"
+    originalName: 
+    pivot: {x: 2.2857144, y: -1.2857144}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 291
+      y: 979
+      width: 7
+      height: 7
+    spriteID: 1a0e78bd89d2c3c4c976e6a552a72ca0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 291, y: 954}
+  - name: "TileSheet_Laborat\xC3\xB3rio_198"
+    originalName: 
+    pivot: {x: 0.35999998, y: 1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 104
+      width: 25
+      height: 16
+    spriteID: dd879f0950f439d49adcae42b72d4e3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 104}
+  - name: "TileSheet_Laborat\xC3\xB3rio_199"
+    originalName: 
+    pivot: {x: 0.5, y: 1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 423
+      width: 32
+      height: 16
+    spriteID: 27ffce288d90d464e94819363cee0772
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 423}
+  - name: "TileSheet_Laborat\xC3\xB3rio_200"
+    originalName: 
+    pivot: {x: 0.5, y: 1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 447
+      width: 32
+      height: 16
+    spriteID: 82217fdb53a150c4aace549697d83096
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 447}
+  - name: "TileSheet_Laborat\xC3\xB3rio_201"
+    originalName: 
+    pivot: {x: 0.35999998, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 704
+      width: 25
+      height: 32
+    spriteID: d65c721d3976a4d4b87ddfb199fa44c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 704}
+  - name: "TileSheet_Laborat\xC3\xB3rio_202"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 644
+      width: 32
+      height: 32
+    spriteID: 35a19337e3093b14baa98999850fbeee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 644}
+  - name: "TileSheet_Laborat\xC3\xB3rio_203"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 684
+      width: 32
+      height: 32
+    spriteID: 08573548742811d43bc40572830ddb52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 684}
+  - name: "TileSheet_Laborat\xC3\xB3rio_204"
+    originalName: 
+    pivot: {x: 0.35999998, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 151
+      width: 25
+      height: 15
+    spriteID: 123b2f0f3e438034d88cb39538303d19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 134}
+  - name: "TileSheet_Laborat\xC3\xB3rio_205"
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 885
+      width: 32
+      height: 15
+    spriteID: db21ad57e4338a24bad037a17ea3aa9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 868}
+  - name: "TileSheet_Laborat\xC3\xB3rio_206"
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 908
+      width: 32
+      height: 15
+    spriteID: f3c32d4e0b763674b9c928e1cc84edf0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 891}
+  - name: "TileSheet_Laborat\xC3\xB3rio_207"
+    originalName: 
+    pivot: {x: 0.48387095, y: 1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 1009
+      width: 31
+      height: 11
+    spriteID: 2e4da792a3a5c264abf6b3ffab154214
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 162, y: 1009}
+  - name: "TileSheet_Laborat\xC3\xB3rio_208"
+    originalName: 
+    pivot: {x: 0.516129, y: 1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 346
+      y: 4
+      width: 31
+      height: 11
+    spriteID: 1a5d4b3997aa8fc409a35e6b9718f74c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 346, y: 4}
+  - name: "TileSheet_Laborat\xC3\xB3rio_209"
+    originalName: 
+    pivot: {x: 0.48387095, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 843
+      width: 31
+      height: 32
+    spriteID: ebbba49dc39366c45a289f5d224cdc2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 83, y: 843}
+  - name: "TileSheet_Laborat\xC3\xB3rio_210"
+    originalName: 
+    pivot: {x: 0.516129, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 883
+      width: 31
+      height: 32
+    spriteID: 95b8739639ad3b945b8f47cf4d6cb2ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 883}
+  - name: "TileSheet_Laborat\xC3\xB3rio_211"
+    originalName: 
+    pivot: {x: 0.11111111, y: 0.5714286}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 546
+      width: 18
+      height: 28
+    spriteID: 55c14eb4e81434344b0dc12701aface7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 546}
+  - name: "TileSheet_Laborat\xC3\xB3rio_212"
+    originalName: 
+    pivot: {x: 0.2, y: -1.2857144}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 395
+      width: 20
+      height: 7
+    spriteID: ec978c156d17a4640a1447dfa52f8a13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 370}
+  - name: "TileSheet_Laborat\xC3\xB3rio_213"
+    originalName: 
+    pivot: {x: 0.5, y: -1.2857144}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 385
+      y: 4
+      width: 32
+      height: 7
+    spriteID: 8e06b9f029d15834dad39361035755c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 385, y: -21}
+  - name: "TileSheet_Laborat\xC3\xB3rio_214"
+    originalName: 
+    pivot: {x: 0.8888889, y: 0.5714286}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 582
+      width: 18
+      height: 28
+    spriteID: 46e9fbcda4af62b4a9f250b2e6fd680b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 582}
+  - name: "TileSheet_Laborat\xC3\xB3rio_215"
+    originalName: 
+    pivot: {x: 0.8, y: -1.2857144}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 410
+      width: 20
+      height: 7
+    spriteID: e466588ef15cd3c4ea2401591e548b2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 235, y: 385}
+  - name: "TileSheet_Laborat\xC3\xB3rio_216"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5714286}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 189
+      width: 32
+      height: 28
+    spriteID: 24e1a373ed4b9b94391fe7bf9aec80c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 163, y: 189}
+  - name: "TileSheet_Laborat\xC3\xB3rio_217"
+    originalName: 
+    pivot: {x: 0.35999998, y: 0.53333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 4
+      width: 25
+      height: 30
+    spriteID: 24253e1e5140a1b49be0e92a29f6935f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 4}
+  - name: "TileSheet_Laborat\xC3\xB3rio_218"
+    originalName: 
+    pivot: {x: 0.64, y: 0.53333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 42
+      width: 25
+      height: 30
+    spriteID: 8b444485f73b7aa47b90ba452e8c0c10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 235, y: 42}
   asepriteLayers:
   - layerIndex: 0
     uuid:
@@ -4225,7 +4729,7 @@ ScriptedImporter:
         y: 0
         width: 16
         height: 16
-      tileIndices: bd000000be000000bf000000ba000000bb000000bc00000000000000000000000000000000000000000000000000000000000000000000000000000000000000b9000000b6000000b7000000bd000000be000000bf000000000000000000000000000000000000000000000000000000000000000a0000000c00000025000000c0000000c1000000c2000000c0000000c1000000c2000000000000000000000000000000000000000000000000000000000000000b00000009000000260000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003500000096000000970000009800000096000000a1000000a2000000b0000000b10000000000000000000000000000000000000000000000270000002800000036000000990000009a0000009b00000099000000a3000000a4000000af000000ae000000b4000000b5000000000000000000000000000000290000002a000000370000007a0000007b000000800000008100000086000000870000009000000091000000b3000000b200000000000000000000002e0000002b0000002c000000610000007c0000007d000000820000008300000088000000890000009200000093000000960000009d0000009e000000000000002f0000006600000067000000620000007e0000007f00000084000000850000007e0000007f0000009400000095000000990000009f000000a000000000000000300000006800000069000000630000006a0000006b0000006c0000007700000072000000730000008a0000008c0000008d000000a5000000aa000000ab000000080000001500000019000000160000006d0000006e0000006f0000007600000074000000750000008b0000008e0000008f000000a7000000ac000000ad000000070000001400000018000000170000009c00000070000000710000009c00000078000000790000000d0000000e00000000000000a9000000000000003d0000003e0000001100000012000000130000005e0000003f00000040000000410000004200000043000000100000000f000000380000003100000032000000390000003b0000001a0000001d0000002000000044000000450000004600000047000000480000004900000056000000570000005800000033000000340000003a0000003c0000001b0000001e000000210000004a0000004b0000004c0000004d0000004e0000004f000000590000005e0000005a000000050000000200000003000000650000001c0000001f000000220000005000000051000000520000005300000054000000550000005b0000005c0000005d00000006000000010000000400000064000000600000005f0000002d000000
+      tileIndices: bd000000be000000bf000000ba000000bb000000bc000000d3000000d8000000d600000000000000000000000000000000000000000000000000000000000000b9000000b6000000b7000000bd000000be000000bf000000d4000000d5000000d7000000000000000000000000000000000000000a0000000c00000025000000c0000000c1000000c2000000c0000000c1000000c200000000000000000000000000000000000000c6000000c7000000c80000000b0000000900000026000000d9000000da000000000000000000000000000000000000000000000000000000c300000067000000c9000000ca000000cb00000000000000000000003500000096000000970000009800000096000000a1000000a2000000b0000000b1000000c4000000c5000000cc000000cd000000ce000000270000002800000036000000990000009a0000009b00000099000000a3000000a4000000af000000ae000000b4000000b5000000cf000000d000000000000000290000002a000000370000007a0000007b000000800000008100000086000000870000009000000091000000b3000000b2000000d1000000d20000002e0000002b0000002c000000610000007c0000007d000000820000008300000088000000890000009200000093000000960000009d0000009e000000000000002f0000006600000067000000620000007e0000007f00000084000000850000007e0000007f0000009400000095000000990000009f000000a000000000000000300000006800000069000000630000006a0000006b0000006c0000007700000072000000730000008a0000008c0000008d000000a5000000aa000000ab000000080000001500000019000000160000006d0000006e0000006f0000007600000074000000750000008b0000008e0000008f000000a7000000ac000000ad000000070000001400000018000000170000009c00000070000000710000009c00000078000000790000000d0000000e00000000000000a9000000000000003d0000003e0000001100000012000000130000005e0000003f00000040000000410000004200000043000000100000000f000000380000003100000032000000390000003b0000001a0000001d0000002000000044000000450000004600000047000000480000004900000056000000570000005800000033000000340000003a0000003c0000001b0000001e000000210000004a0000004b0000004c0000004d0000004e0000004f000000590000005e0000005a000000050000000200000003000000650000001c0000001f000000220000005000000051000000520000005300000054000000550000005b0000005c0000005d00000006000000010000000400000064000000600000005f0000002d000000
     tileSetIndex: 0
     parentIndex: -1
   tileSets:
@@ -5399,6 +5903,150 @@ ScriptedImporter:
         y: 32
       name: "TileSheet_Laborat\xC3\xB3rio_194"
       spriteId: d7ca2e910f990ea489c089b09cb1e45e
+    - tileId: 195
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_195"
+      spriteId: 4f4a7360ecc899b438848550ded0e4bc
+    - tileId: 196
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_196"
+      spriteId: ebf08cac78a1fcd4c861c150b1680c4b
+    - tileId: 197
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_197"
+      spriteId: 1a0e78bd89d2c3c4c976e6a552a72ca0
+    - tileId: 198
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_198"
+      spriteId: dd879f0950f439d49adcae42b72d4e3d
+    - tileId: 199
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_199"
+      spriteId: 27ffce288d90d464e94819363cee0772
+    - tileId: 200
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_200"
+      spriteId: 82217fdb53a150c4aace549697d83096
+    - tileId: 201
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_201"
+      spriteId: d65c721d3976a4d4b87ddfb199fa44c9
+    - tileId: 202
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_202"
+      spriteId: 35a19337e3093b14baa98999850fbeee
+    - tileId: 203
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_203"
+      spriteId: 08573548742811d43bc40572830ddb52
+    - tileId: 204
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_204"
+      spriteId: 123b2f0f3e438034d88cb39538303d19
+    - tileId: 205
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_205"
+      spriteId: db21ad57e4338a24bad037a17ea3aa9c
+    - tileId: 206
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_206"
+      spriteId: f3c32d4e0b763674b9c928e1cc84edf0
+    - tileId: 207
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_207"
+      spriteId: 2e4da792a3a5c264abf6b3ffab154214
+    - tileId: 208
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_208"
+      spriteId: 1a5d4b3997aa8fc409a35e6b9718f74c
+    - tileId: 209
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_209"
+      spriteId: ebbba49dc39366c45a289f5d224cdc2a
+    - tileId: 210
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_210"
+      spriteId: 95b8739639ad3b945b8f47cf4d6cb2ba
+    - tileId: 211
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_211"
+      spriteId: 55c14eb4e81434344b0dc12701aface7
+    - tileId: 212
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_212"
+      spriteId: ec978c156d17a4640a1447dfa52f8a13
+    - tileId: 213
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_213"
+      spriteId: 8e06b9f029d15834dad39361035755c7
+    - tileId: 214
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_214"
+      spriteId: 46e9fbcda4af62b4a9f250b2e6fd680b
+    - tileId: 215
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_215"
+      spriteId: e466588ef15cd3c4ea2401591e548b2d
+    - tileId: 216
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_216"
+      spriteId: 24e1a373ed4b9b94391fe7bf9aec80c0
+    - tileId: 217
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_217"
+      spriteId: 24253e1e5140a1b49be0e92a29f6935f
+    - tileId: 218
+      size:
+        x: 32
+        y: 32
+      name: "TileSheet_Laborat\xC3\xB3rio_218"
+      spriteId: 8b444485f73b7aa47b90ba452e8c0c10
     guid: -1368463789
   platformSettings:
   - name: DefaultTexturePlatform
