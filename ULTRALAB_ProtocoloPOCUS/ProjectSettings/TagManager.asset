@@ -44,11 +44,17 @@ TagManager:
   - name: Background
     uniqueID: 3141353209
     locked: 0
+  - name: Tapetes
+    uniqueID: 4087924003
+    locked: 0
   - name: Wall_Bot
     uniqueID: 1178829679
     locked: 0
   - name: Moveis
     uniqueID: 4156093055
+    locked: 0
+  - name: Moveis 02
+    uniqueID: 3441886195
     locked: 0
   - name: Leito_Base
     uniqueID: 877028501
