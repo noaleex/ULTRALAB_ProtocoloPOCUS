@@ -2,15 +2,52 @@ using UnityEngine;
 
 public class MenuManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    [SerializeField] private string tutorial;
+    [SerializeField] private GameObject menuInicial;
+    [SerializeField] private GameObject SelectionCharacter;
+
+    string character;
+
+    public void Play()
     {
-        
+        menuInicial.SetActive(false);
+        SelectionCharacter.SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Back()
     {
-        
+        menuInicial.SetActive(true);
+        SelectionCharacter.SetActive(false);
+        character = null;
+
+        print("Personagem Limpo");
+        PlayerPrefs.DeleteKey("Character");
+        PlayerPrefs.Save();
+    }
+
+    public void ButtonMale()
+    {
+        character = "Masculino";
+        print("Personagem Masculino selecionado");
+    }
+
+    public void ButtonFemale()
+    {
+        character = "Feminino";
+        print("Personagem Feminino selecionado");
+    }
+
+    public void StartGame()
+    {
+        if (string.IsNullOrEmpty(character))
+        {
+            print("Selecione um personagem antes de iniciar!");
+            return;
+        }
+
+        PlayerPrefs.SetString("Character", character);
+        PlayerPrefs.Save();
+        UnityEngine.SceneManagement.SceneManager.LoadScene(tutorial);
     }
 }
