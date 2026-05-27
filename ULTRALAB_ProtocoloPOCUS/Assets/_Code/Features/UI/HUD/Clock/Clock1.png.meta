@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 82ccf3c74cf31ba46a74afa0668049bf
+guid: 4ac71891e38a11e419e74e251a7804ef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4255684653327311801
-    second: "Esbo\xE7oExamesLab_0"
+      213: -6569732346006771694
+    second: Clock1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +49,7 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
-  alignment: 7
+  alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Esbo\xE7oExamesLab_0"
+      name: Clock1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3840
-        height: 2160
+        x: 7
+        y: 8
+        width: 17
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b3e7a505aa3f0b30800000000000000
-      internalID: 4255684653327311801
+      spriteID: 2186fde3d3f93d4a0800000000000000
+      internalID: -6569732346006771694
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Esbo\xE7oExamesLab_0": 4255684653327311801
+      Clock1_0: -6569732346006771694
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
