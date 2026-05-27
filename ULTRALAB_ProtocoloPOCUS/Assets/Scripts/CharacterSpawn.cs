@@ -18,7 +18,7 @@ public class CharacterSpawn : MonoBehaviour
         
         string characterEscolhido = PlayerPrefs.GetString("Character", "");
 
-        print("O CharacterSpawn leu do PlayerPrefs: " + characterEscolhido);
+        print("Spawnado o Personagem: " + characterEscolhido);
 
         GameObject prefabParaInstanciar = null;
 
@@ -30,11 +30,6 @@ public class CharacterSpawn : MonoBehaviour
         {
             prefabParaInstanciar = prefabFeminino;
         }
-        else
-        {
-            Debug.LogError("Nenhum personagem válido veio na memória! Veio: '" + characterEscolhido + "'");
-            return; 
-        }
 
         if (prefabParaInstanciar != null && spawnPoint != null)
         {
@@ -44,14 +39,6 @@ public class CharacterSpawn : MonoBehaviour
             {
                 cinemachineCamera.Follow = novoPersonagem.transform;
             }
-            else
-            {
-                Debug.LogWarning("Cinemachine Camera não foi atribuída no CharacterSpawn!");
-            }
-        }
-        else
-        {
-            Debug.LogError("Certifique-se de que os Prefabs e o SpawnPoint estão atribuídos no Inspector!");
         }
     }
 }
