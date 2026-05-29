@@ -1,12 +1,7 @@
 using UnityEngine;
 using TMPro;
-using Unity.VisualScripting;
 using System.Collections;
-using NUnit.Framework;
-using UnityEditor.SearchService;
-using JetBrains.Annotations;
 using UnityEngine.UI;
-
 
 public class NPC : MonoBehaviour, IInteractable
 {
@@ -14,7 +9,8 @@ public class NPC : MonoBehaviour, IInteractable
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
     public Image portraitImage;
-    public GameObject interactIcon;
+
+    private GameObject interactIcon;
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
@@ -52,7 +48,10 @@ public class NPC : MonoBehaviour, IInteractable
 
         StartCoroutine(TypeLine());
 
-        interactIcon.SetActive(false);
+        if (PlayerReferences.Instance != null)
+        {
+            PlayerReferences.Instance.InteractIcon.SetActive(false);
+        }
     }
 
     void NextLine()
@@ -63,7 +62,6 @@ public class NPC : MonoBehaviour, IInteractable
             dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
             isTyping = false;
         }
-
         else if (++dialogueIndex < dialogueData.dialogueLines.Length)
         {
             StartCoroutine(TypeLine());
@@ -86,24 +84,32 @@ public class NPC : MonoBehaviour, IInteractable
         }
 
         isTyping = false;
-        if (dialogueData.autoProgressLines.Length > dialogueIndex && dialogueData.autoProgressLines[dialogueIndex])
+
+        if (
+            dialogueData.autoProgressLines.Length > dialogueIndex &&
+            dialogueData.autoProgressLines[dialogueIndex]
+        )
         {
             yield return new WaitForSeconds(dialogueData.autoProgressDelay);
             NextLine();
         }
     }
 
-
     public void EndDialogue()
     {
         StopAllCoroutines();
+
         isDialogueActive = false;
+
         dialogueText.SetText("");
+
         dialoguePanel.SetActive(false);
+
         PauseController.SetPause(false);
 
-        interactIcon.SetActive(true);
+        if (PlayerReferences.Instance != null)
+        {
+            PlayerReferences.Instance.InteractIcon.SetActive(true);
+        }
     }
-
 }
-
