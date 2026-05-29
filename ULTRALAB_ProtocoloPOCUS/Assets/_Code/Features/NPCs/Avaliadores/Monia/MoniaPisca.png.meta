@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: df3fff6246071974c9401b6489dc2785
+guid: fae810e3430350046a773b9877e6ab5d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1203942498693743560
-    second: TeacherMonia 1_0
+      213: 3615351124748465599
+    second: MoniaPisca_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TeacherMonia 1_0
+      name: MoniaPisca_0
       rect:
         serializedVersion: 2
         x: 19
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83cfc5b1dacba4fe0800000000000000
-      internalID: -1203942498693743560
+      spriteID: fb5f0f861be4c2230800000000000000
+      internalID: 3615351124748465599
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TeacherMonia 1_0: -1203942498693743560
+      MoniaPisca_0: 3615351124748465599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -473,6 +473,7 @@ GameObject:
   - component: {fileID: 233699011}
   - component: {fileID: 233699013}
   - component: {fileID: 233699014}
+  - component: {fileID: 233699015}
   m_Layer: 0
   m_Name: TeacherCarla
   m_TagString: Untagged
@@ -529,7 +530,7 @@ SpriteRenderer:
   m_SortingLayer: 8
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 8698219919464009114, guid: 4e528f40a3997dc42a55fd2757d4d127, type: 3}
+  m_Sprite: {fileID: 3966369753280398652, guid: 25cc1f37bac9da54982b74908bac5bb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -617,6 +618,28 @@ MonoBehaviour:
   dialogueText: {fileID: 2038723594}
   nameText: {fileID: 1666026886}
   portraitImage: {fileID: 1771755434}
+--- !u!95 &233699015
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233699010}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2a388aef834fa924b9e2f1a250a2bcf9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &272656762
 GameObject:
   m_ObjectHideFlags: 0
@@ -13690,7 +13713,7 @@ SpriteRenderer:
   m_SortingLayer: 8
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -7972274044531012339, guid: 1ecb675282ad027409ec6f0b25781b09, type: 3}
+  m_Sprite: {fileID: 7893106709450359266, guid: 9ce4f9860bcc38647aa918b4736adb18, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -19519,7 +19542,7 @@ SpriteRenderer:
   m_SortingLayer: 8
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -3012296966757334851, guid: e0cb2c6986fa9ad438d40502e22b4a49, type: 3}
+  m_Sprite: {fileID: -1203942498693743560, guid: df3fff6246071974c9401b6489dc2785, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
