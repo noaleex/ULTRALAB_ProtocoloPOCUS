@@ -1,0 +1,1716 @@
+fileFormatVersion: 2
+guid: e16096ac1a019de48bdc25b0b2e32b1e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7632552579790534081
+    second: 1Ativo 6@2x_0
+  - first:
+      213: 6966796278525016519
+    second: 1Ativo 6@2x_1
+  - first:
+      213: -8615023805901853711
+    second: 1Ativo 6@2x_2
+  - first:
+      213: 5553713475719175377
+    second: 1Ativo 6@2x_3
+  - first:
+      213: 4892734448252389878
+    second: 1Ativo 6@2x_4
+  - first:
+      213: 5918641242073378184
+    second: 1Ativo 6@2x_5
+  - first:
+      213: -5058794388374749610
+    second: 1Ativo 6@2x_6
+  - first:
+      213: 3217208359026034183
+    second: 1Ativo 6@2x_7
+  - first:
+      213: -993741276473670957
+    second: 1Ativo 6@2x_8
+  - first:
+      213: -8026530302256910114
+    second: 1Ativo 6@2x_9
+  - first:
+      213: 5273925632360558021
+    second: 1Ativo 6@2x_10
+  - first:
+      213: -5490759165993956665
+    second: 1Ativo 6@2x_11
+  - first:
+      213: -4211086549003673560
+    second: 1Ativo 6@2x_12
+  - first:
+      213: 3684019656131053121
+    second: 1Ativo 6@2x_13
+  - first:
+      213: -4059130306620611336
+    second: 1Ativo 6@2x_14
+  - first:
+      213: -4136935487588545384
+    second: 1Ativo 6@2x_15
+  - first:
+      213: 7310407388624006345
+    second: 1Ativo 6@2x_16
+  - first:
+      213: 1371563427445415338
+    second: 1Ativo 6@2x_17
+  - first:
+      213: 1679810625009967463
+    second: 1Ativo 6@2x_18
+  - first:
+      213: -6007629394897814263
+    second: 1Ativo 6@2x_19
+  - first:
+      213: -362312575920471700
+    second: 1Ativo 6@2x_20
+  - first:
+      213: -8499312505368661257
+    second: 1Ativo 6@2x_21
+  - first:
+      213: -2303365834376640327
+    second: 1Ativo 6@2x_22
+  - first:
+      213: 1806657733073258628
+    second: 1Ativo 6@2x_23
+  - first:
+      213: 1802916395385979116
+    second: 1Ativo 6@2x_24
+  - first:
+      213: 2475550548322215152
+    second: 1Ativo 6@2x_25
+  - first:
+      213: -8162762428105509465
+    second: 1Ativo 6@2x_26
+  - first:
+      213: 7430857015029834549
+    second: 1Ativo 6@2x_27
+  - first:
+      213: -1796131947041833335
+    second: 1Ativo 6@2x_28
+  - first:
+      213: -1000377523901648492
+    second: 1Ativo 6@2x_29
+  - first:
+      213: 7443357017850819142
+    second: 1Ativo 6@2x_30
+  - first:
+      213: -4219918157850149707
+    second: 1Ativo 6@2x_31
+  - first:
+      213: 5401066935186816045
+    second: 1Ativo 6@2x_32
+  - first:
+      213: -4733878997927795210
+    second: 1Ativo 6@2x_33
+  - first:
+      213: 4213071424197104720
+    second: 1Ativo 6@2x_34
+  - first:
+      213: 3691145621632521253
+    second: 1Ativo 6@2x_35
+  - first:
+      213: -8003442213170758876
+    second: 1Ativo 6@2x_36
+  - first:
+      213: -2752138938319859679
+    second: 1Ativo 6@2x_37
+  - first:
+      213: 8990076920067399411
+    second: 1Ativo 6@2x_38
+  - first:
+      213: -1551886710703861554
+    second: 1Ativo 6@2x_39
+  - first:
+      213: -3361316932413649619
+    second: 1Ativo 6@2x_40
+  - first:
+      213: -6400123045634000403
+    second: 1Ativo 6@2x_41
+  - first:
+      213: 2046051250055612616
+    second: 1Ativo 6@2x_42
+  - first:
+      213: -4141075515782891721
+    second: 1Ativo 6@2x_43
+  - first:
+      213: 4148339125508343310
+    second: 1Ativo 6@2x_44
+  - first:
+      213: 402819887482701624
+    second: 1Ativo 6@2x_45
+  - first:
+      213: 8064334525781528077
+    second: 1Ativo 6@2x_46
+  - first:
+      213: 3125573446830426108
+    second: 1Ativo 6@2x_47
+  - first:
+      213: -371263961740663760
+    second: 1Ativo 6@2x_48
+  - first:
+      213: 3851063424678449488
+    second: 1Ativo 6@2x_49
+  - first:
+      213: -7583944633826226098
+    second: 1Ativo 6@2x_50
+  - first:
+      213: -6158384942941874211
+    second: 1Ativo 6@2x_51
+  - first:
+      213: 4095890806569567204
+    second: 1Ativo 6@2x_52
+  - first:
+      213: 8763234778344839429
+    second: 1Ativo 6@2x_53
+  - first:
+      213: 6820087957482131734
+    second: 1Ativo 6@2x_54
+  - first:
+      213: 2705260732674304392
+    second: 1Ativo 6@2x_55
+  - first:
+      213: 7050029480817719663
+    second: 1Ativo 6@2x_56
+  - first:
+      213: 2388209260227579054
+    second: 1Ativo 6@2x_57
+  - first:
+      213: 8846458472755112840
+    second: 1Ativo 6@2x_58
+  - first:
+      213: 2288689202566380672
+    second: 1Ativo 6@2x_59
+  - first:
+      213: -5312510922681213684
+    second: 1Ativo 6@2x_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 654
+        width: 92
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5f7efd1264ce960800000000000000
+      internalID: 7632552579790534081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 647
+        width: 63
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c93ffbbd480fa060800000000000000
+      internalID: 6966796278525016519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 632
+        width: 47
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbafad2e79417880800000000000000
+      internalID: -8615023805901853711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 594
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc9a883bf0c21d40800000000000000
+      internalID: 5553713475719175377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 594
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f98660de0c76e340800000000000000
+      internalID: 4892734448252389878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 594
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88da2c2f9dc332250800000000000000
+      internalID: 5918641242073378184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 594
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65efe217e4d8bc9b0800000000000000
+      internalID: -5058794388374749610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_7
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 594
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7060a2005f1d5ac20800000000000000
+      internalID: 3217208359026034183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 594
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2c429f2958532f0800000000000000
+      internalID: -993741276473670957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_9
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 594
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0711b67390c9090800000000000000
+      internalID: -8026530302256910114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_10
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 594
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdada09b6fb03940800000000000000
+      internalID: 5273925632360558021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_11
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 594
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cac5bb31a7ecc3b0800000000000000
+      internalID: -5490759165993956665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_12
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 594
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820e53058173f85c0800000000000000
+      internalID: -4211086549003673560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 594
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1468f35cb54402330800000000000000
+      internalID: 3684019656131053121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_14
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 594
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f42bd80e721ba7c0800000000000000
+      internalID: -4059130306620611336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_15
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 594
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89cc39ba717a696c0800000000000000
+      internalID: -4136935487588545384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_16
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 594
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc235aa9c8c37560800000000000000
+      internalID: 7310407388624006345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_17
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 594
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad1dcf9ba5c80310800000000000000
+      internalID: 1371563427445415338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_18
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 594
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76165a90dd2ef4710800000000000000
+      internalID: 1679810625009967463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_19
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 594
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90dbbe625ec90aca0800000000000000
+      internalID: -6007629394897814263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_20
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 594
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c618a9eb1aec8faf0800000000000000
+      internalID: -362312575920471700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_21
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 526
+        width: 63
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f23772ce406c0a80800000000000000
+      internalID: -8499312505368661257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b885363afcc800e0800000000000000
+      internalID: -2303365834376640327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_23
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4884b8ad2a9821910800000000000000
+      internalID: 1806657733073258628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_24
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce085bac8ee350910800000000000000
+      internalID: 1802916395385979116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_25
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4e4409b1cea5220800000000000000
+      internalID: 2475550548322215152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_26
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5bdded1da08be80800000000000000
+      internalID: -8162762428105509465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_27
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533a295b515bf1760800000000000000
+      internalID: 7430857015029834549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_28
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e37dea28bd217e0800000000000000
+      internalID: -1796131947041833335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_29
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491be8631f1fd12f0800000000000000
+      internalID: -1000377523901648492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_30
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642b86965cd1c4760800000000000000
+      internalID: 7443357017850819142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_31
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcfe142bc6df65c0800000000000000
+      internalID: -4219918157850149707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_32
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 541
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2cfaefe2c174fa40800000000000000
+      internalID: 5401066935186816045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_33
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5e4dee122ed4eb0800000000000000
+      internalID: -4733878997927795210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_34
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0541e947326d77a30800000000000000
+      internalID: 4213071424197104720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_35
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52415a7e265993330800000000000000
+      internalID: 3691145621632521253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_36
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b379f06bf0ee090800000000000000
+      internalID: -8003442213170758876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_37
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1209ce097307ec9d0800000000000000
+      internalID: -2752138938319859679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_38
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe1e0cc35b23cc70800000000000000
+      internalID: 8990076920067399411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_39
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0d8d44247967ae0800000000000000
+      internalID: -1551886710703861554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_40
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d8af91f043a51d0800000000000000
+      internalID: -3361316932413649619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_41
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9b132dff13e27a0800000000000000
+      internalID: -6400123045634000403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_42
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c80fcf75c8056c10800000000000000
+      internalID: 2046051250055612616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_43
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73771bd32c1f786c0800000000000000
+      internalID: -4141075515782891721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_44
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0687cfa47cd19930800000000000000
+      internalID: 4148339125508343310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_45
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8378eddad8a179500800000000000000
+      internalID: 402819887482701624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_46
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e402746854aef60800000000000000
+      internalID: 8064334525781528077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_47
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf788b96d74406b20800000000000000
+      internalID: 3125573446830426108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_48
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0342b82d46109daf0800000000000000
+      internalID: -371263961740663760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_49
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 541
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051557be7c9b17530800000000000000
+      internalID: 3851063424678449488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_50
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 541
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40de88798a60c690800000000000000
+      internalID: -7583944633826226098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_51
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 526
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7d5ddd585098aa0800000000000000
+      internalID: -6158384942941874211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 227
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e30e54dcf687d830800000000000000
+      internalID: 4095890806569567204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_53
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 105
+        width: 213
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509d79ee9934d9970800000000000000
+      internalID: 8763234778344839429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_54
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 105
+        width: 243
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61154aaecd1d5ae50800000000000000
+      internalID: 6820087957482131734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_55
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 105
+        width: 228
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8896dd3ad440b8520800000000000000
+      internalID: 2705260732674304392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_56
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 105
+        width: 228
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69fb2cc57cb6d160800000000000000
+      internalID: 7050029480817719663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_57
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 105
+        width: 228
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacc92d3baf942120800000000000000
+      internalID: 2388209260227579054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_58
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 105
+        width: 213
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b20d44c1fe4ca70800000000000000
+      internalID: 8846458472755112840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_59
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 105
+        width: 228
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cbd3824be03cf10800000000000000
+      internalID: 2288689202566380672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Ativo 6@2x_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 995
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d1434767b2646b0800000000000000
+      internalID: -5312510922681213684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1Ativo 6@2x_0: 7632552579790534081
+      1Ativo 6@2x_1: 6966796278525016519
+      1Ativo 6@2x_10: 5273925632360558021
+      1Ativo 6@2x_11: -5490759165993956665
+      1Ativo 6@2x_12: -4211086549003673560
+      1Ativo 6@2x_13: 3684019656131053121
+      1Ativo 6@2x_14: -4059130306620611336
+      1Ativo 6@2x_15: -4136935487588545384
+      1Ativo 6@2x_16: 7310407388624006345
+      1Ativo 6@2x_17: 1371563427445415338
+      1Ativo 6@2x_18: 1679810625009967463
+      1Ativo 6@2x_19: -6007629394897814263
+      1Ativo 6@2x_2: -8615023805901853711
+      1Ativo 6@2x_20: -362312575920471700
+      1Ativo 6@2x_21: -8499312505368661257
+      1Ativo 6@2x_22: -2303365834376640327
+      1Ativo 6@2x_23: 1806657733073258628
+      1Ativo 6@2x_24: 1802916395385979116
+      1Ativo 6@2x_25: 2475550548322215152
+      1Ativo 6@2x_26: -8162762428105509465
+      1Ativo 6@2x_27: 7430857015029834549
+      1Ativo 6@2x_28: -1796131947041833335
+      1Ativo 6@2x_29: -1000377523901648492
+      1Ativo 6@2x_3: 5553713475719175377
+      1Ativo 6@2x_30: 7443357017850819142
+      1Ativo 6@2x_31: -4219918157850149707
+      1Ativo 6@2x_32: 5401066935186816045
+      1Ativo 6@2x_33: -4733878997927795210
+      1Ativo 6@2x_34: 4213071424197104720
+      1Ativo 6@2x_35: 3691145621632521253
+      1Ativo 6@2x_36: -8003442213170758876
+      1Ativo 6@2x_37: -2752138938319859679
+      1Ativo 6@2x_38: 8990076920067399411
+      1Ativo 6@2x_39: -1551886710703861554
+      1Ativo 6@2x_4: 4892734448252389878
+      1Ativo 6@2x_40: -3361316932413649619
+      1Ativo 6@2x_41: -6400123045634000403
+      1Ativo 6@2x_42: 2046051250055612616
+      1Ativo 6@2x_43: -4141075515782891721
+      1Ativo 6@2x_44: 4148339125508343310
+      1Ativo 6@2x_45: 402819887482701624
+      1Ativo 6@2x_46: 8064334525781528077
+      1Ativo 6@2x_47: 3125573446830426108
+      1Ativo 6@2x_48: -371263961740663760
+      1Ativo 6@2x_49: 3851063424678449488
+      1Ativo 6@2x_5: 5918641242073378184
+      1Ativo 6@2x_50: -7583944633826226098
+      1Ativo 6@2x_51: -6158384942941874211
+      1Ativo 6@2x_52: 4095890806569567204
+      1Ativo 6@2x_53: 8763234778344839429
+      1Ativo 6@2x_54: 6820087957482131734
+      1Ativo 6@2x_55: 2705260732674304392
+      1Ativo 6@2x_56: 7050029480817719663
+      1Ativo 6@2x_57: 2388209260227579054
+      1Ativo 6@2x_58: 8846458472755112840
+      1Ativo 6@2x_59: 2288689202566380672
+      1Ativo 6@2x_6: -5058794388374749610
+      1Ativo 6@2x_60: -5312510922681213684
+      1Ativo 6@2x_7: 3217208359026034183
+      1Ativo 6@2x_8: -993741276473670957
+      1Ativo 6@2x_9: -8026530302256910114
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
