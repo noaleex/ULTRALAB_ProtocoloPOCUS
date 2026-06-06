@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using FMODUnity;
+using FMOD.Studio;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour
@@ -9,6 +11,10 @@ public class CharacterController2D : MonoBehaviour
     Vector2 motionVector;
     PlayerAction controls;
     Animator animator;
+    
+    public EventReference FoodStep;
+    private EventInstance footstepInstance;
+    private bool isWalking = false;
 
     void Awake()
     {
@@ -30,6 +36,16 @@ public class CharacterController2D : MonoBehaviour
     void OnDisable()
     {
         controls.Disable();
+        StopFootstepSound();
+    }
+    
+    void OnDestroy()
+    {
+        StopFootstepSound();
+        if (footstepInstance.isValid())
+        {
+            footstepInstance.release();
+        }
     }
 
     void FixedUpdate()
@@ -37,10 +53,45 @@ public class CharacterController2D : MonoBehaviour
         Move();
         animator.SetFloat("horizontal", motionVector.x);
         animator.SetFloat("vertical", motionVector.y);
+        UpdateFootstepSound();
     }
 
     void Move()
     {
         rigidbody2d.linearVelocity = motionVector * speed;
+    }
+    
+    private void UpdateFootstepSound()
+    {
+        bool shouldWalk = motionVector.sqrMagnitude > 0.01f;
+        
+        if (shouldWalk && !isWalking)
+        {
+            PlayFootstepSound();
+        }
+        else if (!shouldWalk && isWalking)
+        {
+            StopFootstepSound();
+        }
+    }
+    
+    private void PlayFootstepSound()
+    {
+        if (!FoodStep.IsNull)
+        {
+            footstepInstance = RuntimeManager.CreateInstance(FoodStep);
+            footstepInstance.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject));
+            footstepInstance.start();
+            isWalking = true;
+        }
+    }
+    
+    private void StopFootstepSound()
+    {
+        if (footstepInstance.isValid())
+        {
+            footstepInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            isWalking = false;
+        }
     }
 }

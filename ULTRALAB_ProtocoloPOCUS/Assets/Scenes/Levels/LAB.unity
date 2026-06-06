@@ -9470,9 +9470,9 @@ GameObject:
   m_Component:
   - component: {fileID: 930131945}
   - component: {fileID: 930131944}
-  - component: {fileID: 930131943}
   - component: {fileID: 930131946}
   - component: {fileID: 930131947}
+  - component: {fileID: 930131948}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9480,14 +9480,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &930131943
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930131942}
-  m_Enabled: 1
 --- !u!20 &930131944
 Camera:
   m_ObjectHideFlags: 0
@@ -9606,6 +9598,20 @@ MonoBehaviour:
   m_CropFrameX: 0
   m_CropFrameY: 0
   m_StretchFill: 0
+--- !u!114 &930131948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930131942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioListener
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1 &960665466
 GameObject:
   m_ObjectHideFlags: 0
@@ -19092,6 +19098,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LabManager
   uti: UTI
+  GameMusic:
+    Guid:
+      Data1: 1908830340
+      Data2: 1258941446
+      Data3: 527937433
+      Data4: -1681536942
+    Path: event:/Musica/mx_gameplay
 --- !u!4 &1569379723
 Transform:
   m_ObjectHideFlags: 0
