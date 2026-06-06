@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd81a6fe40be39c4e83a96c320938fd9, type: 3}
-  m_Name: Carla
+  m_Name: Monia
   m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
-  npcName: Avaliadora Carla
+  npcName: "Avaliadora M\xF4nia"
   npcPortrait: {fileID: 0}
   dialogueLines:
-  - "Respire fundo. Voc\xEA se preparou para este momento e a t\xE9cnica est\xE1
-    correta. Concentre-se na prova."
-  - Estamos aqui para validar seu conhecimento, mantenha o foco no paciente simulado.
-    Concentre-se na prova.
+  - "Observe bem a angula\xE7\xE3o do transdutor. O detalhe \xE9 o que define a qualidade
+    t\xE9cnica. Concentre-se na prova."
+  - "Lembre-se da assepsia e da organiza\xE7\xE3o dos materiais antes de iniciar
+    a varredura. Concentre-se na prova."
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1

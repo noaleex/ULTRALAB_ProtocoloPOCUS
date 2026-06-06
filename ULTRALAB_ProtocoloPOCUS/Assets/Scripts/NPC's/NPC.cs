@@ -40,7 +40,7 @@ public class NPC : MonoBehaviour, IInteractable
         isDialogueActive = true;
         dialogueIndex = 0;
 
-        nameText.SetText(dialogueData.name);
+        nameText.SetText(dialogueData.npcName);
         portraitImage.sprite = dialogueData.npcPortrait;
 
         dialoguePanel.SetActive(true);
@@ -51,6 +51,11 @@ public class NPC : MonoBehaviour, IInteractable
         if (PlayerReferences.Instance != null)
         {
             PlayerReferences.Instance.InteractIcon.SetActive(false);
+        }
+
+        if (PlayerReferences.Instance.playerMovement != null)
+        {
+            PlayerReferences.Instance.playerMovement.enabled = false;
         }
     }
 
@@ -110,6 +115,11 @@ public class NPC : MonoBehaviour, IInteractable
         if (PlayerReferences.Instance != null)
         {
             PlayerReferences.Instance.InteractIcon.SetActive(true);
+        }
+
+        if (PlayerReferences.Instance.playerMovement != null)
+        {
+            PlayerReferences.Instance.playerMovement.enabled = true;
         }
     }
 }
