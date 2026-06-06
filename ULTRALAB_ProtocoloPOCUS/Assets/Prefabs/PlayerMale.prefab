@@ -471,6 +471,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerReferences
   interactIcon: {fileID: 3582078887113947399}
+<<<<<<< HEAD
+=======
+  playerMovement: {fileID: 6151928438866318164}
+>>>>>>> 8d94eef3a4fb576676fade4d7cadf8774ba2a786
 --- !u!1 &3582078887113947399
 GameObject:
   m_ObjectHideFlags: 0
