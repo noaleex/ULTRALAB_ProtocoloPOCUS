@@ -6840,6 +6840,7 @@ GameObject:
   - component: {fileID: 918624381}
   - component: {fileID: 918624380}
   - component: {fileID: 918624382}
+  - component: {fileID: 918624383}
   m_Layer: 0
   m_Name: Map_03_Moveis
   m_TagString: Untagged
@@ -9446,6 +9447,19 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!114 &918624383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918624378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c6c2394902c7214d8022f9b3d49d8cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OpenExams
+  exams: Exams
 --- !u!1 &930131942
 GameObject:
   m_ObjectHideFlags: 0
@@ -19137,8 +19151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7fe118d897b3184da47e4b6e004775f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSpawn
-  prefabMasculino: {fileID: 1561545956832956884, guid: 1c6259276f13568419e021fbbcfcf385, type: 3}
-  prefabFeminino: {fileID: 1561545956832956884, guid: 1af82397f9be48d40b0d6c4baf544454, type: 3}
+  prefabMasculino: {fileID: 1561545956832956884, guid: 1af82397f9be48d40b0d6c4baf544454, type: 3}
+  prefabFeminino: {fileID: 1561545956832956884, guid: 1c6259276f13568419e021fbbcfcf385, type: 3}
   spawnPoint: {fileID: 1613626323}
   cinemachineCamera: {fileID: 272656765}
 --- !u!1 &1652270171
