@@ -223,6 +223,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterController2D
   speed: 5
+  FoodStep:
+    Guid:
+      Data1: -1347409968
+      Data2: 1114696186
+      Data3: 1598968765
+      Data4: 596845310
+    Path: event:/FootStep/fS
 --- !u!61 &6887340364751195848
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -326,6 +333,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovementNavMash
   animator: {fileID: 7337454537632617819}
+  FootstepSound:
+    Guid:
+      Data1: -1347409968
+      Data2: 1114696186
+      Data3: 1598968765
+      Data4: 596845310
+    Path: event:/FootStep/fS
 --- !u!114 &4413795837784688550
 MonoBehaviour:
   m_ObjectHideFlags: 0

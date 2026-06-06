@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.InputSystem;
+using FMODUnity;
+using FMOD.Studio;
 
 public class PlayerMovementNavMash : MonoBehaviour
 {
@@ -9,6 +11,10 @@ public class PlayerMovementNavMash : MonoBehaviour
     private PlayerAction controls;
 
     [SerializeField] private Animator animator;
+    
+    public EventReference FootstepSound;
+    private EventInstance footstepInstance;
+    private bool isWalking = false;
 
     void Awake()
     {
@@ -25,6 +31,16 @@ public class PlayerMovementNavMash : MonoBehaviour
     void OnDisable()
     {
         controls.Disable();
+        StopFootstepSound();
+    }
+    
+    void OnDestroy()
+    {
+        StopFootstepSound();
+        if (footstepInstance.isValid())
+        {
+            footstepInstance.release();
+        }
     }
 
     void Start()
@@ -39,6 +55,7 @@ public class PlayerMovementNavMash : MonoBehaviour
     void Update()
     {
         UpdateAnimation();
+        UpdateFootstepSound();
     }
 
     private void UpdateAnimation()
@@ -49,6 +66,40 @@ public class PlayerMovementNavMash : MonoBehaviour
             
             animator.SetFloat("horizontal", moveDir.x);
             animator.SetFloat("vertical", moveDir.y);
+        }
+    }
+    
+    private void UpdateFootstepSound()
+    {
+        bool shouldWalk = agent.velocity.sqrMagnitude > 0.01f;
+        
+        if (shouldWalk && !isWalking)
+        {
+            PlayFootstepSound();
+        }
+        else if (!shouldWalk && isWalking)
+        {
+            StopFootstepSound();
+        }
+    }
+    
+    private void PlayFootstepSound()
+    {
+        if (!FootstepSound.IsNull)
+        {
+            footstepInstance = RuntimeManager.CreateInstance(FootstepSound);
+            footstepInstance.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject));
+            footstepInstance.start();
+            isWalking = true;
+        }
+    }
+    
+    private void StopFootstepSound()
+    {
+        if (footstepInstance.isValid())
+        {
+            footstepInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            isWalking = false;
         }
     }
 

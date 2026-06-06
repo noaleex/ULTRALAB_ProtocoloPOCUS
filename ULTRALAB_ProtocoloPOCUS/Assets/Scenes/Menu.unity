@@ -1241,7 +1241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -1271, y: 318.93}
+  m_AnchoredPosition: {x: -1383, y: 244}
   m_SizeDelta: {x: 575, y: 58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &676810537
@@ -2333,7 +2333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1247916985}
   - component: {fileID: 1247916984}
-  - component: {fileID: 1247916983}
+  - component: {fileID: 1247916986}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2341,14 +2341,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1247916983
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1247916982}
-  m_Enabled: 1
 --- !u!20 &1247916984
 Camera:
   m_ObjectHideFlags: 0
@@ -2415,6 +2407,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1247916986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247916982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioListener
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1 &1249150780
 GameObject:
   m_ObjectHideFlags: 0
@@ -2865,7 +2871,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -648.88, y: -761.07056}
+  m_AnchoredPosition: {x: -757, y: -683}
   m_SizeDelta: {x: 575, y: 58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1427983806
@@ -3163,6 +3169,27 @@ MonoBehaviour:
   tutorial: LAB
   menuInicial: {fileID: 2087527483}
   SelectionCharacter: {fileID: 632882139}
+  MusicaMenu:
+    Guid:
+      Data1: -1399748895
+      Data2: 1157016661
+      Data3: 2017624505
+      Data4: -961166914
+    Path: event:/Musica/mx_musica_menu
+  ClickMenu:
+    Guid:
+      Data1: 499708047
+      Data2: 1331960269
+      Data3: -732660037
+      Data4: -1557932642
+    Path: event:/Interagir/fx_menu_click
+  SelecionarPersonagemClick:
+    Guid:
+      Data1: -465755206
+      Data2: 1244057069
+      Data3: -1603699055
+      Data4: -1438093624
+    Path: event:/Interagir/fx_escolher_click
 --- !u!4 &1556939892
 Transform:
   m_ObjectHideFlags: 0
