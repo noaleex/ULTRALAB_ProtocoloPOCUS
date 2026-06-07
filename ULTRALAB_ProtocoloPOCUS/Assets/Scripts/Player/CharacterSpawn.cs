@@ -10,11 +10,21 @@ public class CharacterSpawn : MonoBehaviour
 
     [SerializeField] private CinemachineCamera cinemachineCamera;
 
-    void Start()
+    private void Start()
     {
-        string characterEscolhido = PlayerPrefs.GetString("Character", "");
+        if (GameManager.Instance.HasPlayer())
+        {
+            if (cinemachineCamera != null)
+            {
+                cinemachineCamera.Follow =
+                    GameManager.Instance.Player.transform;
+            }
 
-        print("Spawnado o Personagem: " + characterEscolhido);
+            return;
+        }
+
+        string characterEscolhido =
+            PlayerPrefs.GetString("Character", "");
 
         GameObject prefabParaInstanciar = null;
 
@@ -28,18 +38,23 @@ public class CharacterSpawn : MonoBehaviour
             prefabParaInstanciar = prefabFeminino;
         }
 
-        if (prefabParaInstanciar != null && spawnPoint != null)
-        {
-            GameObject novoPersonagem = Instantiate(
-                prefabParaInstanciar,
-                spawnPoint.position,
-                spawnPoint.rotation
-            );
+        if (prefabParaInstanciar == null)
+            return;
 
-            if (cinemachineCamera != null)
-            {
-                cinemachineCamera.Follow = novoPersonagem.transform;
-            }
+        GameObject novoPersonagem = Instantiate(
+            prefabParaInstanciar,
+            spawnPoint.position,
+            spawnPoint.rotation
+        );
+
+        DontDestroyOnLoad(novoPersonagem);
+
+        GameManager.Instance.RegisterPlayer(novoPersonagem);
+
+        if (cinemachineCamera != null)
+        {
+            cinemachineCamera.Follow =
+                novoPersonagem.transform;
         }
     }
 }
