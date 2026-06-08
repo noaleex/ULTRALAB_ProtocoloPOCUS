@@ -7,12 +7,6 @@ public class Interfaces : MonoBehaviour
     [SerializeField] private GameObject leito;
     [SerializeField] private string lab;
 
-    void Start()
-    {
-        // 0.1f significa que partes com mais de 10% de opacidade aceitam o clique
-        GetComponent<Image>().alphaHitTestMinimumThreshold = 0.1f; 
-    }
-
     public void PocusClick()
     {
         pocus.SetActive(true);
