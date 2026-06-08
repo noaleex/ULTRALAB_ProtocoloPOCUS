@@ -405,7 +405,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 6967480129780902945}
   cacheVersion: 131848
-  cacheTime: 639163089779919597
+  cacheTime: 639165176508197512
   SerializableEventsDict:
   - key: event:/Falas/wa_personagens3
     index: 0
@@ -918,7 +918,7 @@ MonoBehaviour:
   Path: ../FMODProtocoloPOCUS/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639163089779919597
+  lastModified: 639165176508197512
   FileSizes:
   - Name: Desktop
     Value: 2238
@@ -992,7 +992,7 @@ MonoBehaviour:
   Path: ../FMODProtocoloPOCUS/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639163089779909606
+  lastModified: 639165176508187505
   FileSizes:
   - Name: Desktop
     Value: 30903680
