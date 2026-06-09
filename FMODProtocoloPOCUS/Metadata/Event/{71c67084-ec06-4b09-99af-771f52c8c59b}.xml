@@ -101,10 +101,10 @@
 	</object>
 	<object class="EventMixerGroup" id="{27961d54-0214-4e1d-8dea-1e06f14d08ea}">
 		<property name="volume">
-			<value>-16.5</value>
+			<value>-8.5</value>
 		</property>
 		<property name="name">
-			<value>Audio 1</value>
+			<value>mx_gameplay</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{4d16b0a7-a84a-4dd4-b6a6-ee87a90259f5}</destination>

@@ -12,15 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd81a6fe40be39c4e83a96c320938fd9, type: 3}
   m_Name: Lari
   m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
-  npcName: Fisio
+  npcName: Larissa
   npcPortrait: {fileID: 21300000, guid: 4b5a32ca74c4d64438050526549963d3, type: 3}
   dialogueLines:
-  - "Lembre-se que o POCUS n\xE3o \xE9 s\xF3 para o pulm\xE3o. A avalia\xE7\xE3o
-    da espessura do quadr\xEDceps \xE9 essencial na sarcopenia."
-  - "Se a imagem mostrar um tecido muito fino ou com muita gordura entre as fibras,
-    voc\xEA j\xE1 sabe o que \xE9."
-  - "Ajuste bem o ganho. No m\xFAsculo, o contraste ajuda muito a definir a f\xE1scia
-    e o osso."
+  - "Boa sorte na sua avalia\xE7\xE3o tamb\xE9m. Quero ver todos aprovados!"
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1

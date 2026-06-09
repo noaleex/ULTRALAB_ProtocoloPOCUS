@@ -21,7 +21,6 @@ public class Interfaces : MonoBehaviour
     {
         pocus.SetActive(false);
         leito.SetActive(false);
-        Debug.Log("Interface fechada");
     }
 
     public void BackExam()

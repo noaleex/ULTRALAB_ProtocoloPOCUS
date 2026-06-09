@@ -15,6 +15,8 @@ public class CharacterController2D : MonoBehaviour
     public EventReference FoodStep;
     private EventInstance footstepInstance;
     private bool isWalking = false;
+    private float stopGraceTimer = 0f;
+    private const float StopGraceTime = 0.2f;
 
     void Awake()
     {
@@ -48,12 +50,16 @@ public class CharacterController2D : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        Move();
         animator.SetFloat("horizontal", motionVector.x);
         animator.SetFloat("vertical", motionVector.y);
         UpdateFootstepSound();
+    }
+
+    void FixedUpdate()
+    {
+        Move();
     }
 
     void Move()
@@ -64,14 +70,25 @@ public class CharacterController2D : MonoBehaviour
     private void UpdateFootstepSound()
     {
         bool shouldWalk = motionVector.sqrMagnitude > 0.01f;
-        
-        if (shouldWalk && !isWalking)
+
+        if (shouldWalk)
         {
-            PlayFootstepSound();
+            stopGraceTimer = StopGraceTime;
+            if (!isWalking)
+            {
+                PlayFootstepSound();
+            }
         }
-        else if (!shouldWalk && isWalking)
+        else
         {
-            StopFootstepSound();
+            if (stopGraceTimer > 0f)
+            {
+                stopGraceTimer -= Time.deltaTime;
+            }
+            else if (isWalking)
+            {
+                StopFootstepSound();
+            }
         }
     }
     
@@ -91,6 +108,7 @@ public class CharacterController2D : MonoBehaviour
         if (footstepInstance.isValid())
         {
             footstepInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            footstepInstance.release();
             isWalking = false;
         }
     }
