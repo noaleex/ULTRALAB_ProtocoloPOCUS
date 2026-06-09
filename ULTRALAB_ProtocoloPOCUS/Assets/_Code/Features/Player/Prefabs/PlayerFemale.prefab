@@ -170,7 +170,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 767058695
-  m_SortingLayer: 8
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 20cda5be06fe7e94b864e0599a9bff67, type: 3}
@@ -225,11 +225,11 @@ MonoBehaviour:
   speed: 5
   FoodStep:
     Guid:
-      Data1: -1347409968
-      Data2: 1114696186
-      Data3: 1598968765
-      Data4: 596845310
-    Path: event:/FootStep/fS
+      Data1: -1983541510
+      Data2: 1173358869
+      Data3: 1213834379
+      Data4: -867603342
+    Path: event:/FootStep/fx_fs_ceramica
 --- !u!61 &6887340364751195848
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -335,11 +335,11 @@ MonoBehaviour:
   animator: {fileID: 7337454537632617819}
   FootstepSound:
     Guid:
-      Data1: -1347409968
-      Data2: 1114696186
-      Data3: 1598968765
-      Data4: 596845310
-    Path: event:/FootStep/fS
+      Data1: -1983541510
+      Data2: 1173358869
+      Data3: 1213834379
+      Data4: -867603342
+    Path: event:/FootStep/fx_fs_ceramica
 --- !u!114 &4413795837784688550
 MonoBehaviour:
   m_ObjectHideFlags: 0
