@@ -21,7 +21,6 @@ public class ImageController : MonoBehaviour
     {
         imageRect = targetImage.rectTransform;
         
-        // Pega o Scroll Rect
         scrollRect = targetImage.GetComponentInParent<ScrollRect>();
 
         imageRect.pivot = new Vector2(0.5f, 0.5f);

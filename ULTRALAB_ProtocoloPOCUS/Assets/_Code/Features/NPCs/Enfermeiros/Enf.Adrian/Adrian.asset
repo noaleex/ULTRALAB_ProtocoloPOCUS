@@ -10,14 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd81a6fe40be39c4e83a96c320938fd9, type: 3}
-  m_Name: Lari
+  m_Name: Adrian
   m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
-  npcName: Larissa
-  npcPortrait: {fileID: 21300000, guid: 4b5a32ca74c4d64438050526549963d3, type: 3}
+  npcName: Adrian
+  npcPortrait: {fileID: 21300000, guid: c53102029ab98b34a947fb87b6ae061e, type: 3}
   dialogueLines:
-  - "Boa sorte na sua avalia\xE7\xE3o tamb\xE9m. Quero ver todos aprovados!"
+  - "Pode come\xE7ar, parceiro. Estou pronto para a varredura. V\xEA se encontra
+    meu rim direito a\xED!"
+  - "Cuidado com o gel, est\xE1 meio frio hoje! Mas a posi\xE7\xE3o do transdutor
+    parece certa."
+  - "Boa! Se voc\xEA conseguir essa imagem na prova, a vaga na UTI j\xE1 \xE9 sua."
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
-  autoProgressLines: 010101
+  autoProgressLines: 
   autoProgressDelay: 1.5

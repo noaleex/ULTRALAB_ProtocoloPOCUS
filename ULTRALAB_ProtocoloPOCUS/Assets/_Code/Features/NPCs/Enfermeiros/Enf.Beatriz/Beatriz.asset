@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd81a6fe40be39c4e83a96c320938fd9, type: 3}
-  m_Name: Lari
+  m_Name: Beatriz
   m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
-  npcName: Larissa
-  npcPortrait: {fileID: 21300000, guid: 4b5a32ca74c4d64438050526549963d3, type: 3}
+  npcName: Beatriz
+  npcPortrait: {fileID: 21300000, guid: 7c75f538e138c6c439c04cab560c2749, type: 3}
   dialogueLines:
-  - "Boa sorte na sua avalia\xE7\xE3o tamb\xE9m. Quero ver todos aprovados!"
+  - "N\xE3o tenha medo de explorar o equipamento. Quanto mais praticamos, mais o
+    nosso racioc\xEDnio cl\xEDnico se afia!"
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
-  autoProgressLines: 010101
+  autoProgressLines: 
   autoProgressDelay: 1.5
