@@ -2,6 +2,8 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 using UnityEngine.UI;
+using FMODUnity;
+using FMOD.Studio;
 
 public class NPC : MonoBehaviour, IInteractable
 {
@@ -11,6 +13,7 @@ public class NPC : MonoBehaviour, IInteractable
     public Image portraitImage;
 
     private GameObject interactIcon;
+    private EventInstance dialogueVoiceInstance;
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
@@ -64,6 +67,7 @@ public class NPC : MonoBehaviour, IInteractable
         if (isTyping)
         {
             StopAllCoroutines();
+            StopVoice();
             dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
             isTyping = false;
         }
@@ -82,11 +86,15 @@ public class NPC : MonoBehaviour, IInteractable
         isTyping = true;
         dialogueText.SetText("");
 
+        StartVoice();
+
         foreach (char letter in dialogueData.dialogueLines[dialogueIndex])
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(dialogueData.typingSpeed);
         }
+
+        StopVoice();
 
         isTyping = false;
 
@@ -100,10 +108,29 @@ public class NPC : MonoBehaviour, IInteractable
         }
     }
 
+    void StartVoice()
+    {
+        if (dialogueData.voiceEvent.IsNull)
+            return;
+
+        dialogueVoiceInstance = RuntimeManager.CreateInstance(dialogueData.voiceEvent);
+        dialogueVoiceInstance.start();
+    }
+
+    void StopVoice()
+    {
+        if (dialogueVoiceInstance.isValid())
+        {
+            dialogueVoiceInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            dialogueVoiceInstance.release();
+            dialogueVoiceInstance = default;
+        }
+    }
+
     public void EndDialogue()
     {
         StopAllCoroutines();
-
+        StopVoice();
         isDialogueActive = false;
 
         dialogueText.SetText("");

@@ -31,7 +31,13 @@ MonoBehaviour:
     ruidoso ou a profundidade inadequada, voc\xEAs n\xE3o conseguir\xE3o visualizar
     as janelas card\xEDacas. Podem come\xE7ar."
   typingSpeed: 0.05
-  voiceSound: {fileID: 0}
+  voiceEvent:
+    Guid:
+      Data1: -1855393842
+      Data2: 1324317608
+      Data3: 1561228964
+      Data4: 561955531
+    Path: event:/Falas/wa_gabriel
   voicePitch: 1
   autoProgressLines: 
   autoProgressDelay: 1.5

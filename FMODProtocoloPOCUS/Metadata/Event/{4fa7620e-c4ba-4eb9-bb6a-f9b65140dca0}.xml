@@ -69,7 +69,7 @@
 	</object>
 	<object class="GroupTrack" id="{64c0ef1c-3e7e-4acf-be9a-efe827708607}">
 		<relationship name="modules">
-			<destination>{2671e3d5-d14b-4240-943d-c288b612f5ea}</destination>
+			<destination>{a92d678c-0b3d-471a-ac02-51135d5d4159}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{a0b0eb3b-6bfc-4da5-ad9c-7d7ee5591049}</destination>
@@ -78,7 +78,7 @@
 	<object class="Timeline" id="{4949bc32-b3cb-4bf6-9b02-7f919116de9b}">
 		<relationship name="modules">
 			<destination>{f0d7dafd-891a-4d2d-a3a6-88aac0bd725e}</destination>
-			<destination>{2671e3d5-d14b-4240-943d-c288b612f5ea}</destination>
+			<destination>{a92d678c-0b3d-471a-ac02-51135d5d4159}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{794ae07a-a535-41e4-b87a-0d105fb002c8}</destination>
@@ -103,7 +103,13 @@
 	<object class="MixerBusPanner" id="{12663357-eb3c-4474-a754-a9612b575463}" />
 	<object class="SingleSound" id="{f0d7dafd-891a-4d2d-a3a6-88aac0bd725e}">
 		<property name="length">
-			<value>20.52</value>
+			<value>7.7834983644927744</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.18500000000000005</value>
+		</property>
+		<property name="pitch">
+			<value>2</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{b8a07839-c74d-4d58-8c7d-05538ca86a3f}</destination>
@@ -126,20 +132,17 @@
 			<destination>{1910e475-75f2-4fa5-95b0-6144d3b79129}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{2671e3d5-d14b-4240-943d-c288b612f5ea}">
+	<object class="SingleSound" id="{a92d678c-0b3d-471a-ac02-51135d5d4159}">
 		<property name="length">
-			<value>20.52</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>20.52</value>
+			<value>7.7834983644927744</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{25f76334-0f6c-44c4-ace6-72f2f6844783}</destination>
+			<destination>{91893d7a-8e6a-4a30-b34e-1802b12f5211}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a0b0eb3b-6bfc-4da5-ad9c-7d7ee5591049}">
 		<property name="volume">
-			<value>10</value>
+			<value>-17.5</value>
 		</property>
 		<property name="name">
 			<value>fx_mov</value>
@@ -159,7 +162,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>20.52</value>
+			<value>7.7834983644927744</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{4949bc32-b3cb-4bf6-9b02-7f919116de9b}</destination>

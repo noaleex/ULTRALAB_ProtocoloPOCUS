@@ -20,7 +20,13 @@ MonoBehaviour:
   - "N\xE3o hesite. O racioc\xEDnio cl\xEDnico exige firmeza na tomada de decis\xE3o.
     Concentre-se na prova."
   typingSpeed: 0.05
-  voiceSound: {fileID: 0}
+  voiceEvent:
+    Guid:
+      Data1: -1422069214
+      Data2: 1181518588
+      Data3: -872410182
+      Data4: 795192765
+    Path: event:/Falas/wa_caes
   voicePitch: 1
   autoProgressLines: 
   autoProgressDelay: 1.5
