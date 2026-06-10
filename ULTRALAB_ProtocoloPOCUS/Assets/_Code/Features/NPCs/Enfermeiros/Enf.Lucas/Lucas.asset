@@ -17,7 +17,13 @@ MonoBehaviour:
   dialogueLines:
   - Mantenha o foco.
   typingSpeed: 0.05
-  voiceSound: {fileID: 0}
+  voiceEvent:
+    Guid:
+      Data1: -769207988
+      Data2: 1274571228
+      Data3: 1741199256
+      Data4: -1826386382
+    Path: event:/Falas/wa_guilherme
   voicePitch: 1
   autoProgressLines: 
   autoProgressDelay: 1.5

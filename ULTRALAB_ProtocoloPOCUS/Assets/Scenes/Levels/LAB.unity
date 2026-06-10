@@ -518,6 +518,13 @@ MonoBehaviour:
   dialogueText: {fileID: 2038723594}
   nameText: {fileID: 1666026886}
   portraitImage: {fileID: 1771755434}
+  interactSoundEvent:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!95 &233699015
 Animator:
   serializedVersion: 7
@@ -1273,6 +1280,13 @@ MonoBehaviour:
   dialogueText: {fileID: 2038723594}
   nameText: {fileID: 1666026886}
   portraitImage: {fileID: 1771755434}
+  interactSoundEvent:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!61 &536115206
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6925,6 +6939,13 @@ MonoBehaviour:
   dialogueText: {fileID: 2038723594}
   nameText: {fileID: 1666026886}
   portraitImage: {fileID: 1771755434}
+  interactSoundEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!61 &645863879
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12841,6 +12862,13 @@ MonoBehaviour:
   dialogueText: {fileID: 2038723594}
   nameText: {fileID: 1666026886}
   portraitImage: {fileID: 1771755434}
+  interactSoundEvent:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!1 &1146595889
 GameObject:
   m_ObjectHideFlags: 0
@@ -13743,6 +13771,13 @@ MonoBehaviour:
   dialogueText: {fileID: 2038723594}
   nameText: {fileID: 1666026886}
   portraitImage: {fileID: 1771755434}
+  interactSoundEvent:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!61 &1186090020
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15108,6 +15143,13 @@ MonoBehaviour:
   dialogueText: {fileID: 2038723594}
   nameText: {fileID: 1666026886}
   portraitImage: {fileID: 1771755434}
+  interactSoundEvent:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!61 &1430539770
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20559,6 +20601,13 @@ MonoBehaviour:
       Data3: 527937433
       Data4: -1681536942
     Path: event:/Musica/mx_gameplay
+  ambientMusicEvent2:
+    Guid:
+      Data1: 1665960468
+      Data2: 1282403227
+      Data3: -549595210
+      Data4: 552736080
+    Path: event:/Fx_lab
 --- !u!1 &1613626322
 GameObject:
   m_ObjectHideFlags: 0
@@ -20658,6 +20707,13 @@ MonoBehaviour:
   dialogueText: {fileID: 2038723594}
   nameText: {fileID: 1666026886}
   portraitImage: {fileID: 1771755434}
+  interactSoundEvent:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!61 &1628495552
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21066,6 +21122,13 @@ MonoBehaviour:
   dialogueText: {fileID: 2038723594}
   nameText: {fileID: 1666026886}
   portraitImage: {fileID: 1771755434}
+  interactSoundEvent:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!61 &1671777924
 BoxCollider2D:
   m_ObjectHideFlags: 0

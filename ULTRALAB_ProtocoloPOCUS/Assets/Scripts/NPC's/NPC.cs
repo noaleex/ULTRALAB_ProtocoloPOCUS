@@ -11,6 +11,7 @@ public class NPC : MonoBehaviour, IInteractable
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
     public Image portraitImage;
+    public EventReference interactSoundEvent;
 
     private GameObject interactIcon;
     private EventInstance dialogueVoiceInstance;
@@ -28,6 +29,8 @@ public class NPC : MonoBehaviour, IInteractable
         if (dialogueData == null || (PauseController.IsGamePaused && !isDialogueActive))
             return;
 
+        PlayInteractSound();
+
         if (isDialogueActive)
         {
             NextLine();
@@ -35,6 +38,14 @@ public class NPC : MonoBehaviour, IInteractable
         else
         {
             StartDialogue();
+        }
+    }
+
+    void PlayInteractSound()
+    {
+        if (!interactSoundEvent.IsNull)
+        {
+            RuntimeManager.PlayOneShot(interactSoundEvent);
         }
     }
 

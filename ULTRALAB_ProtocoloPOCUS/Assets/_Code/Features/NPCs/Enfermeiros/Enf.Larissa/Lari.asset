@@ -17,7 +17,13 @@ MonoBehaviour:
   dialogueLines:
   - "Boa sorte na sua avalia\xE7\xE3o tamb\xE9m. Quero ver todos aprovados!"
   typingSpeed: 0.05
-  voiceSound: {fileID: 0}
+  voiceEvent:
+    Guid:
+      Data1: -517927427
+      Data2: 1183210862
+      Data3: -1191719252
+      Data4: 1720906404
+    Path: event:/Falas/wa_mulher3
   voicePitch: 1
   autoProgressLines: 010101
   autoProgressDelay: 1.5
