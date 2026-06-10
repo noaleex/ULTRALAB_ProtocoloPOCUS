@@ -20,7 +20,13 @@ MonoBehaviour:
   - "Lembre-se da assepsia e da organiza\xE7\xE3o dos materiais antes de iniciar
     a varredura. Concentre-se na prova."
   typingSpeed: 0.05
-  voiceSound: {fileID: 0}
+  voiceEvent:
+    Guid:
+      Data1: -1158635385
+      Data2: 1079365293
+      Data3: -963294557
+      Data4: -1252902628
+    Path: event:/Falas/wa_mulher
   voicePitch: 1
   autoProgressLines: 
   autoProgressDelay: 1.5

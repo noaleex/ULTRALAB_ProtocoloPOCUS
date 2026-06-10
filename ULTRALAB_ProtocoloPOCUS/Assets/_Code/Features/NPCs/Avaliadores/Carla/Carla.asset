@@ -20,7 +20,13 @@ MonoBehaviour:
   - Estamos aqui para validar seu conhecimento, mantenha o foco no paciente simulado.
     Concentre-se na prova.
   typingSpeed: 0.05
-  voiceSound: {fileID: 0}
+  voiceEvent:
+    Guid:
+      Data1: 948884061
+      Data2: 1287636933
+      Data3: 415765634
+      Data4: 1763510883
+    Path: event:/Falas/wa_isadora
   voicePitch: 1
   autoProgressLines: 
   autoProgressDelay: 1.5
