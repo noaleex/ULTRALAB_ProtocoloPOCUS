@@ -13,11 +13,12 @@ public class NPC : MonoBehaviour, IInteractable
     public Image portraitImage;
     public EventReference interactSoundEvent;
 
-    private GameObject interactIcon;
     private EventInstance dialogueVoiceInstance;
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
+
+    public bool IsDialogueActive => isDialogueActive;
 
     public bool CanInteract()
     {
@@ -49,6 +50,20 @@ public class NPC : MonoBehaviour, IInteractable
         }
     }
 
+    public void StartDialogueExternally()
+    {
+        if (dialogueData == null || isDialogueActive)
+            return;
+
+        if (PlayerReferences.Instance?.InteractionDetector != null)
+        {
+            PlayerReferences.Instance.InteractionDetector.ForceInteractable(this);
+        }
+
+        PlayInteractSound();
+        StartDialogue();
+    }
+
     void StartDialogue()
     {
         isDialogueActive = true;
@@ -58,6 +73,7 @@ public class NPC : MonoBehaviour, IInteractable
         portraitImage.sprite = dialogueData.npcPortrait;
 
         dialoguePanel.SetActive(true);
+
         PauseController.SetPause(true);
 
         StartCoroutine(TypeLine());
@@ -65,11 +81,11 @@ public class NPC : MonoBehaviour, IInteractable
         if (PlayerReferences.Instance != null)
         {
             PlayerReferences.Instance.InteractIcon.SetActive(false);
-        }
 
-        if (PlayerReferences.Instance.playerMovement != null)
-        {
-            PlayerReferences.Instance.playerMovement.enabled = false;
+            if (PlayerReferences.Instance.playerMovement != null)
+            {
+                PlayerReferences.Instance.playerMovement.enabled = false;
+            }
         }
     }
 
@@ -79,7 +95,9 @@ public class NPC : MonoBehaviour, IInteractable
         {
             StopAllCoroutines();
             StopVoice();
+
             dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
+
             isTyping = false;
         }
         else if (++dialogueIndex < dialogueData.dialogueLines.Length)
@@ -102,19 +120,17 @@ public class NPC : MonoBehaviour, IInteractable
         foreach (char letter in dialogueData.dialogueLines[dialogueIndex])
         {
             dialogueText.text += letter;
-            yield return new WaitForSeconds(dialogueData.typingSpeed);
+            yield return new WaitForSecondsRealtime(dialogueData.typingSpeed);
         }
 
         StopVoice();
 
         isTyping = false;
 
-        if (
-            dialogueData.autoProgressLines.Length > dialogueIndex &&
-            dialogueData.autoProgressLines[dialogueIndex]
-        )
+        if (dialogueData.autoProgressLines.Length > dialogueIndex &&
+            dialogueData.autoProgressLines[dialogueIndex])
         {
-            yield return new WaitForSeconds(dialogueData.autoProgressDelay);
+            yield return new WaitForSecondsRealtime(dialogueData.autoProgressDelay);
             NextLine();
         }
     }
@@ -124,6 +140,8 @@ public class NPC : MonoBehaviour, IInteractable
         if (dialogueData.voiceEvent.IsNull)
             return;
 
+        StopVoice();
+
         dialogueVoiceInstance = RuntimeManager.CreateInstance(dialogueData.voiceEvent);
         dialogueVoiceInstance.start();
     }
@@ -132,7 +150,7 @@ public class NPC : MonoBehaviour, IInteractable
     {
         if (dialogueVoiceInstance.isValid())
         {
-            dialogueVoiceInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            dialogueVoiceInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
             dialogueVoiceInstance.release();
             dialogueVoiceInstance = default;
         }
@@ -142,22 +160,27 @@ public class NPC : MonoBehaviour, IInteractable
     {
         StopAllCoroutines();
         StopVoice();
+
         isDialogueActive = false;
 
         dialogueText.SetText("");
-
         dialoguePanel.SetActive(false);
 
         PauseController.SetPause(false);
 
+        if (PlayerReferences.Instance?.InteractionDetector != null)
+        {
+            PlayerReferences.Instance.InteractionDetector.ClearForcedInteractable(this);
+        }
+
         if (PlayerReferences.Instance != null)
         {
             PlayerReferences.Instance.InteractIcon.SetActive(true);
-        }
 
-        if (PlayerReferences.Instance.playerMovement != null)
-        {
-            PlayerReferences.Instance.playerMovement.enabled = true;
+            if (PlayerReferences.Instance.playerMovement != null)
+            {
+                PlayerReferences.Instance.playerMovement.enabled = true;
+            }
         }
     }
 }

@@ -4,9 +4,10 @@ using UnityEngine.InputSystem;
 public class InteractionDetector : MonoBehaviour
 {
     private IInteractable interactableInRange = null;
-    public GameObject interactionIcon;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    [SerializeField] private GameObject interactionIcon;
+
+    private void Start()
     {
         interactionIcon.SetActive(false);
     }
@@ -19,17 +20,33 @@ public class InteractionDetector : MonoBehaviour
         }
     }
 
+    public void ForceInteractable(IInteractable interactable)
+    {
+        interactableInRange = interactable;
+    }
+
+    public void ClearForcedInteractable(IInteractable interactable)
+    {
+        if (interactableInRange == interactable)
+        {
+            interactableInRange = null;
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
+        if (collision.TryGetComponent(out IInteractable interactable) &&
+            interactable.CanInteract())
         {
             interactableInRange = interactable;
             interactionIcon.SetActive(true);
         }
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.TryGetComponent(out IInteractable interactable) && interactable == interactableInRange)
+        if (collision.TryGetComponent(out IInteractable interactable) &&
+            interactable == interactableInRange)
         {
             interactableInRange = null;
             interactionIcon.SetActive(false);

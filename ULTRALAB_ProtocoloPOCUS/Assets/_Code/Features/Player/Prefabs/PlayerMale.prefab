@@ -374,10 +374,6 @@ MonoBehaviour:
     m_ActionId: 6b444451-8a00-4d00-a97e-f47457f736a8
     m_ActionName: 'Player/Look[/Mouse/delta]'
   - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6c2ab1b8-8984-453a-af3d-a3c78ae1679a
-    m_ActionName: 'Player/Attack[/Mouse/leftButton,/Keyboard/enter]'
-  - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3554129526055558895}
         m_TargetAssemblyTypeName: InteractionDetector, Assembly-CSharp
@@ -471,6 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerReferences
   interactIcon: {fileID: 3582078887113947399}
+  interactionDetector: {fileID: 3554129526055558895}
   playerMovement: {fileID: 6151928438866318164}
 --- !u!1 &3582078887113947399
 GameObject:
