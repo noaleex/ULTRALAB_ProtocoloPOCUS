@@ -7130,11 +7130,11 @@ MonoBehaviour:
   portraitImage: {fileID: 1771755434}
   interactSoundEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!61 &645863879
 BoxCollider2D:
   m_ObjectHideFlags: 0
