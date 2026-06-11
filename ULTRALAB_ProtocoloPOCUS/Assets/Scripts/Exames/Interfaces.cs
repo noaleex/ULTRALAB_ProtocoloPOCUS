@@ -26,5 +26,6 @@ public class Interfaces : MonoBehaviour
     public void BackExam()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(lab);
+        PlayerReferences.Instance.playerMovement.enabled = true;
     }
 }

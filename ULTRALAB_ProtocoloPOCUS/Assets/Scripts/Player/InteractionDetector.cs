@@ -49,7 +49,7 @@ public class InteractionDetector : MonoBehaviour
             interactable == interactableInRange)
         {
             interactableInRange = null;
-            interactionIcon.SetActive(false);
         }
+        interactionIcon.SetActive(false);
     }
 }
