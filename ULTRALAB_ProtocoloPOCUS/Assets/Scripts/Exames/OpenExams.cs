@@ -54,6 +54,7 @@ public class OpenExams : MonoBehaviour, IInteractable
     public void OpenExam()
     {
         SceneManager.LoadScene(exams);
+        
     }
 
     public void OpenConduta()
@@ -62,10 +63,10 @@ public class OpenExams : MonoBehaviour, IInteractable
             return;
 
         panelExam.SetActive(false);
-
         if (npcConduta != null)
         {
             npcConduta.StartDialogueExternally();
         }
+        
     }
 }
