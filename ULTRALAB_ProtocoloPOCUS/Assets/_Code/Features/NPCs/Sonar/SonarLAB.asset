@@ -19,11 +19,11 @@ MonoBehaviour:
   typingSpeed: 0.05
   voiceEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -355241531
+      Data2: 1255865929
+      Data3: -907916883
+      Data4: 863556038
+    Path: event:/Falas/wa_morcego
   voicePitch: 1
   autoProgressLines: 
   autoProgressDelay: 1.5
