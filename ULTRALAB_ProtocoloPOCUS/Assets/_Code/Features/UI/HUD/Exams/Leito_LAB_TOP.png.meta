@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4ac71891e38a11e419e74e251a7804ef
+guid: 81481ef2c8d59a44aac45a4f040311d7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6569732346006771694
-    second: Clock1_0
+      213: -2046768341484122137
+    second: Leito_LAB_TOP_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,8 +48,8 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
-  alignment: 0
+  spriteMeshType: 1
+  alignment: 7
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -73,7 +73,7 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
@@ -109,17 +109,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clock1_0
+      name: Leito_LAB_TOP_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 8
-        width: 17
-        height: 17
+        x: 0
+        y: 0
+        width: 906
+        height: 1829
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2186fde3d3f93d4a0800000000000000
-      internalID: -6569732346006771694
+      spriteID: 7efc254a90b6893e0800000000000000
+      internalID: -2046768341484122137
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Clock1_0: -6569732346006771694
+      Leito_LAB_TOP_0: -2046768341484122137
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

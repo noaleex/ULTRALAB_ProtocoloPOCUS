@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b14144511fa98634e943eca02bfd7e89
+guid: f431239bb9a83d349aec58c2a8e07079
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5639790929461983747
-    second: Clock6_0
+      213: 5785033429939624321
+    second: Clock3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,11 +109,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clock6_0
+      name: Clock3_0
       rect:
         serializedVersion: 2
         x: 7
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30a3d0e28ff844e40800000000000000
-      internalID: 5639790929461983747
+      spriteID: 1899f4d0141984050800000000000000
+      internalID: 5785033429939624321
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Clock6_0: 5639790929461983747
+      Clock3_0: 5785033429939624321
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

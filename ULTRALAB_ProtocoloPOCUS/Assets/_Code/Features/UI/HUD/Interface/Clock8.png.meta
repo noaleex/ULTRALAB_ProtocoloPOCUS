@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: de74403da8135bd4f871f5e8680e7f61
+guid: 0ee20ac4792a6e848b733795f38f0a64
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6751002202477829170
-    second: hands_0
-  - first:
-      213: 1736978023890593550
-    second: hands_1
+      213: -2381134502242168401
+    second: Clock8_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
@@ -76,7 +73,7 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
@@ -112,17 +109,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hands_0
+      name: Clock8_0
       rect:
         serializedVersion: 2
-        x: 58
-        y: 31
-        width: 165
-        height: 388
+        x: 7
+        y: 8
+        width: 17
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23c129c1cb060bd50800000000000000
-      internalID: 6751002202477829170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hands_1
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 31
-        width: 165
-        height: 388
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e07a8a05f4cfa1810800000000000000
-      internalID: 1736978023890593550
+      spriteID: fa1dd6739c284fed0800000000000000
+      internalID: -2381134502242168401
       vertices: []
       indices: 
       edges: []
@@ -173,8 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      hands_0: 6751002202477829170
-      hands_1: 1736978023890593550
+      Clock8_0: -2381134502242168401
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6013fc4988cf2334692981ff3331aff9
+guid: e0dfe47fcf326ad4ab2b4e7530a9e712
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5623194428626525839
-    second: test_0
+      213: -4387693965657799045
+    second: AdrianChest_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -24,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -49,7 +49,7 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
-  alignment: 7
+  alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -109,17 +109,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: test_0
+      name: AdrianChest_0
       rect:
         serializedVersion: 2
-        x: 116
-        y: 18
-        width: 280
-        height: 476
+        x: 13
+        y: 0
+        width: 437
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 171a2cac57666f1b0800000000000000
-      internalID: -5623194428626525839
+      spriteID: b7687d1d597cb13c0800000000000000
+      internalID: -4387693965657799045
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      test_0: -5623194428626525839
+      AdrianChest_0: -4387693965657799045
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

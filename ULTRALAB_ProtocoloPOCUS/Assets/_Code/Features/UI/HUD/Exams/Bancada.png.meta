@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4ee63b309395fdc429629245362ba2e0
+guid: 045cff09a0003d94085c235fb46b1ba3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7592127646285963720
-    second: POCUS_lab_0
+      213: 2607611677628039351
+    second: Bancada_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +49,7 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
-  alignment: 0
+  alignment: 7
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -73,7 +73,7 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
@@ -109,17 +109,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: POCUS_lab_0
+      name: Bancada_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 650
-        height: 1486
+        width: 762
+        height: 994
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83ed3b9612853a690800000000000000
-      internalID: -7592127646285963720
+      spriteID: 7b00e2d4109103420800000000000000
+      internalID: 2607611677628039351
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      POCUS_lab_0: -7592127646285963720
+      Bancada_0: 2607611677628039351
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
