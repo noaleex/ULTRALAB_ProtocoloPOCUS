@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using FMODUnity;
 
 public class OpenExams : MonoBehaviour, IInteractable
 {
@@ -11,6 +12,7 @@ public class OpenExams : MonoBehaviour, IInteractable
 
     [Header("Cena Permitida")]
     [SerializeField] private string allowedScene;
+    public EventReference ClickSound;
 
     public bool CanInteract()
     {
@@ -19,6 +21,7 @@ public class OpenExams : MonoBehaviour, IInteractable
 
     public void Interact()
     {
+        PlayClickSound();
         panelExam.SetActive(true);
 
         PauseController.SetPause(true);
@@ -36,6 +39,7 @@ public class OpenExams : MonoBehaviour, IInteractable
 
     public void ClosePanel()
     {
+        PlayClickSound();
         panelExam.SetActive(false);
 
         PauseController.SetPause(false);
@@ -53,12 +57,14 @@ public class OpenExams : MonoBehaviour, IInteractable
 
     public void OpenExam()
     {
+        PlayClickSound();
         SceneManager.LoadScene(exams);
         
     }
 
     public void OpenConduta()
     {
+        PlayClickSound();
         if (SceneManager.GetActiveScene().name != allowedScene)
             return;
 
@@ -68,5 +74,13 @@ public class OpenExams : MonoBehaviour, IInteractable
             npcConduta.StartDialogueExternally();
         }
         
+    }
+
+    private void PlayClickSound()
+    {
+        if (!ClickSound.IsNull)
+        {
+            RuntimeManager.PlayOneShot(ClickSound, transform.position);
+        }
     }
 }
