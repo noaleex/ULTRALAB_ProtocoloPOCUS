@@ -173,8 +173,6 @@ public class NPC : MonoBehaviour, IInteractable
             PlayerReferences.Instance.InteractionDetector.ClearForcedInteractable(this);
         }
 
-        
-
         if (PlayerReferences.Instance != null)
         {
             PlayerReferences.Instance.InteractIcon.SetActive(true);

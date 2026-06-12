@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Gabriel
   m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
   npcName: Avaliador Gabriel
-  npcPortrait: {fileID: 0}
+  npcPortrait: {fileID: 21300000, guid: 16b071238dabf504db4d8f14956e24a1, type: 3}
   dialogueLines:
   - "Bom dia, futuros colegas. Chegamos ao momento decisivo. Hoje, o laborat\xF3rio
     deixa de ser um espa\xE7o de treino para se tornar o palco da sua \xFAltima avalia\xE7\xE3o

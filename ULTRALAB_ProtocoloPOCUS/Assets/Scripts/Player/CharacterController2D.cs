@@ -59,6 +59,9 @@ public class CharacterController2D : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (PauseController.IsGamePaused)
+        return;
+
         Move();
     }
 
@@ -96,6 +99,9 @@ public class CharacterController2D : MonoBehaviour
     {
         if (!FoodStep.IsNull)
         {
+            if (PauseController.IsGamePaused)
+            return;
+
             footstepInstance = RuntimeManager.CreateInstance(FoodStep);
             footstepInstance.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject));
             footstepInstance.start();
