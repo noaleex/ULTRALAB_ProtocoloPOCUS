@@ -14,6 +14,8 @@ public class OpenExams : MonoBehaviour, IInteractable
     [SerializeField] private string allowedScene;
     public EventReference ClickSound;
 
+    private bool condutaAtiva = false;
+
     public bool CanInteract()
     {
         return true;
@@ -59,21 +61,23 @@ public class OpenExams : MonoBehaviour, IInteractable
     {
         PlayClickSound();
         SceneManager.LoadScene(exams);
-        
+
     }
 
     public void OpenConduta()
     {
         PlayClickSound();
+
         if (SceneManager.GetActiveScene().name != allowedScene)
             return;
 
         panelExam.SetActive(false);
+
         if (npcConduta != null)
         {
+            npcConduta.OnDialogueEnded = ReturnToExamPanel;
             npcConduta.StartDialogueExternally();
         }
-        
     }
 
     private void PlayClickSound()
@@ -82,5 +86,17 @@ public class OpenExams : MonoBehaviour, IInteractable
         {
             RuntimeManager.PlayOneShot(ClickSound, transform.position);
         }
+    }
+
+    public void ReturnToExamPanel()
+    {
+        condutaAtiva = false;
+
+        if (PlayerReferences.Instance?.InteractionDetector != null)
+        {
+            PlayerReferences.Instance.InteractionDetector.ForceInteractable(this);
+        }
+
+        //panelExam.SetActive(true);
     }
 }

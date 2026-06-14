@@ -19,6 +19,7 @@ public class NPC : MonoBehaviour, IInteractable
     private bool isTyping, isDialogueActive;
 
     public bool IsDialogueActive => isDialogueActive;
+    public System.Action OnDialogueEnded;
 
     public bool CanInteract()
     {
@@ -168,10 +169,16 @@ public class NPC : MonoBehaviour, IInteractable
 
         PauseController.SetPause(false);
 
+
         if (PlayerReferences.Instance?.InteractionDetector != null)
         {
             PlayerReferences.Instance.InteractionDetector.ClearForcedInteractable(this);
         }
+
+
+        OnDialogueEnded?.Invoke();
+        OnDialogueEnded = null;
+
 
         if (PlayerReferences.Instance != null)
         {

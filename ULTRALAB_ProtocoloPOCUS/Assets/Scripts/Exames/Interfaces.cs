@@ -34,5 +34,6 @@ public class Interfaces : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(lab);
         PlayerReferences.Instance.playerMovement.enabled = true;
+        PauseController.SetPause(false);
     }
 }

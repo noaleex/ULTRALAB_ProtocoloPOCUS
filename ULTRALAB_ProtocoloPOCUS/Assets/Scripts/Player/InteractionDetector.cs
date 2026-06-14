@@ -29,7 +29,7 @@ public class InteractionDetector : MonoBehaviour
     {
         if (interactableInRange == interactable)
         {
-            interactableInRange = null;
+            interactionIcon.SetActive(true);
         }
     }
 
