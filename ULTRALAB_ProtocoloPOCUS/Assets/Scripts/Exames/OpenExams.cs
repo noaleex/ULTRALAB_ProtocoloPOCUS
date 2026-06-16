@@ -14,8 +14,6 @@ public class OpenExams : MonoBehaviour, IInteractable
     [SerializeField] private string allowedScene;
     public EventReference ClickSound;
 
-    private bool condutaAtiva = false;
-
     public bool CanInteract()
     {
         return true;
@@ -90,7 +88,6 @@ public class OpenExams : MonoBehaviour, IInteractable
 
     public void ReturnToExamPanel()
     {
-        condutaAtiva = false;
 
         if (PlayerReferences.Instance?.InteractionDetector != null)
         {

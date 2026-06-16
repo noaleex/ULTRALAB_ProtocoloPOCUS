@@ -49,4 +49,12 @@ public class PauseController : MonoBehaviour
         if (pausePanel != null)
             pausePanel.SetActive(false);
     }
+
+    public void OnMenu()
+    {
+        if (IsGamePaused)
+            ResumeGame();
+        else
+            PauseGame();
+    }
 }

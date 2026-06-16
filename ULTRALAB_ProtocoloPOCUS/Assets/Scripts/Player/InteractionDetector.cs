@@ -4,12 +4,14 @@ using UnityEngine.InputSystem;
 public class InteractionDetector : MonoBehaviour
 {
     private IInteractable interactableInRange = null;
+    private AndroidControl android;
 
     [SerializeField] private GameObject interactionIcon;
 
     private void Start()
     {
         interactionIcon.SetActive(false);
+        android = AndroidControl.Instance;
     }
 
     public void OnInteract(InputAction.CallbackContext context)
@@ -18,6 +20,11 @@ public class InteractionDetector : MonoBehaviour
         {
             interactableInRange?.Interact();
         }
+    }
+
+    public void MobileInteract()
+    {
+        interactableInRange?.Interact();
     }
 
     public void ForceInteractable(IInteractable interactable)
@@ -33,13 +40,17 @@ public class InteractionDetector : MonoBehaviour
         }
     }
 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.TryGetComponent(out IInteractable interactable) &&
             interactable.CanInteract())
         {
             interactableInRange = interactable;
+
             interactionIcon.SetActive(true);
+
+            android.SetInteract(true);
         }
     }
 
@@ -50,6 +61,7 @@ public class InteractionDetector : MonoBehaviour
         {
             interactableInRange = null;
         }
+        android.SetInteract(false);
         interactionIcon.SetActive(false);
     }
 }
