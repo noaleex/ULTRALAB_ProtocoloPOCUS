@@ -14,12 +14,6 @@ public class CutsceneManager : MonoBehaviour
     [SerializeField] private GameObject cutsceneMaculina;
     private GameObject cutsceneAtiva;
 
-    [Header("Estrutura de Cena")]
-    [SerializeField] private Transform cutscenesReoot;
-
-    [SerializeField] private Transform actorsRoot;
-    [SerializeField] private Transform vcamRoot;
-
     private void Awake()
     {
         if (Instance != null && Instance != this)
