@@ -1646,7 +1646,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 936383822}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &936383822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3169,6 +3181,9 @@ MonoBehaviour:
   tutorial: LAB
   menuInicial: {fileID: 2087527483}
   SelectionCharacter: {fileID: 632882139}
+  menuOptionsPC: {fileID: 0}
+  menuOptionsAndroid: {fileID: 0}
+  menuSairConfimacao: {fileID: 0}
   MusicaMenu:
     Guid:
       Data1: -1399748895
