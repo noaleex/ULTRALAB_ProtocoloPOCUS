@@ -1,15 +1,23 @@
 using UnityEngine;
 using UnityEngine.UI;
+using FMODUnity;
+using FMOD.Studio;
 
 public class UltrasoundManager : MonoBehaviour
 {
     public static UltrasoundManager Instance;
 
     [Header("Imagem da Sonda")]
+
     public Image probeImage;
 
     [Header("Tela do Ultrassom")]
     public Image resultImage;
+
+    [Header("FMOD")]
+    public EventReference gelSound;
+
+    private EventInstance gelInstance;
 
     [Header("Imagem Padrão")]
     public Sprite defaultImage;
@@ -32,6 +40,8 @@ public class UltrasoundManager : MonoBehaviour
         TransdutorSelected.ProbeType.None;
 
     private void Awake()
+
+
     {
         Instance = this;
 
@@ -43,27 +53,64 @@ public class UltrasoundManager : MonoBehaviour
         resultImage.sprite = defaultImage;
     }
 
+
+
     public void SelectProbe(TransdutorSelected.ProbeType probe)
+{
+    currentProbe = probe;
+
+    switch (probe)
     {
-        currentProbe = probe;
+        case TransdutorSelected.ProbeType.Setorial:
+            probeImage.sprite = setorialProbeSprite;
+            break;
 
-        switch (probe)
-        {
-            case TransdutorSelected.ProbeType.Setorial:
-                probeImage.sprite = setorialProbeSprite;
-                break;
+        case TransdutorSelected.ProbeType.Linear:
+            probeImage.sprite = linearProbeSprite;
+            break;
 
-            case TransdutorSelected.ProbeType.Linear:
-                probeImage.sprite = linearProbeSprite;
-                break;
+        case TransdutorSelected.ProbeType.Convex:
+            probeImage.sprite = convexProbeSprite;
+            break;
 
-            case TransdutorSelected.ProbeType.Convex:
-                probeImage.sprite = convexProbeSprite;
-                break;
-        }
-
-        CheckProbePosition(probeRect.position);
+             HandleGelSound(true);
     }
+
+    CheckProbePosition(probeRect.position);
+}
+
+   private void HandleGelSound(bool probeOverBody)
+{
+    if (gelSound.IsNull || currentProbe == TransdutorSelected.ProbeType.None)
+    {
+        StopAndReleaseGel();
+        return;
+    }
+
+    if (probeOverBody)
+    {
+        if (!gelInstance.isValid())
+        {
+            gelInstance = RuntimeManager.CreateInstance(gelSound);
+            gelInstance.start();
+        }
+    }
+    else
+    {
+        StopAndReleaseGel();
+    }
+}
+
+    private void StopAndReleaseGel()
+{
+    if (gelInstance.isValid())
+    {
+        gelInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        gelInstance.release();
+    }
+
+    gelInstance = default;
+}
 
     public void CheckProbePosition(Vector2 probePosition)
     {

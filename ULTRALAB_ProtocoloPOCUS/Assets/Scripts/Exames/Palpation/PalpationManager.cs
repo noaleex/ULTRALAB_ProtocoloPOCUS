@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using FMODUnity;
 
 public class PalpationManager : MonoBehaviour
 {
@@ -62,6 +63,11 @@ public class PalpationManager : MonoBehaviour
 
             if (area != null)
             {
+                // Toca som de click sempre que uma área válida for clicada
+                if (!area.clickSound.IsNull)
+                {
+                    RuntimeManager.PlayOneShot(area.clickSound);
+                }
                 if (!regioesDescobertas.Contains(area.region))
                 {
                     regioesDescobertas.Add(area.region);

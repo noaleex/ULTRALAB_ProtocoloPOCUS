@@ -171,6 +171,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BodyAreaP
   region: 0
   info: Enchimento capilar normal.
+  clickSound:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!222 &23281365
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1315,6 +1322,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BodyAreaP
   region: 1
   info: "Pulsos perif\xE9ricos normais."
+  clickSound:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!114 &441021220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1680,6 +1694,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BodyAreaP
   region: 1
   info: "Pulsos perif\xE9ricos normais."
+  clickSound:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!1 &600117435
 GameObject:
   m_ObjectHideFlags: 0
@@ -1991,6 +2012,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProbeButton
   probeType: 2
+  clickSound:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!1 &663606150
 GameObject:
   m_ObjectHideFlags: 0
@@ -2283,6 +2311,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BodyAreaP
   region: 2
   info: "Edema depress\xEDvel +2."
+  clickSound:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!222 &799678480
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2335,6 +2370,7 @@ GameObject:
   - component: {fileID: 800020564}
   - component: {fileID: 800020563}
   - component: {fileID: 800020567}
+  - component: {fileID: 800020568}
   m_Layer: 5
   m_Name: POCUS
   m_TagString: Untagged
@@ -2483,6 +2519,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b57b8ff39a342dd4fa258d8377705c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonImages
+--- !u!114 &800020568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800020561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1265a20d3cfb45f4ca5e6047e359d19f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  backgroundMusic:
+    Guid:
+      Data1: 1908830340
+      Data2: 1258941446
+      Data3: 527937433
+      Data4: -1681536942
+    Path: event:/Musica/mx_gameplay
+  interactionSound:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
+  backButtonSound:
+    Guid:
+      Data1: 499708047
+      Data2: 1331960269
+      Data3: -732660037
+      Data4: -1557932642
+    Path: event:/Interagir/fx_menu_click
 --- !u!1 &827559977
 GameObject:
   m_ObjectHideFlags: 0
@@ -2652,6 +2721,7 @@ GameObject:
   - component: {fileID: 866201646}
   - component: {fileID: 866201645}
   - component: {fileID: 866201650}
+  - component: {fileID: 866201651}
   m_Layer: 5
   m_Name: Leito
   m_TagString: Untagged
@@ -2800,6 +2870,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b57b8ff39a342dd4fa258d8377705c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonImages
+--- !u!114 &866201651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866201644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1265a20d3cfb45f4ca5e6047e359d19f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  backgroundMusic:
+    Guid:
+      Data1: 1908830340
+      Data2: 1258941446
+      Data3: 527937433
+      Data4: -1681536942
+    Path: event:/Musica/mx_gameplay
+  interactionSound:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
+  backButtonSound:
+    Guid:
+      Data1: 499708047
+      Data2: 1331960269
+      Data3: -732660037
+      Data4: -1557932642
+    Path: event:/Interagir/fx_menu_click
 --- !u!1 &915408058
 GameObject:
   m_ObjectHideFlags: 0
@@ -2997,6 +3100,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BodyAreaP
   region: 0
   info: Enchimento capilar normal.
+  clickSound:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!114 &972033171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3905,6 +4015,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProbeButton
   probeType: 1
+  clickSound:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!1 &1266882728
 GameObject:
   m_ObjectHideFlags: 0
@@ -4077,6 +4194,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProbeButton
   probeType: 3
+  clickSound:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!1 &1268029144
 GameObject:
   m_ObjectHideFlags: 0
@@ -4910,6 +5034,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BodyAreaP
   region: 2
   info: "Edema depress\xEDvel +2."
+  clickSound:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
 --- !u!114 &1698986596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6353,7 +6484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2044035170}
   - component: {fileID: 2044035169}
-  - component: {fileID: 2044035168}
+  - component: {fileID: 2044035171}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6361,14 +6492,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &2044035168
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2044035167}
-  m_Enabled: 1
 --- !u!20 &2044035169
 Camera:
   m_ObjectHideFlags: 0
@@ -6435,6 +6558,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2044035171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044035167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioListener
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!114 &2094505483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6686,6 +6823,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UltrassomManager
   probeImage: {fileID: 663606152}
   resultImage: {fileID: 1040285766}
+  gelSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   defaultImage: {fileID: -8527568592950175283, guid: 85d65de9e00d0044e98cd5df42c65431, type: 3}
   setorialProbeSprite: {fileID: 21300000, guid: 6013fc4988cf2334692981ff3331aff9, type: 3}
   linearProbeSprite: {fileID: 21300000, guid: 010bfdd742b39cb45939eb7f15c115aa, type: 3}

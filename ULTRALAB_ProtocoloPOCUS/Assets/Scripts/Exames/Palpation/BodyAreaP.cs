@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using FMODUnity;
 
 public class BodyAreaP : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class BodyAreaP : MonoBehaviour
 
     [TextArea]
     public string info;
+
+    [Header("FMOD")]
+    public EventReference clickSound;
 
     private Collider2D areaCollider;
 
