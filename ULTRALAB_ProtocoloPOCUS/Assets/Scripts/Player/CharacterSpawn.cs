@@ -10,7 +10,7 @@ public class CharacterSpawn : MonoBehaviour
 
     [SerializeField] private CinemachineCamera cinemachineCamera;
 
-    private void Start()
+    public void SpawnPlayer()
     {
         if (GameManager.Instance.HasPlayer())
         {

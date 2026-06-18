@@ -7,8 +7,12 @@ public class CutsceneManager : MonoBehaviour
 
     [Header("UI Management")]
     [SerializeField] private GameObject[] uiGroupsToHide;
-
     private Dictionary<GameObject, bool> originalUIState = new Dictionary<GameObject, bool>();
+
+    [Header("Switch Cutscene")]
+    [SerializeField] private GameObject cutsceneFeminina;
+    [SerializeField] private GameObject cutsceneMaculina;
+    private GameObject cutsceneAtiva;
 
     [Header("Estrutura de Cena")]
     [SerializeField] private Transform cutscenesReoot;
@@ -24,6 +28,32 @@ public class CutsceneManager : MonoBehaviour
             return;
         }
         Instance = this;
+    }
+
+    private void Start()
+    {
+        if (cutsceneFeminina != null) cutsceneFeminina.SetActive(false);
+        if (cutsceneMaculina != null) cutsceneMaculina.SetActive(false);
+
+        string genero = PlayerPrefs.GetString("Character", "");
+
+        if (genero == "Masculino")
+        {
+            cutsceneAtiva = cutsceneMaculina;
+        }
+        else
+        {
+            cutsceneAtiva = cutsceneFeminina;
+        }
+
+        if (cutsceneAtiva != null)
+        {
+            cutsceneAtiva.SetActive(true);
+        }
+        else
+        {
+            FinalizarEInstanciarPlayer();
+        }
     }
 
     public void OnCutsceneStart ()
@@ -51,6 +81,22 @@ public class CutsceneManager : MonoBehaviour
             {
                 uiGroup.SetActive(originalUIState[uiGroup]); 
             }
+        }
+
+        FinalizarEInstanciarPlayer();
+    }
+
+    private void FinalizarEInstanciarPlayer ()
+    {
+        CharacterSpawn spawner = FindFirstObjectByType<CharacterSpawn>();
+        if (spawner != null)
+        {
+            spawner.SpawnPlayer();
+        }
+        
+        if (cutsceneAtiva != null)
+        {
+            Destroy(cutsceneAtiva);
         }
     }
 }
