@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEditor; 
 using FMODUnity;
 using FMOD.Studio;
 
@@ -8,6 +9,9 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private string tutorial;
     [SerializeField] private GameObject menuInicial;
     [SerializeField] private GameObject SelectionCharacter;
+    [SerializeField] private GameObject menuOptionsPC;
+    [SerializeField] private GameObject menuOptionsAndroid;
+    [SerializeField] private GameObject menuSairConfimacao;
     public EventReference MusicaMenu;    
     public EventReference ClickMenu;
     public EventReference SelecionarPersonagemClick;
@@ -102,4 +106,53 @@ public class MenuManager : MonoBehaviour
         StopMenuMusic();
         UnityEngine.SceneManagement.SceneManager.LoadScene(tutorial);
     }
+
+    public void Options()
+    {
+        menuInicial.SetActive(false);
+
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            menuOptionsAndroid.SetActive(true);
+        }
+        else
+        {
+            menuOptionsPC.SetActive(true);
+        }
+    }
+
+    public void CloseOptions()
+    {
+        menuOptionsPC.SetActive(false);
+        menuOptionsAndroid.SetActive(false);
+        menuInicial.SetActive(true);
+    }
+
+    public void QuitConfirm()
+    {
+        menuInicial.SetActive(false);
+        menuSairConfimacao.SetActive(true);
+    }
+
+    public void QuitCancel()
+    {
+        menuSairConfimacao.SetActive(false);
+        menuInicial.SetActive(true);
+    }
+
+    public void QuitGame()
+    {
+#if UNITY_EDITOR
+        EditorApplication.ExitPlaymode();
+#else
+        Application.Quit();
+#endif
+    }
+
+    public void AndroidConfim()
+    { 
+            menuSairConfimacao.SetActive(true);
+            menuInicial.SetActive(false);
+    }
+
 }
