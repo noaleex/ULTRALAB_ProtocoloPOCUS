@@ -11,20 +11,16 @@ public class PalpationManager : MonoBehaviour
     public static PalpationManager Instance;
     public TMP_Text infoText;
 
+    // Agora você DEVE arrastar o GraphicRaycaster e o EventSystem aqui pelo Inspector da Unity
     [SerializeField] private GraphicRaycaster raycaster;
     [SerializeField] private EventSystem eventSystem;
 
-    // Lista para salvar as regiões do corpo que já foram examinadas
     private List<BodyAreaP.BodyRegion> regioesDescobertas = new List<BodyAreaP.BodyRegion>();
 
     private void Awake()
     {
         Instance = this;
-
-        if (raycaster == null) raycaster = FindFirstObjectByType<GraphicRaycaster>();
-        if (eventSystem == null) eventSystem = FindFirstObjectByType<EventSystem>();
         
-        // Texto sem nada
         if (infoText != null) infoText.text = ""; 
     }
 
@@ -35,22 +31,26 @@ public class PalpationManager : MonoBehaviour
             return;
         }
 
-        Vector2 mousePos = Mouse.current.position.ReadValue();
-        CheckPalpation(mousePos);
+        // Usando Pointer.current para garantir compatibilidade com Toque (Celular) e Clique (PC)
+        if (Pointer.current != null)
+        {
+            Vector2 pointerPos = Pointer.current.position.ReadValue();
+            CheckPalpation(pointerPos);
+        }
     }
 
     private void CheckPalpation(Vector2 screenPosition)
     {
+        // Se algum dos componentes obrigatórios estiver faltando, interrompe para evitar erros
+        if (eventSystem == null || raycaster == null) return;
+
         PointerEventData pointerData = new PointerEventData(eventSystem);
         pointerData.position = screenPosition;
 
         List<RaycastResult> results = new List<RaycastResult>();
         raycaster.Raycast(pointerData, results);
 
-        if (results.Count == 0)
-        {
-            return;
-        }
+        if (results.Count == 0) return;
 
         foreach (RaycastResult result in results)
         {
@@ -63,7 +63,6 @@ public class PalpationManager : MonoBehaviour
 
             if (area != null)
             {
-                // Toca som de click sempre que uma área válida for clicada
                 if (!area.clickSound.IsNull)
                 {
                     RuntimeManager.PlayOneShot(area.clickSound);
@@ -71,9 +70,7 @@ public class PalpationManager : MonoBehaviour
                 if (!regioesDescobertas.Contains(area.region))
                 {
                     regioesDescobertas.Add(area.region);
-                    // O "\n" serve para pular linha
-                    infoText.text += area.info + "\n" + "\n";
-
+                    infoText.text += area.info + "\n\n";
                 }
                 
                 return; 

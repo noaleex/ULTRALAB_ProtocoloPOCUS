@@ -8,11 +8,24 @@ public class InteractionDetector : MonoBehaviour
 
     [SerializeField] private GameObject interactionIcon;
 
+
+    private void Awake()
+    {
+        android = AndroidControl.Instance;
+    }
+
+
     private void Start()
     {
         interactionIcon.SetActive(false);
+    }
+
+
+    private void OnEnable()
+    {
         android = AndroidControl.Instance;
     }
+
 
     public void OnInteract(InputAction.CallbackContext context)
     {
@@ -40,7 +53,6 @@ public class InteractionDetector : MonoBehaviour
         }
     }
 
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.TryGetComponent(out IInteractable interactable) &&
@@ -50,7 +62,12 @@ public class InteractionDetector : MonoBehaviour
 
             interactionIcon.SetActive(true);
 
-            android.SetInteract(true);
+
+            if(android == null)
+                android = AndroidControl.Instance;
+
+
+            android?.SetInteract(true);
         }
     }
 
@@ -61,7 +78,14 @@ public class InteractionDetector : MonoBehaviour
         {
             interactableInRange = null;
         }
-        android.SetInteract(false);
+
+
+        if(android == null)
+            android = AndroidControl.Instance;
+
+
+        android?.SetInteract(false);
+
         interactionIcon.SetActive(false);
     }
 }

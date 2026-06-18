@@ -5,10 +5,8 @@ public class PauseController : MonoBehaviour
 {
     public static bool IsGamePaused { get; private set; }
 
-
     [Header("UI")]
     [SerializeField] private GameObject pausePanel;
-
 
     private void Awake()
     {
@@ -16,15 +14,11 @@ public class PauseController : MonoBehaviour
         IsGamePaused = false;
     }
 
-
-
     private void Start()
     {
         if (pausePanel != null)
             pausePanel.SetActive(false);
     }
-
-
 
     public static void SetPause(bool pause)
     {
@@ -32,8 +26,6 @@ public class PauseController : MonoBehaviour
 
         Time.timeScale = pause ? 0f : 1f;
     }
-
-
 
     public void OnPause(InputAction.CallbackContext context)
     {
@@ -48,29 +40,21 @@ public class PauseController : MonoBehaviour
             PauseGame();
     }
 
-
-
     private void PauseGame()
     {
         SetPause(true);
-
 
         if (pausePanel != null)
             pausePanel.SetActive(true);
     }
 
-
-
     private void ResumeGame()
     {
         SetPause(false);
 
-
         if (pausePanel != null)
             pausePanel.SetActive(false);
     }
-
-
 
     public void OnMenu()
     {

@@ -36,7 +36,7 @@ public class AndroidControl : MonoBehaviour
 
     private void FindPlayerReferences()
     {
-        if(PlayerReferences.Instance != null)
+        if (PlayerReferences.Instance != null)
         {
             interactionDetector = PlayerReferences.Instance.InteractionDetector;
         }
@@ -49,7 +49,7 @@ public class AndroidControl : MonoBehaviour
 
     public void ClickInteract()
     {
-        if(interactionDetector != null)
+        if (interactionDetector != null)
         {
             interactionDetector.MobileInteract();
         }
@@ -57,17 +57,17 @@ public class AndroidControl : MonoBehaviour
 
     public void SetInteract(bool value)
     {
-        if(buttonInteract == null)
+        if (buttonInteract == null)
             return;
 
 
-        if(value)
+        if (value)
         {
-            buttonInteract.color = new Color(1f,1f,1f,1f);
+            buttonInteract.color = new Color(1f, 1f, 1f, 1f);
         }
         else
         {
-            buttonInteract.color = new Color(1f,1f,1f,0.5f);
+            buttonInteract.color = new Color(1f, 1f, 1f, 0.5f);
         }
     }
 }
