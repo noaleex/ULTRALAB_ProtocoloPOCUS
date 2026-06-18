@@ -37,11 +37,9 @@ public class UltrasoundManager : MonoBehaviour
 
     [HideInInspector]
     public TransdutorSelected.ProbeType currentProbe =
-        TransdutorSelected.ProbeType.None;
+    TransdutorSelected.ProbeType.None;
 
     private void Awake()
-
-
     {
         Instance = this;
 
@@ -56,61 +54,60 @@ public class UltrasoundManager : MonoBehaviour
 
 
     public void SelectProbe(TransdutorSelected.ProbeType probe)
-{
-    currentProbe = probe;
-
-    switch (probe)
     {
-        case TransdutorSelected.ProbeType.Setorial:
-            probeImage.sprite = setorialProbeSprite;
-            break;
+        currentProbe = probe;
 
-        case TransdutorSelected.ProbeType.Linear:
-            probeImage.sprite = linearProbeSprite;
-            break;
-
-        case TransdutorSelected.ProbeType.Convex:
-            probeImage.sprite = convexProbeSprite;
-            break;
-
-             HandleGelSound(true);
-    }
-
-    CheckProbePosition(probeRect.position);
-}
-
-   private void HandleGelSound(bool probeOverBody)
-{
-    if (gelSound.IsNull || currentProbe == TransdutorSelected.ProbeType.None)
-    {
-        StopAndReleaseGel();
-        return;
-    }
-
-    if (probeOverBody)
-    {
-        if (!gelInstance.isValid())
+        switch (probe)
         {
-            gelInstance = RuntimeManager.CreateInstance(gelSound);
-            gelInstance.start();
+            case TransdutorSelected.ProbeType.Setorial:
+                probeImage.sprite = setorialProbeSprite;
+                break;
+
+            case TransdutorSelected.ProbeType.Linear:
+                probeImage.sprite = linearProbeSprite;
+                break;
+
+            case TransdutorSelected.ProbeType.Convex:
+                probeImage.sprite = convexProbeSprite;
+                break;
+        }
+        HandleGelSound(true);
+
+        CheckProbePosition(probeRect.position);
+    }
+
+    private void HandleGelSound(bool probeOverBody)
+    {
+        if (gelSound.IsNull || currentProbe == TransdutorSelected.ProbeType.None)
+        {
+            StopAndReleaseGel();
+            return;
+        }
+
+        if (probeOverBody)
+        {
+            if (!gelInstance.isValid())
+            {
+                gelInstance = RuntimeManager.CreateInstance(gelSound);
+                gelInstance.start();
+            }
+        }
+        else
+        {
+            StopAndReleaseGel();
         }
     }
-    else
-    {
-        StopAndReleaseGel();
-    }
-}
 
     private void StopAndReleaseGel()
-{
-    if (gelInstance.isValid())
     {
-        gelInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-        gelInstance.release();
-    }
+        if (gelInstance.isValid())
+        {
+            gelInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            gelInstance.release();
+        }
 
-    gelInstance = default;
-}
+        gelInstance = default;
+    }
 
     public void CheckProbePosition(Vector2 probePosition)
     {

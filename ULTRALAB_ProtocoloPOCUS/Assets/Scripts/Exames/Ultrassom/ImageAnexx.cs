@@ -27,6 +27,7 @@ public class ImageAnexx : MonoBehaviour
         anexxImage.sprite =
         ExamsSaveData.SavedImage;
         anexxImage.color = Color.white;
+        AudioManager.Instance?.PlayBack();
         
         ExamsSaveData.HasNewImage = false;
     }

@@ -19,38 +19,42 @@ public class OpenExams : MonoBehaviour, IInteractable
         return true;
     }
 
+
     public void Interact()
     {
         PlayClickSound();
         panelExam.SetActive(true);
-
         PauseController.SetPause(true);
 
         if (PlayerReferences.Instance != null)
         {
-            PlayerReferences.Instance.InteractIcon.SetActive(false);
 
-            if (PlayerReferences.Instance.playerMovement != null)
+            PlayerReferences.Instance.DisablePlayer();
+
+
+            if (PlayerReferences.Instance.InteractIcon != null)
             {
-                PlayerReferences.Instance.playerMovement.enabled = false;
+                PlayerReferences.Instance.InteractIcon.SetActive(false);
             }
+
         }
+
     }
 
     public void ClosePanel()
     {
         PlayClickSound();
         panelExam.SetActive(false);
-
         PauseController.SetPause(false);
 
         if (PlayerReferences.Instance != null)
         {
-            PlayerReferences.Instance.InteractIcon.SetActive(true);
 
-            if (PlayerReferences.Instance.playerMovement != null)
+            PlayerReferences.Instance.EnablePlayer();
+
+            if (PlayerReferences.Instance.InteractIcon != null)
             {
-                PlayerReferences.Instance.playerMovement.enabled = true;
+                PlayerReferences.Instance.InteractIcon.SetActive(true);
             }
         }
     }
@@ -59,7 +63,6 @@ public class OpenExams : MonoBehaviour, IInteractable
     {
         PlayClickSound();
         SceneManager.LoadScene(exams);
-
     }
 
     public void OpenConduta()

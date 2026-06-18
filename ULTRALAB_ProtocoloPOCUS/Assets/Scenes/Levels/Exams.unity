@@ -1092,7 +1092,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.90000075}
+  m_AnchoredPosition: {x: 0, y: -0.9000015}
   m_SizeDelta: {x: 0, y: -1.7999984}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &340101101
@@ -1230,7 +1230,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 989.1, y: 615.7}
+  m_SizeDelta: {x: 1009.7, y: 634.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &406764931
 MonoBehaviour:
@@ -1246,7 +1246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2055,7 +2055,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 411, y: -130}
-  m_SizeDelta: {x: 50, y: 100}
+  m_SizeDelta: {x: 90, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &663606152
 MonoBehaviour:
@@ -2370,7 +2370,6 @@ GameObject:
   - component: {fileID: 800020564}
   - component: {fileID: 800020563}
   - component: {fileID: 800020567}
-  - component: {fileID: 800020568}
   m_Layer: 5
   m_Name: POCUS
   m_TagString: Untagged
@@ -2411,8 +2410,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Interfaces
   pocus: {fileID: 2137500603}
   leito: {fileID: 1842000228}
-  tool: {fileID: 0}
-  lab: 
+  tool: {fileID: 849634469}
+  lab: LAB
 --- !u!114 &800020564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2519,39 +2518,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b57b8ff39a342dd4fa258d8377705c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonImages
---- !u!114 &800020568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800020561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1265a20d3cfb45f4ca5e6047e359d19f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
-  backgroundMusic:
-    Guid:
-      Data1: 1908830340
-      Data2: 1258941446
-      Data3: 527937433
-      Data4: -1681536942
-    Path: event:/Musica/mx_gameplay
-  interactionSound:
-    Guid:
-      Data1: 2103294604
-      Data2: 1155553301
-      Data3: -801384060
-      Data4: 1978304836
-    Path: event:/Interagir/fx_item
-  backButtonSound:
-    Guid:
-      Data1: 499708047
-      Data2: 1331960269
-      Data3: -732660037
-      Data4: -1557932642
-    Path: event:/Interagir/fx_menu_click
 --- !u!1 &827559977
 GameObject:
   m_ObjectHideFlags: 0
@@ -2721,7 +2687,6 @@ GameObject:
   - component: {fileID: 866201646}
   - component: {fileID: 866201645}
   - component: {fileID: 866201650}
-  - component: {fileID: 866201651}
   m_Layer: 5
   m_Name: Leito
   m_TagString: Untagged
@@ -2743,8 +2708,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Interfaces
   pocus: {fileID: 2137500603}
   leito: {fileID: 1842000228}
-  tool: {fileID: 0}
-  lab: 
+  tool: {fileID: 849634469}
+  lab: LAB
 --- !u!114 &866201646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2870,39 +2835,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b57b8ff39a342dd4fa258d8377705c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonImages
---- !u!114 &866201651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866201644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1265a20d3cfb45f4ca5e6047e359d19f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
-  backgroundMusic:
-    Guid:
-      Data1: 1908830340
-      Data2: 1258941446
-      Data3: 527937433
-      Data4: -1681536942
-    Path: event:/Musica/mx_gameplay
-  interactionSound:
-    Guid:
-      Data1: 2103294604
-      Data2: 1155553301
-      Data3: -801384060
-      Data4: 1978304836
-    Path: event:/Interagir/fx_item
-  backButtonSound:
-    Guid:
-      Data1: 499708047
-      Data2: 1331960269
-      Data3: -732660037
-      Data4: -1557932642
-    Path: event:/Interagir/fx_menu_click
 --- !u!1 &915408058
 GameObject:
   m_ObjectHideFlags: 0
@@ -3421,7 +3353,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -161.9, y: 42.2}
+  m_AnchoredPosition: {x: -161.9, y: 14.2}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1063874703
@@ -3502,7 +3434,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 899.8, y: 507.7}
+  m_SizeDelta: {x: 1022.7, y: 570}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1082884749
 MonoBehaviour:
@@ -3679,7 +3611,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -4340,6 +4272,71 @@ PolygonCollider2D:
       - {x: -17.163567, y: 20.491884}
       - {x: -16.747784, y: 25.800804}
   m_UseDelaunayMesh: 1
+--- !u!1 &1332520775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1332520777}
+  - component: {fileID: 1332520776}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1332520776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332520775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1265a20d3cfb45f4ca5e6047e359d19f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  backgroundMusic:
+    Guid:
+      Data1: 1908830340
+      Data2: 1258941446
+      Data3: 527937433
+      Data4: -1681536942
+    Path: event:/Musica/mx_gameplay
+  interactionSound:
+    Guid:
+      Data1: 2103294604
+      Data2: 1155553301
+      Data3: -801384060
+      Data4: 1978304836
+    Path: event:/Interagir/fx_item
+  backButtonSound:
+    Guid:
+      Data1: 499708047
+      Data2: 1331960269
+      Data3: -732660037
+      Data4: -1557932642
+    Path: event:/Interagir/fx_menu_click
+--- !u!4 &1332520777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332520775}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.46048, y: -6.57972, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1353713655
 GameObject:
   m_ObjectHideFlags: 0
@@ -4377,7 +4374,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -135.8, y: 28}
+  m_AnchoredPosition: {x: -180, y: 49.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1353713657
@@ -5108,7 +5105,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -101.7, y: 26.52124}
+  m_AnchoredPosition: {x: -130.5, y: 86.7}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1762434225
@@ -5681,7 +5678,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -91, y: 27.8}
+  m_AnchoredPosition: {x: -91, y: 44.7}
   m_SizeDelta: {x: 137, y: 23.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1863870432
@@ -6023,7 +6020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6860,3 +6857,4 @@ SceneRoots:
   - {fileID: 2044035170}
   - {fileID: 1949883216}
   - {fileID: 1019422890}
+  - {fileID: 1332520777}

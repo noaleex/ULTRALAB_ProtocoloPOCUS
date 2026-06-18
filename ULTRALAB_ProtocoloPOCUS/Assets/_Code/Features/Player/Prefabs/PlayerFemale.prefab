@@ -340,6 +340,7 @@ MonoBehaviour:
       Data3: 1213834379
       Data4: -867603342
     Path: event:/FootStep/fx_fs_ceramica
+  sampleDistance: 2
 --- !u!114 &4413795837784688550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -469,6 +470,7 @@ MonoBehaviour:
   interactIcon: {fileID: 3582078887113947399}
   interactionDetector: {fileID: 3554129526055558895}
   playerMovement: {fileID: 6151928438866318164}
+  playerNavMesh: {fileID: 6143076234983789047}
 --- !u!1 &3582078887113947399
 GameObject:
   m_ObjectHideFlags: 0

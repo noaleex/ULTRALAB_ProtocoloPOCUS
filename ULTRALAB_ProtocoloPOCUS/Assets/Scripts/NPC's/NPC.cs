@@ -56,12 +56,21 @@ public class NPC : MonoBehaviour, IInteractable
         if (dialogueData == null || isDialogueActive)
             return;
 
+
+        if (!gameObject.activeInHierarchy)
+        {
+            gameObject.SetActive(true);
+        }
+
+
         if (PlayerReferences.Instance?.InteractionDetector != null)
         {
             PlayerReferences.Instance.InteractionDetector.ForceInteractable(this);
         }
 
+
         PlayInteractSound();
+
         StartDialogue();
     }
 
@@ -85,7 +94,7 @@ public class NPC : MonoBehaviour, IInteractable
 
             if (PlayerReferences.Instance.playerMovement != null)
             {
-                PlayerReferences.Instance.playerMovement.enabled = false;
+                PlayerReferences.Instance.DisablePlayer();
             }
         }
     }
@@ -186,7 +195,7 @@ public class NPC : MonoBehaviour, IInteractable
 
             if (PlayerReferences.Instance.playerMovement != null)
             {
-                PlayerReferences.Instance.playerMovement.enabled = true;
+                PlayerReferences.Instance.EnablePlayer();
             }
         }
     }

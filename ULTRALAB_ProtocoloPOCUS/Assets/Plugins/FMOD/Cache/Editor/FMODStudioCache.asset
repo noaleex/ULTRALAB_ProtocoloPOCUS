@@ -493,7 +493,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 6967480129780902945}
   cacheVersion: 131848
-  cacheTime: 639168018662437701
+  cacheTime: 639167947292550023
   SerializableEventsDict:
   - key: event:/Falas/wa_morcego
     index: 0
@@ -1074,7 +1074,7 @@ MonoBehaviour:
   Path: ../FMODProtocoloPOCUS/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639167103881222729
+  lastModified: 639167029848495592
   FileSizes:
   - Name: Desktop
     Value: 2500
@@ -1175,7 +1175,7 @@ MonoBehaviour:
   Path: ../FMODProtocoloPOCUS/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639168018662437701
+  lastModified: 639167947292550023
   FileSizes:
   - Name: Desktop
     Value: 17377088

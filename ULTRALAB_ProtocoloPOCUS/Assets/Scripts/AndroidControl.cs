@@ -23,14 +23,14 @@ public class AndroidControl : MonoBehaviour
 
         SetInteract(false);
 
-        /*if (Application.platform == RuntimePlatform.Android) 
+        if (Application.platform == RuntimePlatform.Android) 
         { 
             painelAndroid.SetActive(true); 
         } 
         else 
         { 
             painelAndroid.SetActive(false); 
-        }*/
+        }
     }
 
 

@@ -49,6 +49,18 @@ public class CharacterSpawn : MonoBehaviour
 
         DontDestroyOnLoad(novoPersonagem);
 
+
+        PlayerReferences references =
+            novoPersonagem.GetComponent<PlayerReferences>();
+
+
+        if (references != null)
+        {
+            references.RefreshReferences();
+        }
+
+
+
         GameManager.Instance.RegisterPlayer(novoPersonagem);
 
         if (cinemachineCamera != null)
