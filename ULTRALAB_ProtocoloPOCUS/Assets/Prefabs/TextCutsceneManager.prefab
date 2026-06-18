@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1311173020869924479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 469915988001079721}
+  - component: {fileID: 8134136761170921156}
+  m_Layer: 0
+  m_Name: TextCutsceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &469915988001079721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311173020869924479}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8134136761170921156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311173020869924479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6899ee713b6947643b3ada7c3aeeede9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TextCutsceneManager
+  dialoguePanel: {fileID: 0}
+  nameText: {fileID: 0}
+  dialogueText: {fileID: 0}
+  typingSpeed: 0.04
+  allCutscenes:
+  - cutsceneID: C1
+    lines:
+    - characterName: 
+      sentence: "O juramento estava feito. O diploma nas m\xE3os."
+    - characterName: 
+      sentence: "Naquele dia, a sensa\xE7\xE3o era de que est\xE1vamos prontos para
+        salvar o mundo."
+    - characterName: 
+      sentence: "Mas a teoria n\xE3o te prepara para o peso da realidade..."
+    - characterName: 
+      sentence: 
+  - cutsceneID: C2
+    lines:
+    - characterName: 
+      sentence: "Apesar de toda a experi\xEAncia, a sensa\xE7\xE3o de que falta algo
+        \xE9 constante."
+    - characterName: 
+      sentence: "A sa\xFAde evolui todos os dias... e eu preciso evoluir junto."
+  - cutsceneID: C3
+    lines:
+    - characterName: Enf. Adrian
+      sentence: "\"Ent\xE3o, se voc\xEA colocar o transdutor exatamente nesta posi\xE7\xE3o,
+        olha s\xF3 a diferen\xE7a\""
+    - characterName: 
+      sentence: "Foi exatamente a\xED que eu conheci o POCUS."
+    - characterName: 
+      sentence: O que eu demoraria minutos para tentar deduzir no escuro, o Adrian
+        confirmou em segundos.
+    - characterName: 
+      sentence: "N\xE3o era apenas uma ferramenta. Era ter uma janela direta para
+        o interior do paciente."
+    - characterName: 
+      sentence: 
+  - cutsceneID: C4
+    lines:
+    - characterName: 
+      sentence: "A decis\xE3o estava tomada. Eu precisava dominar aquela vis\xE3o."
+    - characterName: 
+      sentence: "Ap\xF3s algumas pesquisas, encontrei o projeto Ultralab."
+    - characterName: 
+      sentence: 
+  - cutsceneID: C5
+    lines:
+    - characterName: 
+      sentence: "A aprova\xE7\xE3o no projeto Ultralab foi apenas o primeiro passo."
+    - characterName: 
+      sentence: "Foram meses dissecando imagens, entendendo as ondas sonoras e a
+        f\xEDsica por tr\xE1s do equipamento."
+    - characterName: 
+      sentence: "Eu estava determinado a mudar a minha forma de enxergar o corpo
+        humano. Aprender tudo o que fosse poss\xEDvel."
+    - characterName: 
+      sentence: 
+  - cutsceneID: C6
+    lines:
+    - characterName: 
+      sentence: "No laborat\xF3rio, a teoria finalmente ganhava vida. Transdutor,
+        gel condutor, ajustes de ganho e profundidade."
+    - characterName: 
+      sentence: "Sob a orienta\xE7\xE3o atenta dos Professores, o ru\xEDdo confuso
+        na tela transformava-se em respostas n\xEDtidas."
+    - characterName: 
+      sentence: "O POCUS j\xE1 n\xE3o era um mist\xE9rio. Era a minha nova vis\xE3o
+        cl\xEDnica."
+    - characterName: 
+      sentence: 
+  - cutsceneID: C7
+    lines:
+    - characterName: Prof. Gabriel
+      sentence: Bom dia, futuros colegas. Chegamos ao momento decisivo.
+    - characterName: Prof. Gabriel
+      sentence: "Hoje, o laborat\xF3rio deixa de ser um espa\xE7o de treino para
+        se tornar o palco da sua \xFAltima avalia\xE7\xE3o pr\xE1tica antes da formatura."
+    - characterName: Prof. Gabriel
+      sentence: "A din\xE2mica ser\xE1 em duplas. Enquanto um assume a responsabilidade
+        assistencial, o outro atuar\xE1 como paciente simulado."
+    - characterName: Prof. Gabriel
+      sentence: "Voc\xEAs se revezar\xE3o. O objetivo n\xE3o \xE9 apenas realizar
+        o procedimento, mas demonstrar o racioc\xEDnio cl\xEDnico sob o olhar da
+        banca."
+    - characterName: Prof. Gabriel
+      sentence: Se reunam com suas duplas nos leitos do Lab ao lado.
+    - characterName: Prof. Gabriel
+      sentence: "Sua miss\xE3o \xE9 realizar a proped\xEAutica completa e utilizar
+        o POCUS para uma varredura card\xEDaca focada."
+    - characterName: 
+      sentence: 
