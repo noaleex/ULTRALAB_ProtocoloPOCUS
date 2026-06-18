@@ -7,15 +7,18 @@ public class MenuManager : MonoBehaviour
 {
 
     [SerializeField] private string tutorial;
+    
     [SerializeField] private GameObject menuInicial;
     [SerializeField] private GameObject SelectionCharacter;
     [SerializeField] private GameObject menuOptionsPC;
     [SerializeField] private GameObject menuOptionsAndroid;
     [SerializeField] private GameObject menuSairConfimacao;
+
     public EventReference MusicaMenu;    
     public EventReference ClickMenu;
     public EventReference SelecionarPersonagemClick;
     private EventInstance menuMusicInstance;
+
     private string character;
 
     private void Start()

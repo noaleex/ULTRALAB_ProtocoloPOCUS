@@ -10,11 +10,21 @@ public class CharacterSpawn : MonoBehaviour
 
     [SerializeField] private CinemachineCamera cinemachineCamera;
 
+
+    private void Start()
+    {
+        SpawnPlayer();
+    }
+
+
     public void SpawnPlayer()
     {
+
         if (GameManager.Instance.HasPlayer())
         {
-            if (cinemachineCamera != null)
+            Debug.Log("Player já existe");
+
+            if(cinemachineCamera != null)
             {
                 cinemachineCamera.Follow =
                     GameManager.Instance.Player.transform;
@@ -23,29 +33,32 @@ public class CharacterSpawn : MonoBehaviour
             return;
         }
 
+
         string characterEscolhido =
             PlayerPrefs.GetString("Character", "");
 
+
+        Debug.Log("Personagem escolhido: " + characterEscolhido);
+
+
         GameObject prefabParaInstanciar = null;
 
-        if (characterEscolhido == "Masculino")
+
+        if(characterEscolhido == "Masculino")
         {
             prefabParaInstanciar = prefabMasculino;
         }
-
-        if (characterEscolhido == "Feminino")
+        else if(characterEscolhido == "Feminino")
         {
             prefabParaInstanciar = prefabFeminino;
         }
-
-        if (prefabParaInstanciar == null)
-            return;
 
         GameObject novoPersonagem = Instantiate(
             prefabParaInstanciar,
             spawnPoint.position,
             spawnPoint.rotation
         );
+
 
         DontDestroyOnLoad(novoPersonagem);
 
@@ -54,19 +67,27 @@ public class CharacterSpawn : MonoBehaviour
             novoPersonagem.GetComponent<PlayerReferences>();
 
 
-        if (references != null)
+        if(references != null)
         {
             references.RefreshReferences();
+
+
+            if(AndroidControl.Instance != null)
+            {
+                AndroidControl.Instance.SetPlayerInteraction(
+                    references.InteractionDetector
+                );
+            }
         }
-
-
 
         GameManager.Instance.RegisterPlayer(novoPersonagem);
 
-        if (cinemachineCamera != null)
+
+        if(cinemachineCamera != null)
         {
             cinemachineCamera.Follow =
                 novoPersonagem.transform;
         }
+
     }
 }

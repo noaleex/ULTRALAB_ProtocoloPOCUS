@@ -13,37 +13,53 @@ public class AndroidControl : MonoBehaviour
 
     private void Awake()
     {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         Instance = this;
     }
 
-
     private void Start()
     {
-        interactionDetector = PlayerReferences.Instance.InteractionDetector;
-
         SetInteract(false);
 
-        if (Application.platform == RuntimePlatform.Android) 
-        { 
-            painelAndroid.SetActive(true); 
-        } 
-        else 
-        { 
-            painelAndroid.SetActive(false); 
+        if (painelAndroid != null)
+        {
+            painelAndroid.SetActive(Application.platform == RuntimePlatform.Android);
+        }
+
+        FindPlayerReferences();
+    }
+
+    private void FindPlayerReferences()
+    {
+        if(PlayerReferences.Instance != null)
+        {
+            interactionDetector = PlayerReferences.Instance.InteractionDetector;
         }
     }
 
+    public void SetPlayerInteraction(InteractionDetector detector)
+    {
+        interactionDetector = detector;
+    }
 
     public void ClickInteract()
     {
-        interactionDetector?.MobileInteract();
+        if(interactionDetector != null)
+        {
+            interactionDetector.MobileInteract();
+        }
     }
-
 
     public void SetInteract(bool value)
     {
         if(buttonInteract == null)
             return;
+
 
         if(value)
         {
