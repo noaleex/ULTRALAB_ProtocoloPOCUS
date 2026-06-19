@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 66c4e3e03a335e94d88f5e190b1aac1a
+guid: 1b839e77788f0334a9a74abef15a33a6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6005589776088635696
-    second: PacienteMasc2PISCA_0
+      213: -311120749449246297
+    second: CarlaPisca_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
@@ -109,17 +109,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PacienteMasc2PISCA_0
+      name: CarlaPisca_0
       rect:
         serializedVersion: 2
         x: 21
-        y: 17
-        width: 22
-        height: 37
+        y: 7
+        width: 23
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0391b761514285350800000000000000
-      internalID: 6005589776088635696
+      spriteID: 7a903d6a35daeabf0800000000000000
+      internalID: -311120749449246297
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PacienteMasc2PISCA_0: 6005589776088635696
+      CarlaPisca_0: -311120749449246297
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

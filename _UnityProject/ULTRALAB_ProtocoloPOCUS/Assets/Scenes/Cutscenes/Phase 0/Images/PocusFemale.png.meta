@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 44e68291f27a9964cb112c189bf382c5
+guid: 01ea2e5fc5a850b49bc7020e88a50b9c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1110237631114588770
-    second: PesqFemale_0
+      213: 8324765304328246733
+    second: PocusFemale_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,11 +109,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PesqFemale_0
+      name: PocusFemale_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9dc42db1c4a790f0800000000000000
-      internalID: -1110237631114588770
+      spriteID: dc55bf210f1878370800000000000000
+      internalID: 8324765304328246733
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PesqFemale_0: -1110237631114588770
+      PocusFemale_0: 8324765304328246733
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
