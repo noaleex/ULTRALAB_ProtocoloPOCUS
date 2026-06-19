@@ -12,6 +12,8 @@ public class CutsceneManager : MonoBehaviour
     [Header("Switch Cutscene")]
     [SerializeField] private GameObject cutsceneFeminina;
     [SerializeField] private GameObject cutsceneMaculina;
+    [SerializeField] private GameObject cutsceneManager;
+    [SerializeField] private GameObject cadeiras;
     private GameObject cutsceneAtiva;
 
     private void Awake()
@@ -26,6 +28,12 @@ public class CutsceneManager : MonoBehaviour
 
     private void Start()
     {
+        if (PlayerPrefs.GetInt("Cutscene_Intro_PLayed", 0) == 1)
+        {
+            FinalizarEInstanciarPlayer();
+            return;
+        }
+
         if (cutsceneFeminina != null) cutsceneFeminina.SetActive(false);
         if (cutsceneMaculina != null) cutsceneMaculina.SetActive(false);
 
@@ -69,6 +77,9 @@ public class CutsceneManager : MonoBehaviour
     {
         Debug.Log("[CutsceneManager] Cutscene concluída. Reativando Interfaces...");
 
+        PlayerPrefs.SetInt("Cutscene_Intro_PLayed", 1);
+        PlayerPrefs.Save();
+
         foreach (GameObject uiGroup in uiGroupsToHide)
         {
             if (uiGroup != null && originalUIState.ContainsKey(uiGroup))
@@ -92,5 +103,8 @@ public class CutsceneManager : MonoBehaviour
         {
             Destroy(cutsceneAtiva);
         }
+
+        Destroy(cutsceneManager);
+        Destroy(cadeiras);
     }
 }

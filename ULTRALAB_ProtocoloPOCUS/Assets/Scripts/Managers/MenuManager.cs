@@ -72,6 +72,7 @@ public class MenuManager : MonoBehaviour
 
         print("Personagem Limpo");
         PlayerPrefs.DeleteKey("Character");
+        PlayerPrefs.DeleteKey("Cutscene_Intro_Played");
         PlayerPrefs.Save();
     }
 
