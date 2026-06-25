@@ -7,11 +7,12 @@ public class RawImageCover : MonoBehaviour
     private RawImage rawImage;
     private RectTransform rectTransform;
 
+    private Vector2 lastSize;
+
     void Awake()
     {
         rawImage = GetComponent<RawImage>();
         rectTransform = GetComponent<RectTransform>();
-        AdjustImage();
     }
 
     void OnEnable()
@@ -28,8 +29,17 @@ public class RawImageCover : MonoBehaviour
     {
         if (rawImage == null || rawImage.texture == null || rectTransform == null) return;
 
-        float containerRatio = rectTransform.rect.width / rectTransform.rect.height;
+        float containerWidth = rectTransform.rect.width;
+        float containerHeight = rectTransform.rect.height;
 
+        if (containerHeight == 0f || rawImage.texture.height == 0) return;
+
+        Vector2 currentSize = new Vector2(containerWidth, containerHeight);
+        if(currentSize == lastSize) return;
+
+        lastSize = currentSize;
+
+        float containerRatio = containerWidth / containerHeight;
         float imageRatio = (float)rawImage.texture.width / rawImage.texture.height;
 
         float uvScaleX = 1f;
