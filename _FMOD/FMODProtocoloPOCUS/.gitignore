@@ -28,3 +28,11 @@ Assets/Plugins/FMOD/Resources/FMODStudioCache.asset.meta
 !/[Aa]ssets/Plugins/FMOD/**/lib/*
 !/[Aa]ssets/Gizmos/FMOD/*
 !/[Aa]ssets/Editor Default Resources/FMOD/*
+
+*.bundle binary
+*.dylib binary
+*.so binary
+*.dll binary
+
+git rm --cached -r .
+git reset --hard
