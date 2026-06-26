@@ -119,3 +119,6 @@ fmod_editor.log
 # FMOD 1.10.x (Legacy)
 /Assets/FMODAssets/*
 /Assets/FMODStudioCache.meta
+
+# para tentar resolver repair do FMOD
+/Assets/Plugins/FMOD/platforms/mac
