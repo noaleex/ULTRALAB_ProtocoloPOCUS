@@ -95,14 +95,14 @@
 		<property name="length">
 			<value>10.247999999999999</value>
 		</property>
-		<property name="volume">
-			<value>-7.5</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{61d8f1d4-c477-4231-b9db-9a7134973aca}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a7cce381-859b-4d46-a580-fe1d4ff6035c}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="name">
 			<value>wa_isadora</value>
 		</property>

@@ -96,13 +96,16 @@
 			<value>12.816000000000001</value>
 		</property>
 		<property name="volume">
-			<value>-11</value>
+			<value>10</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{31553a76-dc48-48f6-83c8-8acce6e87263}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{63b1000d-6863-477d-95be-1e2b70d4ad79}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="name">
 			<value>wa_morcego</value>
 		</property>

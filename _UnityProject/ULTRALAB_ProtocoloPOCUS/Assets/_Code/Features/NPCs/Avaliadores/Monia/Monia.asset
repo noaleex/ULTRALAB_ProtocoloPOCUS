@@ -22,11 +22,11 @@ MonoBehaviour:
   typingSpeed: 0.05
   voiceEvent:
     Guid:
-      Data1: -1158635385
-      Data2: 1079365293
-      Data3: -963294557
-      Data4: -1252902628
-    Path: event:/Falas/wa_mulher
+      Data1: 1331685267
+      Data2: 1294541233
+      Data3: -34586966
+      Data4: -689460911
+    Path: event:/Falas/wa_monia
   voicePitch: 1
   autoProgressLines: 
   autoProgressDelay: 1.5
