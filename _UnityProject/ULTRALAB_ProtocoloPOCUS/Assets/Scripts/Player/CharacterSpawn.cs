@@ -52,6 +52,10 @@ public class CharacterSpawn : MonoBehaviour
         {
             prefabParaInstanciar = prefabFeminino;
         }
+        else if(characterEscolhido == "")
+        {
+            prefabParaInstanciar = prefabFeminino;
+        }
 
         GameObject novoPersonagem = Instantiate(
             prefabParaInstanciar,

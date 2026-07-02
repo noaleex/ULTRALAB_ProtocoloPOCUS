@@ -3207,7 +3207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &568361865
 Transform:
   m_ObjectHideFlags: 0
@@ -9629,6 +9629,7 @@ GameObject:
   - component: {fileID: 748466230}
   - component: {fileID: 748466233}
   - component: {fileID: 748466234}
+  - component: {fileID: 748466235}
   m_Layer: 5
   m_Name: ButtonMenu
   m_TagString: Untagged
@@ -9762,6 +9763,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonMenu
   pauseController: {fileID: 1866819038}
+--- !u!114 &748466235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748466228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: NavMeshPlus::NavMeshPlus.Components.NavMeshModifier
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &750014257
 GameObject:
   m_ObjectHideFlags: 0
@@ -14849,6 +14866,7 @@ GameObject:
   - component: {fileID: 1044896648}
   - component: {fileID: 1044896647}
   - component: {fileID: 1044896650}
+  - component: {fileID: 1044896651}
   m_Layer: 5
   m_Name: ButtonInteract
   m_TagString: Untagged
@@ -14981,6 +14999,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b57b8ff39a342dd4fa258d8377705c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonImages
+--- !u!114 &1044896651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044896645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: NavMeshPlus::NavMeshPlus.Components.NavMeshModifier
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1061497095
 GameObject:
   m_ObjectHideFlags: 0
@@ -29169,10 +29203,6 @@ MonoBehaviour:
     m_ActionName: 'UI/Point[/Mouse/position]'
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: 3c7022bf-7922-4f7c-a998-c437916075ad
-    m_ActionName: 'UI/Click[/Mouse/leftButton]'
-  - m_PersistentCalls:
-      m_Calls: []
     m_ActionId: 44b200b1-1557-4083-816c-b22cbdf77ddf
     m_ActionName: 'UI/RightClick[/Mouse/rightButton]'
   - m_PersistentCalls:
@@ -29191,6 +29221,14 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5737f4c4-ec46-44c8-a779-948f1227f0b2
+    m_ActionName: 'UI/Click[/Mouse/leftButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 867bda6b-f4d9-403d-9606-cd56419d5503
+    m_ActionName: UI/New action
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: UI
@@ -29606,7 +29644,7 @@ MonoBehaviour:
       Data2: 1282403227
       Data3: -549595210
       Data4: 552736080
-    Path: event:/Fx_lab
+    Path: event:/Ambiente/fx_lab
 --- !u!4 &1943116480
 Transform:
   m_ObjectHideFlags: 0
@@ -29782,6 +29820,7 @@ GameObject:
   - component: {fileID: 2002453276}
   - component: {fileID: 2002453278}
   - component: {fileID: 2002453277}
+  - component: {fileID: 2002453279}
   m_Layer: 5
   m_Name: PanelAndroid
   m_TagString: Untagged
@@ -29862,6 +29901,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2002453274}
   m_CullTransparentMesh: 1
+--- !u!114 &2002453279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002453274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: NavMeshPlus::NavMeshPlus.Components.NavMeshModifier
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &2007115292
 GameObject:
   m_ObjectHideFlags: 0
