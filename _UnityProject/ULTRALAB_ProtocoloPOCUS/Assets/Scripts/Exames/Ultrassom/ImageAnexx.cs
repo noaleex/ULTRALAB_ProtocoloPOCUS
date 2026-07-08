@@ -3,32 +3,84 @@ using UnityEngine.UI;
 
 public class ImageAnexx : MonoBehaviour
 {
-    [Header("Referências")]
-    [SerializeField] private UltrasoundManager ultrasoundManager;
-
+    [Header("UI")]
     [SerializeField] private Image anexxImage;
-
-    public void OnSaveImage()
-    {
-        if (ultrasoundManager == null)
-            return;
-
-        ExamsSaveData.SavedImage =
-            ultrasoundManager.resultImage.sprite;
-
-        ExamsSaveData.HasNewImage = true;
-    }
+    [SerializeField] private Image defaultImage;
 
     public void OnAnexx()
     {
-        if (!ExamsSaveData.HasNewImage)
-            return;
+        UpdateUI();
 
-        anexxImage.sprite =
-        ExamsSaveData.SavedImage;
-        anexxImage.color = Color.white;
         AudioManager.Instance?.PlayBack();
-        
-        ExamsSaveData.HasNewImage = false;
+    }
+
+    public void UpdateUI()
+    {
+        if (ExamsSaveData.HasImage)
+        {
+            anexxImage.sprite = ExamsSaveData.SavedImage;
+            anexxImage.color = Color.white;
+        }
+        else
+        {
+            anexxImage.sprite = defaultImage.sprite;
+            anexxImage.color = new Color(1, 1, 1, 0);
+        }
+    }
+
+    public void OnConfirm()
+    {
+        if (!ExamsSaveData.HasImage)
+        {
+            Debug.Log("Anexe uma imagem para confirmar.");
+            return;
+        }
+
+        if (ExamsSaveData.IsDefaultUltrasoundImage)
+        {
+            Debug.Log("Imagem vazia do ultrassom.");
+            return;
+        }
+
+        switch (ExamsSaveData.SavedExam)
+        {
+            case BodyArea.BodyRegion.Heart:
+                Debug.Log("Imagem do Coração confirmada.");
+                break;
+
+            case BodyArea.BodyRegion.Lung1:
+                Debug.Log("Imagem do Pulmão confirmada.");
+                break;
+
+            case BodyArea.BodyRegion.Lung2:
+                Debug.Log("Imagem do Pulmão 2 confirmada.");
+                break;
+
+            case BodyArea.BodyRegion.Bladder:
+                Debug.Log("Imagem da Bexiga confirmada.");
+                break;
+
+            default:
+                Debug.Log("Anexe uma imagem para confirmar.");
+                break;
+        }
+    }
+
+    public void OnDeleteImage()
+    {
+        ExamsSaveData.Clear();
+
+        UpdateUI();
+
+        Debug.Log("Imagem apagada.");
+    }
+
+    public void OnUndoDelete()
+    {
+        ExamsSaveData.UndoDelete();
+
+        UpdateUI();
+
+        Debug.Log("Imagem restaurada.");
     }
 }

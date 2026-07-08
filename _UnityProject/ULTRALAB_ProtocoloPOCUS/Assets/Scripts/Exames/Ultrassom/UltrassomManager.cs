@@ -39,19 +39,19 @@ public class UltrasoundManager : MonoBehaviour
     public TransdutorSelected.ProbeType currentProbe =
     TransdutorSelected.ProbeType.None;
 
+
     private void Awake()
     {
         Instance = this;
 
         probeRect = probeImage.GetComponent<RectTransform>();
+
     }
 
     private void Start()
     {
         resultImage.sprite = defaultImage;
     }
-
-
 
     public void SelectProbe(TransdutorSelected.ProbeType probe)
     {
@@ -109,11 +109,15 @@ public class UltrasoundManager : MonoBehaviour
         gelInstance = default;
     }
 
+    public BodyArea.BodyRegion CurrentRegion { get; private set; }
+
     public void CheckProbePosition(Vector2 probePosition)
     {
-        // CORAÇÃO -> LINEAR
+        // CORAÇÃO
         if (heart.ContainsPoint(probePosition))
         {
+            CurrentRegion = BodyArea.BodyRegion.Heart;
+
             if (currentProbe == TransdutorSelected.ProbeType.Linear)
                 resultImage.sprite = heart.correctImage;
             else
@@ -122,10 +126,12 @@ public class UltrasoundManager : MonoBehaviour
             return;
         }
 
-        // PULMÃO -> SETORIAL
+        // PULMÃO
         if (lung1.ContainsPoint(probePosition) ||
             lung2.ContainsPoint(probePosition))
         {
+            CurrentRegion = BodyArea.BodyRegion.Lung1;
+
             if (currentProbe == TransdutorSelected.ProbeType.Setorial)
                 resultImage.sprite = lung1.correctImage;
             else
@@ -134,9 +140,11 @@ public class UltrasoundManager : MonoBehaviour
             return;
         }
 
-        // BEXIGA -> CONVEXO
+        // BEXIGA
         if (bladder.ContainsPoint(probePosition))
         {
+            CurrentRegion = BodyArea.BodyRegion.Bladder;
+
             if (currentProbe == TransdutorSelected.ProbeType.Convex)
                 resultImage.sprite = bladder.correctImage;
             else

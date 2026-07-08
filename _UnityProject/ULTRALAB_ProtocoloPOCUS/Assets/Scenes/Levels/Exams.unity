@@ -3862,7 +3862,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2137500608}
-        m_TargetAssemblyTypeName: ImageAnexx, Assembly-CSharp
+        m_TargetAssemblyTypeName: UltrassondSave, Assembly-CSharp
         m_MethodName: OnSaveImage
         m_Mode: 1
         m_Arguments:
@@ -7075,11 +7075,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2137500603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c44d6c205276549a681d735f5df5ef, type: 3}
+  m_Script: {fileID: 11500000, guid: 10625a101bd94ac438d075f825d386d9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ImageAnexx
+  m_EditorClassIdentifier: Assembly-CSharp::UltrassondSave
   ultrasoundManager: {fileID: 2137500607}
-  anexxImage: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

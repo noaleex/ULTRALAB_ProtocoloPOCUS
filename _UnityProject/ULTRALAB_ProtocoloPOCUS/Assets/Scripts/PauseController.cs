@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PauseController : MonoBehaviour
 {
     public static bool IsGamePaused { get; private set; }
+    [SerializeField] private ImageAnexx imageAnexx;
 
     [Header("UI")]
     [SerializeField] private GameObject pausePanel;
@@ -46,6 +48,9 @@ public class PauseController : MonoBehaviour
 
         if (pausePanel != null)
             pausePanel.SetActive(true);
+        
+        /*if (imageAnexx != null)
+            imageAnexx.UpdateUI();*/
     }
 
     private void ResumeGame()
