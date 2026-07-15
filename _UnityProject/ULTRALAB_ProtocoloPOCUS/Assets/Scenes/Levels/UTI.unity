@@ -701,8 +701,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7fe118d897b3184da47e4b6e004775f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSpawn
-  prefabMasculino: {fileID: 1561545956832956884, guid: 1c6259276f13568419e021fbbcfcf385, type: 3}
-  prefabFeminino: {fileID: 1561545956832956884, guid: 1af82397f9be48d40b0d6c4baf544454, type: 3}
+  prefabMasculino: {fileID: 1561545956832956884, guid: 1af82397f9be48d40b0d6c4baf544454, type: 3}
+  prefabFeminino: {fileID: 1561545956832956884, guid: 1c6259276f13568419e021fbbcfcf385, type: 3}
   spawnPoint: {fileID: 209310289}
   cinemachineCamera: {fileID: 1432400801}
 --- !u!4 &209310289
@@ -1155,8 +1155,9 @@ GameObject:
   m_Component:
   - component: {fileID: 406477871}
   - component: {fileID: 406477870}
+  - component: {fileID: 406477872}
   m_Layer: 0
-  m_Name: HUDmanager
+  m_Name: Manager's
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1192,6 +1193,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &406477872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406477869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66523845d0367ee45bf2f7b3628a6a97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
 --- !u!1 &448179815
 GameObject:
   m_ObjectHideFlags: 0
@@ -8311,7 +8324,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1259649967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8358,7 +8371,7 @@ MonoBehaviour:
   m_BuildHeightMesh: 0
   m_MinRegionArea: 0
   m_HideEditorLogs: 0
-  m_NavMeshData: {fileID: 23800000, guid: 216e81dc695cbc84e94c22940a4be241, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: d78e5685e2db56b4495388df6fd34a5d, type: 2}
 --- !u!4 &1259649969
 Transform:
   m_ObjectHideFlags: 0

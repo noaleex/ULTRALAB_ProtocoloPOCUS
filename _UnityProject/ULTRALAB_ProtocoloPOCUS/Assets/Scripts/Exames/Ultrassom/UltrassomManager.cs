@@ -153,6 +153,9 @@ public class UltrasoundManager : MonoBehaviour
             return;
         }
 
-        resultImage.sprite = defaultImage;
+        else
+        {
+            resultImage.sprite = defaultImage;
+        }
     }
 }

@@ -19,7 +19,6 @@ public class OpenExams : MonoBehaviour, IInteractable
         return true;
     }
 
-
     public void Interact()
     {
         PlayClickSound();

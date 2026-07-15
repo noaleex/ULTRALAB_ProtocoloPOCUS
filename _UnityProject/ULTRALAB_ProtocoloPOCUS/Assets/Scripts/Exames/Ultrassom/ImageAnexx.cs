@@ -1,11 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ImageAnexx : MonoBehaviour
 {
     [Header("UI")]
     [SerializeField] private Image anexxImage;
-    [SerializeField] private Image defaultImage;
+    public bool approved;
+    [SerializeField] private string uti;
 
     public void OnAnexx()
     {
@@ -16,71 +18,48 @@ public class ImageAnexx : MonoBehaviour
 
     public void UpdateUI()
     {
-        if (ExamsSaveData.HasImage)
-        {
-            anexxImage.sprite = ExamsSaveData.SavedImage;
-            anexxImage.color = Color.white;
-        }
-        else
-        {
-            anexxImage.sprite = defaultImage.sprite;
-            anexxImage.color = new Color(1, 1, 1, 0);
-        }
+        if (ExamsSaveData.SavedImage == null)
+            return;
+
+        anexxImage.sprite = ExamsSaveData.SavedImage;
+        anexxImage.color = Color.white;
     }
 
     public void OnConfirm()
     {
-        if (!ExamsSaveData.HasImage)
-        {
-            Debug.Log("Anexe uma imagem para confirmar.");
-            return;
-        }
-
-        if (ExamsSaveData.IsDefaultUltrasoundImage)
-        {
-            Debug.Log("Imagem vazia do ultrassom.");
-            return;
-        }
-
         switch (ExamsSaveData.SavedExam)
         {
             case BodyArea.BodyRegion.Heart:
                 Debug.Log("Imagem do Coração confirmada.");
+                approved = true;
+                //COMEÇAR CUTSCENE
+                SceneManager.LoadScene(uti);
                 break;
 
             case BodyArea.BodyRegion.Lung1:
                 Debug.Log("Imagem do Pulmão confirmada.");
+                //Reprovação, e todos abaixo também
+                approved = false;
                 break;
 
             case BodyArea.BodyRegion.Lung2:
-                Debug.Log("Imagem do Pulmão 2 confirmada.");
+                Debug.Log("Imagem do Pulmão confirmada.");
+                approved = false;
                 break;
 
             case BodyArea.BodyRegion.Bladder:
                 Debug.Log("Imagem da Bexiga confirmada.");
+                approved = false;
+                break;
+
+            case BodyArea.BodyRegion.Empty:
+                Debug.Log("Imagem vazia confirmada.");
+                approved = false;
                 break;
 
             default:
                 Debug.Log("Anexe uma imagem para confirmar.");
                 break;
         }
-    }
-
-    public void OnDeleteImage()
-    {
-        ExamsSaveData.Clear();
-
-        UpdateUI();
-
-        Debug.Log("Imagem apagada.");
-    }
-
-    public void OnUndoDelete()
-    {
-        ExamsSaveData.UndoDelete();
-
-        UpdateUI();
-
-        Debug.Log("Imagem restaurada.");
     }
 }

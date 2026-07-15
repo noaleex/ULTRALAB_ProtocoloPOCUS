@@ -7,11 +7,11 @@ public class BodyArea : MonoBehaviour
         Heart,
         Lung1,
         Lung2,
-        Bladder
+        Bladder,
+        Empty
     }
 
     public BodyRegion region;
-
     public Sprite correctImage;
 
     private Collider2D areaCollider;
