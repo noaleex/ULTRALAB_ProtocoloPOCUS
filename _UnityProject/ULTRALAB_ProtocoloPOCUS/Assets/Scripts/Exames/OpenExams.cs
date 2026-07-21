@@ -5,6 +5,7 @@ using FMODUnity;
 public class OpenExams : MonoBehaviour, IInteractable
 {
     [SerializeField] private GameObject panelExam;
+    [SerializeField] private GameObject panelConduct;
     [SerializeField] private string exams;
     [SerializeField] private PatientData patientData;
 
@@ -76,6 +77,7 @@ public class OpenExams : MonoBehaviour, IInteractable
             return;
 
         panelExam.SetActive(false);
+        panelConduct.SetActive(true);
 
         if (npcConduta != null)
         {
