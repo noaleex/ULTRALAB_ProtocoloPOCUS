@@ -19933,6 +19933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::OpenExams
   panelExam: {fileID: 661179836}
   exams: Exams
+  patientData: {fileID: 11400000, guid: fec63c220a29010488c02e86307d2d1f, type: 2}
   npcConduta: {fileID: 487279050}
   allowedScene: LAB
   ClickSound:

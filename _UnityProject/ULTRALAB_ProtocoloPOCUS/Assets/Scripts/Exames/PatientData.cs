@@ -7,6 +7,7 @@ public class PatientData : ScriptableObject
     public string patientName;
     public int age;
     public string sex;
+    public bool tutorial;
 
     [Header("Visual")]
     public Sprite characterSprite;

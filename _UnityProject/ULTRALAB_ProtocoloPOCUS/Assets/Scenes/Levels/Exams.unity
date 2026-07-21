@@ -1459,7 +1459,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &513036543
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1507,6 +1507,7 @@ MonoBehaviour:
   leito: {fileID: 1842000228}
   tool: {fileID: 849634469}
   lab: 
+  uti: 
 --- !u!114 &513036546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2584,6 +2585,7 @@ MonoBehaviour:
   leito: {fileID: 1842000228}
   tool: {fileID: 849634469}
   lab: LAB
+  uti: 
 --- !u!114 &800020564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2882,6 +2884,7 @@ MonoBehaviour:
   leito: {fileID: 1842000228}
   tool: {fileID: 849634469}
   lab: LAB
+  uti: 
 --- !u!114 &866201646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3685,7 +3688,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 062b907ef89b1ed4cb142bec96005b26, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9cfbf36d2b0ad0146ad4df4e2befba0c, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -4566,8 +4569,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExamManager
   characterImage: {fileID: 577300470}
-  backgroundImage: {fileID: 1082884749}
   infoText: {fileID: 0}
+  backgroundImage: {fileID: 1082884749}
+  table: {fileID: 513036542}
 --- !u!1 &1353713655
 GameObject:
   m_ObjectHideFlags: 0
@@ -4624,6 +4628,7 @@ MonoBehaviour:
   leito: {fileID: 1842000228}
   tool: {fileID: 849634469}
   lab: LAB
+  uti: 
 --- !u!114 &1353713658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5398,6 +5403,7 @@ MonoBehaviour:
   leito: {fileID: 1842000228}
   tool: {fileID: 849634469}
   lab: LAB
+  uti: UTI
 --- !u!114 &1762434226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5985,6 +5991,7 @@ MonoBehaviour:
   leito: {fileID: 1842000228}
   tool: {fileID: 849634469}
   lab: LAB
+  uti: 
 --- !u!114 &1863870433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6637,6 +6644,7 @@ MonoBehaviour:
   leito: {fileID: 1842000228}
   tool: {fileID: 849634469}
   lab: LAB
+  uti: 
 --- !u!114 &2032924332
 MonoBehaviour:
   m_ObjectHideFlags: 0

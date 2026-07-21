@@ -9,6 +9,7 @@ public class Interfaces : MonoBehaviour
     [SerializeField] private GameObject tool;
 
     [SerializeField] private string lab;
+    [SerializeField] private string uti;
 
 
     public void PocusClick()
@@ -48,7 +49,15 @@ public class Interfaces : MonoBehaviour
 
         SceneManager.sceneLoaded += OnSceneLoaded;
 
-        SceneManager.LoadScene(lab);
+        if(CurrentPatient.Data.tutorial)
+        {
+            SceneManager.LoadScene(lab);
+        }
+        else
+        {
+            SceneManager.LoadScene(uti);
+        }
+        
     }
 
 

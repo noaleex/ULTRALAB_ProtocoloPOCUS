@@ -33,6 +33,8 @@ public class ImageAnexx : MonoBehaviour
                 Debug.Log("Imagem do Coração confirmada.");
                 approved = true;
                 //COMEÇAR CUTSCENE
+                PauseController.SetPause(false);
+                SceneManager.sceneLoaded += OnSceneLoaded;
                 SceneManager.LoadScene(uti);
                 break;
 
@@ -60,6 +62,25 @@ public class ImageAnexx : MonoBehaviour
             default:
                 Debug.Log("Anexe uma imagem para confirmar.");
                 break;
+        }
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+
+
+        if(PlayerReferences.Instance != null)
+        {
+            PlayerReferences.Instance.RefreshReferences();
+
+            PlayerReferences.Instance.EnablePlayer();
+
+
+            if(PlayerReferences.Instance.InteractIcon != null)
+            {
+                PlayerReferences.Instance.InteractIcon.SetActive(true);
+            }
         }
     }
 }
