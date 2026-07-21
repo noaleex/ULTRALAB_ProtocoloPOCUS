@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e9a48b0a2222bf4eb49fec462a1f8f7, type: 3}
+  m_Name: SrJose
+  m_EditorClassIdentifier: Assembly-CSharp::PatientData
+  patientName: "Jos\xE9"
+  age: 67
+  sex: Masculino
+  characterSprite: {fileID: 21300000, guid: ea13302e905525349ab8d76f563cb4ea, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 9cfbf36d2b0ad0146ad4df4e2befba0c, type: 3}
+  caso: 
+  physicalExam: 

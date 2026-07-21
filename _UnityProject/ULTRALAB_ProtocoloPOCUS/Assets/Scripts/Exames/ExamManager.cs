@@ -1,17 +1,21 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ExamManager : MonoBehaviour
 {
-    [SerializeField] private string lab;
-    [SerializeField] private string uti;
-    
-    public void BackLAB()
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(lab);
-    }
+    [Header("UI")]
+    [SerializeField] private Image characterImage;
+    [SerializeField] private Image backgroundImage;
+    [SerializeField] private TMP_Text infoText;
 
-    public void BackUTI()
+    private void Start()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(uti);
+        if (CurrentPatient.Data == null)
+            return;
+
+        characterImage.sprite = CurrentPatient.Data.characterSprite;
+        backgroundImage.sprite = CurrentPatient.Data.backgroundSprite;
+        infoText.text = CurrentPatient.Data.caso;
     }
 }

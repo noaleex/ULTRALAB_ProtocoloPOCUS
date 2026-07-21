@@ -6,6 +6,7 @@ public class OpenExams : MonoBehaviour, IInteractable
 {
     [SerializeField] private GameObject panelExam;
     [SerializeField] private string exams;
+    [SerializeField] private PatientData patientData;
 
     [Header("Conduta")]
     [SerializeField] private NPC npcConduta;
@@ -58,9 +59,12 @@ public class OpenExams : MonoBehaviour, IInteractable
         }
     }
 
+
+
     public void OpenExam()
     {
         PlayClickSound();
+        CurrentPatient.Data = patientData;
         SceneManager.LoadScene(exams);
     }
 
