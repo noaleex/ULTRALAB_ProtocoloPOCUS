@@ -96,7 +96,7 @@
 			<value>13.319818594104309</value>
 		</property>
 		<property name="volume">
-			<value>10</value>
+			<value>6</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{0cdedc0d-61dd-4489-95f8-c6ae13555b0d}</destination>
@@ -104,7 +104,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{ce764667-5a8f-44a9-ad20-57b2aba615c2}">
 		<property name="volume">
-			<value>10</value>
+			<value>9.5</value>
 		</property>
 		<property name="name">
 			<value>wa_monia</value>

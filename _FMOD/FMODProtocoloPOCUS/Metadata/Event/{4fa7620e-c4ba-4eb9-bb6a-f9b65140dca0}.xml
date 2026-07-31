@@ -108,17 +108,17 @@
 		<property name="timelockedOffset">
 			<value>0.18500000000000005</value>
 		</property>
+		<property name="volume">
+			<value>3.5</value>
+		</property>
 		<property name="pitch">
-			<value>2</value>
+			<value>4</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{b8a07839-c74d-4d58-8c7d-05538ca86a3f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9885787f-2b61-4ca8-b0ee-46b6e2554f23}">
-		<property name="volume">
-			<value>-4</value>
-		</property>
 		<property name="name">
 			<value>fx_fs_concreto</value>
 		</property>
@@ -135,6 +135,9 @@
 	<object class="SingleSound" id="{a92d678c-0b3d-471a-ac02-51135d5d4159}">
 		<property name="length">
 			<value>7.7834983644927744</value>
+		</property>
+		<property name="volume">
+			<value>0.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{91893d7a-8e6a-4a30-b34e-1802b12f5211}</destination>

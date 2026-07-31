@@ -96,13 +96,16 @@
 			<value>9.3119999999999994</value>
 		</property>
 		<property name="volume">
-			<value>1</value>
+			<value>-12</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{637d290d-5e15-4fe4-944e-cb14b7023862}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d84ad991-ec18-4f39-b36e-8ba9ac412686}">
+		<property name="volume">
+			<value>1.5</value>
+		</property>
 		<property name="name">
 			<value>wa_guilherme</value>
 		</property>

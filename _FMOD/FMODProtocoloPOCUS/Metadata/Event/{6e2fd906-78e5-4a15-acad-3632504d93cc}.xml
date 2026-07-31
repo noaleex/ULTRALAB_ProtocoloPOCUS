@@ -96,7 +96,7 @@
 			<value>12.288</value>
 		</property>
 		<property name="volume">
-			<value>10</value>
+			<value>-8.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{353164e5-a307-45a4-ac31-6d0806a90655}</destination>
@@ -104,7 +104,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6f2d9bd1-e3e3-423d-aebb-997a77f83784}">
 		<property name="volume">
-			<value>10</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>wa_homem2</value>
