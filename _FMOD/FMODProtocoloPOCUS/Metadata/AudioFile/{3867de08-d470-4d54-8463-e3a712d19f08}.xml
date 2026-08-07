@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{3867de08-d470-4d54-8463-e3a712d19f08}">
+		<property name="assetPath">
+			<value>fx_gel.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.9338775510204087</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b786b97f-2102-419b-857c-bcc952133b01}</destination>
+		</relationship>
+	</object>
+</objects>
