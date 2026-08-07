@@ -268,10 +268,10 @@ MonoBehaviour:
   info: Enchimento capilar normal.
   clickSound:
     Guid:
-      Data1: 499708047
-      Data2: 1331960269
-      Data3: -732660037
-      Data4: -1557932642
+      Data1: -804075512
+      Data2: 1148289980
+      Data3: -580016215
+      Data4: 214636514
     Path: event:/Interagir/fx_menu_click
 --- !u!1 &68482618
 GameObject:
@@ -1434,10 +1434,10 @@ MonoBehaviour:
   info: "Pulsos perif\xE9ricos normais."
   clickSound:
     Guid:
-      Data1: 499708047
-      Data2: 1331960269
-      Data3: -732660037
-      Data4: -1557932642
+      Data1: -804075512
+      Data2: 1148289980
+      Data3: -580016215
+      Data4: 214636514
     Path: event:/Interagir/fx_menu_click
 --- !u!1 &513036542
 GameObject:
@@ -1826,10 +1826,10 @@ MonoBehaviour:
   info: "Pulsos perif\xE9ricos normais."
   clickSound:
     Guid:
-      Data1: 499708047
-      Data2: 1331960269
-      Data3: -732660037
-      Data4: -1557932642
+      Data1: -804075512
+      Data2: 1148289980
+      Data3: -580016215
+      Data4: 214636514
     Path: event:/Interagir/fx_menu_click
 --- !u!1 &600117435
 GameObject:
@@ -2468,10 +2468,10 @@ MonoBehaviour:
   info: "Edema depress\xEDvel +2."
   clickSound:
     Guid:
-      Data1: 499708047
-      Data2: 1331960269
-      Data3: -732660037
-      Data4: -1557932642
+      Data1: -804075512
+      Data2: 1148289980
+      Data3: -580016215
+      Data4: 214636514
     Path: event:/Interagir/fx_menu_click
 --- !u!114 &799678483
 MonoBehaviour:
@@ -3240,10 +3240,10 @@ MonoBehaviour:
   info: Enchimento capilar normal.
   clickSound:
     Guid:
-      Data1: 499708047
-      Data2: 1331960269
-      Data3: -732660037
-      Data4: -1557932642
+      Data1: -804075512
+      Data2: 1148289980
+      Data3: -580016215
+      Data4: 214636514
     Path: event:/Interagir/fx_menu_click
 --- !u!114 &972033173
 MonoBehaviour:
@@ -5286,10 +5286,10 @@ MonoBehaviour:
   info: "Edema depress\xEDvel +2."
   clickSound:
     Guid:
-      Data1: 499708047
-      Data2: 1331960269
-      Data3: -732660037
-      Data4: -1557932642
+      Data1: -804075512
+      Data2: 1148289980
+      Data3: -580016215
+      Data4: 214636514
     Path: event:/Interagir/fx_menu_click
 --- !u!114 &1698986598
 MonoBehaviour:
