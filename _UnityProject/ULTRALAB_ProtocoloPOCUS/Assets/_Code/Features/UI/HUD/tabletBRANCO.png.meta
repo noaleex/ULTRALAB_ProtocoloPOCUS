@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 49aada8338f131e4b9a5d8eaae3f5720
+guid: f3a78e48ca50bf747993a6cfbc9a16ce
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7696887918067706796
-    second: Conduta-test_0
+      213: -1113001668667424159
+    second: tabletBRANCO_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +49,7 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
-  alignment: 0
+  alignment: 7
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Conduta-test_0
+      name: tabletBRANCO_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 42
-        width: 163
-        height: 110
+        x: 39
+        y: 43
+        width: 161
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4541497e7392f2590800000000000000
-      internalID: -7696887918067706796
+      spriteID: 16249a811e2dd80f0800000000000000
+      internalID: -1113001668667424159
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Conduta-test_0: -7696887918067706796
+      tabletBRANCO_0: -1113001668667424159
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
