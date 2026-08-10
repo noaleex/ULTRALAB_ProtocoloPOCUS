@@ -26,6 +26,7 @@ public class OpenExams : MonoBehaviour, IInteractable
         PlayClickSound();
         panelExam.SetActive(true);
         PauseController.SetPause(true);
+        CurrentPatient.Data = patientData;
 
         if (PlayerReferences.Instance != null)
         {
@@ -65,7 +66,6 @@ public class OpenExams : MonoBehaviour, IInteractable
     public void OpenExam()
     {
         PlayClickSound();
-        CurrentPatient.Data = patientData;
         SceneManager.LoadScene(exams);
     }
 
@@ -73,17 +73,22 @@ public class OpenExams : MonoBehaviour, IInteractable
     {
         PlayClickSound();
 
-        if (SceneManager.GetActiveScene().name != allowedScene)
-            return;
+        if (SceneManager.GetActiveScene().name == null)
+            patientData = CurrentPatient.Data;
 
-        panelExam.SetActive(false);
-        panelConduct.SetActive(true);
-
-        if (npcConduta != null)
+        else if (SceneManager.GetActiveScene().name == allowedScene)
         {
+            panelExam.SetActive(false);
+            panelConduct.SetActive(true);
+
+            if (npcConduta != null)
+            {
             npcConduta.OnDialogueEnded = ReturnToExamPanel;
             npcConduta.StartDialogueExternally();
+            }
         }
+
+        
     }
 
     private void PlayClickSound()

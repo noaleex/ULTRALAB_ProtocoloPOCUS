@@ -38,6 +38,7 @@ public class PatientData : ScriptableObject
     [Header("Circulação")]
     public string frequenciaCardiaca;
     public string pressaoArterial;
+    public string pressaoArterial2;
     public string perfusaoTempo;
     public string perfusaoExtremidades;
     public string pulsos;

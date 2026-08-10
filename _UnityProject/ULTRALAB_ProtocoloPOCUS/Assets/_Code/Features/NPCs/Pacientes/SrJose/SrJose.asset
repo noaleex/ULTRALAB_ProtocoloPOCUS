@@ -15,7 +15,32 @@ MonoBehaviour:
   patientName: "Jos\xE9"
   age: 67
   sex: Masculino
+  tutorial: 0
   characterSprite: {fileID: 21300000, guid: ea13302e905525349ab8d76f563cb4ea, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 9cfbf36d2b0ad0146ad4df4e2befba0c, type: 3}
-  caso: 
+  resumeCaso: 
   physicalExam: 
+  permeabilidade: "P\xE9rvia"
+  presenca: "N\xE3o"
+  "interven\xE7\xE3o": 0
+  frequencia: 19
+  saturation: 95
+  acessoria: 0
+  padraoRespiratorio: Eupneico
+  asculta: "Murm\xFArio vesicular presente"
+  expansibilidade: "Sim\xE9trica"
+  oxigenoterapiaTipo: Sem
+  oxigenoterapiaFluxo: 0
+  frequenciaCardiaca: 84
+  pressaoArterial: 130
+  pressaoArterial2: 78
+  perfusaoTempo: 2
+  perfusaoExtremidades: Frias
+  pulsos: "Palp\xE1veis"
+  ritmoCardiaco: Regular
+  edema: Sim
+  temperatura: 36.5
+  nivelConsciencia: Alerta
+  avalicaoPele: "\xCDntegra"
+  presencaPele: Edema
+  dorEscala: 3
