@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: bad340562c48b6247ad8b389b42b3fe8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3572263990347165148
+    second: LogoUltralab_0
+  - first:
+      213: 5629849268815543454
+    second: LogoUltralab_1
+  - first:
+      213: 532527882318407266
+    second: LogoUltralab_2
+  - first:
+      213: -7257053903491544426
+    second: LogoUltralab_3
+  - first:
+      213: 2863413275426729337
+    second: LogoUltralab_4
+  - first:
+      213: 6610753352629186712
+    second: LogoUltralab_5
+  - first:
+      213: 7316633119902477132
+    second: LogoUltralab_6
+  - first:
+      213: -9041831508017771206
+    second: LogoUltralab_7
+  - first:
+      213: -4457150792462056558
+    second: LogoUltralab_8
+  - first:
+      213: 1410689359888584549
+    second: LogoUltralab_9
+  - first:
+      213: -1978728565535081750
+    second: LogoUltralab_10
+  - first:
+      213: -6662551928910059640
+    second: LogoUltralab_11
+  - first:
+      213: -3195947735192688809
+    second: LogoUltralab_12
+  - first:
+      213: -6845048412665678548
+    second: LogoUltralab_13
+  - first:
+      213: 3136109224719271672
+    second: LogoUltralab_14
+  - first:
+      213: 4144313182307515467
+    second: LogoUltralab_15
+  - first:
+      213: -6510793962179830691
+    second: LogoUltralab_16
+  - first:
+      213: 1779244250946563864
+    second: LogoUltralab_17
+  - first:
+      213: 95464065557154109
+    second: LogoUltralab_18
+  - first:
+      213: 88539432738625554
+    second: LogoUltralab_19
+  - first:
+      213: 5254863940860185557
+    second: LogoUltralab_20
+  - first:
+      213: -6885111306469327645
+    second: LogoUltralab_21
+  - first:
+      213: -6960899167502861754
+    second: LogoUltralab_22
+  - first:
+      213: 5609119493678309992
+    second: LogoUltralab_23
+  - first:
+      213: -1664673783581724816
+    second: LogoUltralab_24
+  - first:
+      213: 1341954883688154828
+    second: LogoUltralab_25
+  - first:
+      213: -1766645720785332016
+    second: LogoUltralab_26
+  - first:
+      213: -5004847064853744970
+    second: LogoUltralab_27
+  - first:
+      213: 1031743687972570151
+    second: LogoUltralab_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LogoUltralab_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddef8c2c2b339130800000000000000
+      internalID: 3572263990347165148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c3ebee41e312e40800000000000000
+      internalID: 5629849268815543454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266649a994be36700800000000000000
+      internalID: 532527882318407266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 78
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a468e9ce3c94b90800000000000000
+      internalID: -7257053903491544426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 78
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97da2f6f333ecb720800000000000000
+      internalID: 2863413275426729337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8907f21262d1ebb50800000000000000
+      internalID: 6610753352629186712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b25afae07e98560800000000000000
+      internalID: 7316633119902477132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d8aad2626f48280800000000000000
+      internalID: -9041831508017771206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293c2f028f40522c0800000000000000
+      internalID: -4457150792462056558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f0598af76c39310800000000000000
+      internalID: 1410689359888584549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_10
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeafc587ad42a84e0800000000000000
+      internalID: -1978728565535081750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887e8b3025cd983a0800000000000000
+      internalID: -6662551928910059640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_12
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 78
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757202bb776b5a3d0800000000000000
+      internalID: -3195947735192688809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 78
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25f5bc3cb08101a0800000000000000
+      internalID: -6845048412665678548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6c73c59b2b58b20800000000000000
+      internalID: 3136109224719271672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_15
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c786db1ee838930800000000000000
+      internalID: 4144313182307515467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_16
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c5386136305a5a0800000000000000
+      internalID: -6510793962179830691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f635a283521b810800000000000000
+      internalID: 1779244250946563864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_18
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d394954df08235100800000000000000
+      internalID: 95464065557154109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_19
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 69
+        width: 124
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218100d152e8a3100800000000000000
+      internalID: 88539432738625554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db0bf9a9e60de840800000000000000
+      internalID: 5254863940860185557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 133
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecbed2eebb2370a0800000000000000
+      internalID: -6885111306469327645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_22
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 13
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64afdab661be56f90800000000000000
+      internalID: -6960899167502861754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_23
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 13
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8622a6b067897dd40800000000000000
+      internalID: 5609119493678309992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 13
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fa4be7304e5e8e0800000000000000
+      internalID: -1664673783581724816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_25
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 13
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc645d25bd49f9210800000000000000
+      internalID: 1341954883688154828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_26
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 13
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d850a8b31d9b77e0800000000000000
+      internalID: -1766645720785332016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 13
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b27c308c163b8ab0800000000000000
+      internalID: -5004847064853744970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUltralab_28
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 13
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7244bd4fa6d715e00800000000000000
+      internalID: 1031743687972570151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LogoUltralab_0: 3572263990347165148
+      LogoUltralab_1: 5629849268815543454
+      LogoUltralab_10: -1978728565535081750
+      LogoUltralab_11: -6662551928910059640
+      LogoUltralab_12: -3195947735192688809
+      LogoUltralab_13: -6845048412665678548
+      LogoUltralab_14: 3136109224719271672
+      LogoUltralab_15: 4144313182307515467
+      LogoUltralab_16: -6510793962179830691
+      LogoUltralab_17: 1779244250946563864
+      LogoUltralab_18: 95464065557154109
+      LogoUltralab_19: 88539432738625554
+      LogoUltralab_2: 532527882318407266
+      LogoUltralab_20: 5254863940860185557
+      LogoUltralab_21: -6885111306469327645
+      LogoUltralab_22: -6960899167502861754
+      LogoUltralab_23: 5609119493678309992
+      LogoUltralab_24: -1664673783581724816
+      LogoUltralab_25: 1341954883688154828
+      LogoUltralab_26: -1766645720785332016
+      LogoUltralab_27: -5004847064853744970
+      LogoUltralab_28: 1031743687972570151
+      LogoUltralab_3: -7257053903491544426
+      LogoUltralab_4: 2863413275426729337
+      LogoUltralab_5: 6610753352629186712
+      LogoUltralab_6: 7316633119902477132
+      LogoUltralab_7: -9041831508017771206
+      LogoUltralab_8: -4457150792462056558
+      LogoUltralab_9: 1410689359888584549
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
