@@ -20,11 +20,7 @@ MonoBehaviour:
   characterFullSprite: {fileID: 21300000, guid: 5012c25d67b85d24287ce3e7a591b9f2, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 062b907ef89b1ed4cb142bec96005b26, type: 3}
   resumeCaso: 
-  physicalExam:
-  - region: 0
-    info: Edema
-  - region: 1
-    info: +2
+  physicalExam: []
   permeabilidade: 
   presenca: 
   intervencao: 

@@ -7,11 +7,11 @@ public class ExamManager : MonoBehaviour
     [Header("UI")]
     [SerializeField] private Image characterImage;
     [SerializeField] private Image characterFullImage;
-    [SerializeField] private TMP_Text infoText;
 
     [Header("Tutorial")]
     [SerializeField] private Image backgroundImage;
     [SerializeField] private GameObject table;
+    [SerializeField] private Button button;
 
     private void Start()
     {
@@ -27,6 +27,7 @@ public class ExamManager : MonoBehaviour
         if (CurrentPatient.Data.tutorial)
         {
             table.SetActive(false);
+            button.interactable = false;
             backgroundImage.sprite = CurrentPatient.Data.backgroundSprite;
         }
     }
