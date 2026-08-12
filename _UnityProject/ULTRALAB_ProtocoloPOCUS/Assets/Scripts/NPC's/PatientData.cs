@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Patient", menuName = "Patients/Patient Data")]
@@ -11,24 +12,25 @@ public class PatientData : ScriptableObject
 
     [Header("Visual")]
     public Sprite characterSprite;
+    public Sprite characterFullSprite;
     public Sprite backgroundSprite;
 
     [Header("Caso")]
     [TextArea]
     public string resumeCaso;
-
-    [TextArea]
-    public string physicalExam;
+    
+    [Header("Exame Físico")]
+    public List<PhysicalExamInfo> physicalExam;
 
     [Header("Via Aérea")]
     public string permeabilidade;
     public string presenca;
-    public bool intervenção;
+    public string intervencao;
 
     [Header("Respiração")]
     public string frequencia;
     public string saturation;
-    public bool acessoria;
+    public string acessoria;
     public string padraoRespiratorio;
     public string asculta;
     public string expansibilidade;
@@ -58,4 +60,13 @@ public class PatientData : ScriptableObject
 public static class CurrentPatient
 {
     public static PatientData Data;
+}
+
+[System.Serializable]
+public class PhysicalExamInfo
+{
+    public ButtonBodyArea.BodyRegion region;
+
+    [TextArea]
+    public string info;
 }

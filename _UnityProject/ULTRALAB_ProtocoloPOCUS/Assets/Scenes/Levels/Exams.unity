@@ -265,7 +265,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonBodyArea
   region: 0
-  info: Enchimento capilar normal.
   clickSound:
     Guid:
       Data1: -804075512
@@ -1431,7 +1430,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonBodyArea
   region: 1
-  info: "Pulsos perif\xE9ricos normais."
   clickSound:
     Guid:
       Data1: -804075512
@@ -1823,7 +1821,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonBodyArea
   region: 1
-  info: "Pulsos perif\xE9ricos normais."
   clickSound:
     Guid:
       Data1: -804075512
@@ -2465,7 +2462,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonBodyArea
   region: 2
-  info: "Edema depress\xEDvel +2."
   clickSound:
     Guid:
       Data1: -804075512
@@ -3237,7 +3233,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonBodyArea
   region: 0
-  info: Enchimento capilar normal.
   clickSound:
     Guid:
       Data1: -804075512
@@ -4569,6 +4564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExamManager
   characterImage: {fileID: 577300470}
+  characterFullImage: {fileID: 1970985835}
   infoText: {fileID: 0}
   backgroundImage: {fileID: 1082884749}
   table: {fileID: 513036542}
@@ -5283,7 +5279,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonBodyArea
   region: 2
-  info: "Edema depress\xEDvel +2."
   clickSound:
     Guid:
       Data1: -804075512
@@ -5729,7 +5724,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1842000229
 RectTransform:
   m_ObjectHideFlags: 0

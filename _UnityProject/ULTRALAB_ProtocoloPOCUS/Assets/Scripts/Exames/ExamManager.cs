@@ -6,6 +6,7 @@ public class ExamManager : MonoBehaviour
 {
     [Header("UI")]
     [SerializeField] private Image characterImage;
+    [SerializeField] private Image characterFullImage;
     [SerializeField] private TMP_Text infoText;
 
     [Header("Tutorial")]
@@ -20,6 +21,7 @@ public class ExamManager : MonoBehaviour
         }
 
         characterImage.sprite = CurrentPatient.Data.characterSprite;
+        characterFullImage.sprite = CurrentPatient.Data.characterFullSprite;
         //infoText.text = CurrentPatient.Data.caso;
 
         if (CurrentPatient.Data.tutorial)

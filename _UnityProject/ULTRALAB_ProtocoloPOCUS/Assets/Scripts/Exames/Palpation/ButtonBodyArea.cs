@@ -10,15 +10,10 @@ public class ButtonBodyArea : MonoBehaviour
         Legs
     }
 
-
     public BodyRegion region;
-
-    [TextArea]
-    public string info;
 
     [Header("FMOD")]
     public EventReference clickSound;
-
 
     public void OnClick()
     {
@@ -27,6 +22,6 @@ public class ButtonBodyArea : MonoBehaviour
             RuntimeManager.PlayOneShot(clickSound);
         }
 
-        PalpationManager.Instance.AddInfo(region, info);
+        PalpationManager.Instance.AddInfo(region);
     }
 }

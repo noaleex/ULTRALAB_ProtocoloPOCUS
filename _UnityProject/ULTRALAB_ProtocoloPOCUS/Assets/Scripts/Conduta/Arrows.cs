@@ -6,10 +6,10 @@ public class Arrows : MonoBehaviour
     [Header("Páginas")]
     public GameObject[] pages;
     public int currentPageIndex = 0;
-    public GameObject conductPanel; // Painel de conduta
+    public GameObject conductPanel;
 
     [Header("Referências")]
-    public MedicalData medicalDataUI; // Arraste o objeto que contém o script MedicalData no Inspector
+    public MedicalData medicalDataUI;
 
     public void UpPage()
     {
@@ -63,40 +63,54 @@ public class Arrows : MonoBehaviour
     /// </summary>
     private bool CheckPatientData(PatientData npc)
     {
+        int acertos = 0;
+        int erros = 0;
+
         // Via Aérea
-        if (medicalDataUI.permeabilidadeDropdown.options[medicalDataUI.permeabilidadeDropdown.value].text != npc.permeabilidade) return false;
-        if (medicalDataUI.presencaDropdown.options[medicalDataUI.presencaDropdown.value].text != npc.presenca) return false;
-        if (medicalDataUI.intervencaoToggle.isOn != npc.intervenção) return false;
+        Contabilizar(medicalDataUI.permeabilidadeDropdown.options[medicalDataUI.permeabilidadeDropdown.value].text, npc.permeabilidade, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.presencaDropdown.options[medicalDataUI.presencaDropdown.value].text, npc.presenca, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.intervencaoDropdown.options[medicalDataUI.intervencaoDropdown.value].text, npc.intervencao, ref acertos, ref erros);
 
         // Respiração
-        if (medicalDataUI.frequenciaInput.text != npc.frequencia) return false;
-        if (medicalDataUI.saturationInput.text != npc.saturation) return false;
-        if (medicalDataUI.acessoriaToggle.isOn != npc.acessoria) return false;
-        if (medicalDataUI.padraoRespiratorioDropdown.options[medicalDataUI.padraoRespiratorioDropdown.value].text != npc.padraoRespiratorio) return false;
-        if (medicalDataUI.ascultaDropdown.options[medicalDataUI.ascultaDropdown.value].text != npc.asculta) return false;
-        if (medicalDataUI.expansibilidadeDropdown.options[medicalDataUI.expansibilidadeDropdown.value].text != npc.expansibilidade) return false;
-        if (medicalDataUI.oxigenoterapiaTipoDropdown.options[medicalDataUI.oxigenoterapiaTipoDropdown.value].text != npc.oxigenoterapiaTipo) return false;
-        if (medicalDataUI.oxigenoterapiaFluxoInput.text != npc.oxigenoterapiaFluxo) return false;
+        Contabilizar(medicalDataUI.frequenciaInput.text, npc.frequencia, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.saturationInput.text, npc.saturation, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.acessoriaDropdown.options[medicalDataUI.acessoriaDropdown.value].text, npc.acessoria, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.padraoRespiratorioDropdown.options[medicalDataUI.padraoRespiratorioDropdown.value].text, npc.padraoRespiratorio, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.ascultaDropdown.options[medicalDataUI.ascultaDropdown.value].text, npc.asculta, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.expansibilidadeDropdown.options[medicalDataUI.expansibilidadeDropdown.value].text, npc.expansibilidade, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.oxigenoterapiaTipoDropdown.options[medicalDataUI.oxigenoterapiaTipoDropdown.value].text, npc.oxigenoterapiaTipo, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.oxigenoterapiaFluxoInput.text, npc.oxigenoterapiaFluxo, ref acertos, ref erros);
 
         // Circulação
-        if (medicalDataUI.frequenciaCardiacaInput.text != npc.frequenciaCardiaca) return false;
-        if (medicalDataUI.pressaoArterialInput.text != npc.pressaoArterial) return false;
-        if (medicalDataUI.pressaoArterial2Input.text != npc.pressaoArterial2) return false;
-        if (medicalDataUI.perfusaoTempoInput.text != npc.perfusaoTempo) return false;
-        if (medicalDataUI.perfusaoExtremidadesDropdown.options[medicalDataUI.perfusaoExtremidadesDropdown.value].text != npc.perfusaoExtremidades) return false;
-        if (medicalDataUI.pulsosDropdown.options[medicalDataUI.pulsosDropdown.value].text != npc.pulsos) return false;
-        if (medicalDataUI.ritmoCardiacoDropdown.options[medicalDataUI.ritmoCardiacoDropdown.value].text != npc.ritmoCardiaco) return false;
-        if (medicalDataUI.edemaDropdown.options[medicalDataUI.edemaDropdown.value].text != npc.edema) return false;
-        if (medicalDataUI.temperaturaInput.text != npc.temperatura) return false;
+        Contabilizar(medicalDataUI.frequenciaCardiacaInput.text, npc.frequenciaCardiaca, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.pressaoArterialInput.text, npc.pressaoArterial, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.pressaoArterial2Input.text, npc.pressaoArterial2, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.perfusaoTempoInput.text, npc.perfusaoTempo, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.perfusaoExtremidadesDropdown.options[medicalDataUI.perfusaoExtremidadesDropdown.value].text, npc.perfusaoExtremidades, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.pulsosDropdown.options[medicalDataUI.pulsosDropdown.value].text, npc.pulsos, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.ritmoCardiacoDropdown.options[medicalDataUI.ritmoCardiacoDropdown.value].text, npc.ritmoCardiaco, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.edemaDropdown.options[medicalDataUI.edemaDropdown.value].text, npc.edema, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.temperaturaInput.text, npc.temperatura, ref acertos, ref erros);
 
         // Avaliação Neurológica
-        if (medicalDataUI.nivelConscienciaDropdown.options[medicalDataUI.nivelConscienciaDropdown.value].text != npc.nivelConsciencia) return false;
+        Contabilizar(medicalDataUI.nivelConscienciaDropdown.options[medicalDataUI.nivelConscienciaDropdown.value].text, npc.nivelConsciencia, ref acertos, ref erros);
 
         // Exposição
-        if (medicalDataUI.avalicaoPeleDropdown.options[medicalDataUI.avalicaoPeleDropdown.value].text != npc.avalicaoPele) return false;
-        if (medicalDataUI.presencaPeleDropdown.options[medicalDataUI.presencaPeleDropdown.value].text != npc.presencaPele) return false;
-        if (medicalDataUI.dorEscalaInput.text != npc.dorEscala) return false;
+        Contabilizar(medicalDataUI.avalicaoPeleDropdown.options[medicalDataUI.avalicaoPeleDropdown.value].text, npc.avalicaoPele, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.presencaPeleDropdown.options[medicalDataUI.presencaPeleDropdown.value].text, npc.presencaPele, ref acertos, ref erros);
+        Contabilizar(medicalDataUI.dorEscalaInput.text, npc.dorEscala, ref acertos, ref erros);
 
-        return true; // Todos os campos bateram com o ScriptableObject!
+        Debug.Log($"Erros: {erros} | Acertos: {acertos}");
+
+        return erros == 0;
     }
+
+    private void Contabilizar(string valorUI, string valorCorreto, ref int acertos, ref int erros)
+    {
+        if (valorUI == valorCorreto)
+            acertos++;
+        else
+            erros++;
+    }
+
 }

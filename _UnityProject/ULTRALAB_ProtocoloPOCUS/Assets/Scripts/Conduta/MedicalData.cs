@@ -5,17 +5,17 @@ using TMPro;
 public class MedicalData : MonoBehaviour
 {
     [Header("Referência de Dados")]
-    public PatientData patientData; // Ou use CurrentPatient.Data
+    public PatientData patientData;
 
     [Header("Via Aérea")]
     public TMP_Dropdown permeabilidadeDropdown;
     public TMP_Dropdown presencaDropdown;
-    public Toggle intervencaoToggle;
+    public TMP_Dropdown intervencaoDropdown;
 
     [Header("Respiração")]
     public TMP_InputField frequenciaInput;
     public TMP_InputField saturationInput;
-    public Toggle acessoriaToggle;
+    public TMP_Dropdown acessoriaDropdown;
     public TMP_Dropdown padraoRespiratorioDropdown;
     public TMP_Dropdown ascultaDropdown;
     public TMP_Dropdown expansibilidadeDropdown;
@@ -43,13 +43,12 @@ public class MedicalData : MonoBehaviour
 
     private void Start()
     {
-        // Se estiver usando o paciente global estático:
         if (CurrentPatient.Data != null)
         {
             patientData = CurrentPatient.Data;
         }
 
-        // Configura a restrição numérica de 0 a 999 em todos os InputFields
+        //restrição de 0 a 999 nos textos
         SetupNumericInput(frequenciaInput);
         SetupNumericInput(saturationInput);
         SetupNumericInput(oxigenoterapiaFluxoInput);
@@ -57,12 +56,12 @@ public class MedicalData : MonoBehaviour
         SetupNumericInput(pressaoArterialInput);
         SetupNumericInput(pressaoArterial2Input);
         SetupNumericInput(perfusaoTempoInput);
-        SetupNumericInput(temperaturaInput);
-        SetupNumericInput(dorEscalaInput);
+        SetupNumericInput2(temperaturaInput);
+        SetupNumericInput2(dorEscalaInput);
     }
 
     /// <summary>
-    /// Configura o InputField para aceitar apenas inteiros de 0 a 999.
+    /// Configura o InputField para aceitar apenas inteiros de 0 a 999
     /// </summary>
     private void SetupNumericInput(TMP_InputField inputField)
     {
@@ -71,13 +70,32 @@ public class MedicalData : MonoBehaviour
         inputField.contentType = TMP_InputField.ContentType.IntegerNumber;
         inputField.characterLimit = 3; // Impede digitar mais de 3 dígitos
 
-        // Adiciona validação ao finalizar a edição
         inputField.onEndEdit.AddListener((string value) =>
         {
             if (int.TryParse(value, out int numericValue))
             {
-                // Garante que fique entre 0 e 999
                 int clampedValue = Mathf.Clamp(numericValue, 0, 999);
+                inputField.text = clampedValue.ToString();
+            }
+            else
+            {
+                inputField.text = "0";
+            }
+        });
+    }
+
+    private void SetupNumericInput2(TMP_InputField inputField)
+    {
+        if (inputField == null) return;
+
+        inputField.contentType = TMP_InputField.ContentType.IntegerNumber;
+        inputField.characterLimit = 2; // Impede digitar mais de 2 dígitos
+
+        inputField.onEndEdit.AddListener((string value) =>
+        {
+            if (int.TryParse(value, out int numericValue))
+            {
+                int clampedValue = Mathf.Clamp(numericValue, 0, 99);
                 inputField.text = clampedValue.ToString();
             }
             else
@@ -124,12 +142,12 @@ public class MedicalData : MonoBehaviour
         // Via Aérea
         patientData.permeabilidade = permeabilidadeDropdown.options[permeabilidadeDropdown.value].text;
         patientData.presenca = presencaDropdown.options[presencaDropdown.value].text;
-        patientData.intervenção = intervencaoToggle.isOn;
+        patientData.intervencao = intervencaoDropdown.options[intervencaoDropdown.value].text;
 
         // Respiração
         patientData.frequencia = frequenciaInput.text;
         patientData.saturation = saturationInput.text;
-        patientData.acessoria = acessoriaToggle.isOn;
+        patientData.acessoria = acessoriaDropdown.options[acessoriaDropdown.value].text;
         patientData.padraoRespiratorio = padraoRespiratorioDropdown.options[padraoRespiratorioDropdown.value].text;
         patientData.asculta = ascultaDropdown.options[ascultaDropdown.value].text;
         patientData.expansibilidade = expansibilidadeDropdown.options[expansibilidadeDropdown.value].text;
