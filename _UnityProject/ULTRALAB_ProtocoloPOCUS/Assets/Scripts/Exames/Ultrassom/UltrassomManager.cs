@@ -34,6 +34,7 @@ public class UltrasoundManager : MonoBehaviour
     public BodyArea lung1;
     public BodyArea lung2;
     public BodyArea bladder;
+    public BodyArea gelArea;
 
     [HideInInspector]
     public TransdutorSelected.ProbeType currentProbe =
@@ -113,6 +114,10 @@ public class UltrasoundManager : MonoBehaviour
 
     public void CheckProbePosition(Vector2 probePosition)
     {
+        
+    bool probeOverBody = gelArea.ContainsPoint(probePosition);
+
+    HandleGelSound(probeOverBody);
         // CORAÇÃO
         if (heart.ContainsPoint(probePosition))
         {

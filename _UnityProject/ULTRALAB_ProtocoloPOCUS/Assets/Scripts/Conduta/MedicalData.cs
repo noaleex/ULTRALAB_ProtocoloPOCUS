@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using FMODUnity;
+using UnityEngine.EventSystems;
 
 public class MedicalData : MonoBehaviour
 {
@@ -41,6 +43,12 @@ public class MedicalData : MonoBehaviour
     public TMP_Dropdown presencaPeleDropdown;
     public TMP_InputField dorEscalaInput;
 
+    [Header("FMOD - Sons")]
+    [SerializeField] private EventReference somSelecao;
+    [SerializeField] private EventReference somDigitacao;
+
+    private string ultimoValorDor = "";
+
     private void Start()
     {
         if (CurrentPatient.Data != null)
@@ -48,7 +56,7 @@ public class MedicalData : MonoBehaviour
             patientData = CurrentPatient.Data;
         }
 
-        //restrição de 0 a 999 nos textos
+    
         SetupNumericInput(frequenciaInput);
         SetupNumericInput(saturationInput);
         SetupNumericInput(oxigenoterapiaFluxoInput);
@@ -58,6 +66,86 @@ public class MedicalData : MonoBehaviour
         SetupNumericInput(perfusaoTempoInput);
         SetupNumericInput2(temperaturaInput);
         SetupNumericInput2(dorEscalaInput);
+
+        
+        AdicionarSomDropdowns();
+
+        // Som ao digitar na escala de dor (1-10)
+        dorEscalaInput.onValueChanged.AddListener(_ => TocarSomDigitacao());
+    }
+
+    private void AdicionarSomDropdowns()
+    {
+        permeabilidadeDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+        presencaDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+        intervencaoDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+        acessoriaDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+        padraoRespiratorioDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+        ascultaDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+        expansibilidadeDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+        oxigenoterapiaTipoDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+        perfusaoExtremidadesDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+        pulsosDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+        ritmoCardiacoDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+        edemaDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+        nivelConscienciaDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+        avalicaoPeleDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+        presencaPeleDropdown.onValueChanged.AddListener(_ => TocarSomSelecao());
+
+       
+        AdicionarEventTriggerDropdown(permeabilidadeDropdown);
+        AdicionarEventTriggerDropdown(presencaDropdown);
+        AdicionarEventTriggerDropdown(intervencaoDropdown);
+        AdicionarEventTriggerDropdown(acessoriaDropdown);
+        AdicionarEventTriggerDropdown(padraoRespiratorioDropdown);
+        AdicionarEventTriggerDropdown(ascultaDropdown);
+        AdicionarEventTriggerDropdown(expansibilidadeDropdown);
+        AdicionarEventTriggerDropdown(oxigenoterapiaTipoDropdown);
+        AdicionarEventTriggerDropdown(perfusaoExtremidadesDropdown);
+        AdicionarEventTriggerDropdown(pulsosDropdown);
+        AdicionarEventTriggerDropdown(ritmoCardiacoDropdown);
+        AdicionarEventTriggerDropdown(edemaDropdown);
+        AdicionarEventTriggerDropdown(nivelConscienciaDropdown);
+        AdicionarEventTriggerDropdown(avalicaoPeleDropdown);
+        AdicionarEventTriggerDropdown(presencaPeleDropdown);
+    }
+
+    private void AdicionarEventTriggerDropdown(TMP_Dropdown dropdown)
+    {
+        EventTrigger trigger = dropdown.gameObject.GetComponent<EventTrigger>();
+        if (trigger == null)
+        {
+            trigger = dropdown.gameObject.AddComponent<EventTrigger>();
+        }
+
+        EventTrigger.Entry entry = new EventTrigger.Entry();
+        entry.eventID = EventTriggerType.PointerClick;
+        entry.callback.AddListener((data) => TocarSomSelecao());
+        trigger.triggers.Add(entry);
+    }
+
+    private void TocarSomSelecao()
+    {
+        if (!somSelecao.IsNull)
+        {
+            RuntimeManager.PlayOneShot(somSelecao);
+        }
+    }
+
+    private void TocarSomDigitacao()
+    {
+        string valorAtual = dorEscalaInput.text;
+
+        // Só toca som se o jogador digitou (adicionou caracteres), não se apagou
+        if (valorAtual.Length > ultimoValorDor.Length)
+        {
+            if (!somDigitacao.IsNull)
+            {
+                RuntimeManager.PlayOneShot(somDigitacao);
+            }
+        }
+
+        ultimoValorDor = valorAtual;
     }
 
     /// <summary>

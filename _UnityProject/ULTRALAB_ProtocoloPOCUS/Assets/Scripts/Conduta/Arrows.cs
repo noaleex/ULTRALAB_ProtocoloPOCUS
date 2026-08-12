@@ -1,5 +1,7 @@
 using UnityEngine;
 using TMPro;
+using FMODUnity;
+using FMOD.Studio;
 
 public class Arrows : MonoBehaviour
 {
@@ -10,6 +12,9 @@ public class Arrows : MonoBehaviour
 
     [Header("Referências")]
     public MedicalData medicalDataUI;
+
+    [Header("FMOD - Sons")]
+    [SerializeField] private EventReference somClick;
 
     public void UpPage()
     {
@@ -34,6 +39,8 @@ public class Arrows : MonoBehaviour
     /// </summary>
     public void ConfirmConduct()
     {
+        TocarSomClick();
+
         if (CurrentPatient.Data == null)
         {
             Debug.LogError("Nenhum paciente selecionado em CurrentPatient.Data!");
@@ -53,9 +60,18 @@ public class Arrows : MonoBehaviour
 
     public void CloseConduct()
     {
+        TocarSomClick();
         conductPanel.SetActive(false);
         PauseController.SetPause(false);
         currentPageIndex = 0;
+    }
+
+    private void TocarSomClick()
+    {
+        if (!somClick.IsNull)
+        {
+            RuntimeManager.PlayOneShot(somClick);
+        }
     }
 
     /// <summary>

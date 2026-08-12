@@ -1,4 +1,5 @@
 using UnityEngine;
+using FMODUnity;
 
 public class GameManager : MonoBehaviour
 {
@@ -6,12 +7,16 @@ public class GameManager : MonoBehaviour
 
     public GameObject Player { get; private set; }
 
+    [Header("FMOD - Som")]
+    [SerializeField] private EventReference somCena;
+
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            TocarSomCena();
         }
         else
         {
@@ -29,5 +34,11 @@ public class GameManager : MonoBehaviour
         return Player != null;
     }
 
-    
+    private void TocarSomCena()
+    {
+        if (!somCena.IsNull)
+        {
+            RuntimeManager.PlayOneShot(somCena);
+        }
+    }
 }

@@ -8987,7 +8987,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &513372498
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10278,6 +10278,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66523845d0367ee45bf2f7b3628a6a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  somCena:
+    Guid:
+      Data1: -976853043
+      Data2: 1233486244
+      Data3: 1023837582
+      Data4: -1946996224
+    Path: event:/Ambiente/fx_UTI
 --- !u!4 &651489402
 Transform:
   m_ObjectHideFlags: 0
@@ -17886,7 +17893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &797506424
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18284,7 +18291,7 @@ MonoBehaviour:
   m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0759ebfd638944e468b5bf8e65d44a39, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -265568762011406947, guid: 0759ebfd638944e468b5bf8e65d44a39, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18350,7 +18357,7 @@ MonoBehaviour:
   m_margin: {x: -265.5913, y: 0, z: -208.22357, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &815428983
@@ -26259,9 +26266,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1268111676}
   - component: {fileID: 1268111675}
-  - component: {fileID: 1268111674}
   - component: {fileID: 1268111677}
   - component: {fileID: 1268111678}
+  - component: {fileID: 1268111679}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -26269,14 +26276,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1268111674
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1268111673}
-  m_Enabled: 1
 --- !u!20 &1268111675
 Camera:
   m_ObjectHideFlags: 0
@@ -26395,6 +26394,20 @@ MonoBehaviour:
   m_CropFrameX: 0
   m_CropFrameY: 0
   m_StretchFill: 0
+--- !u!114 &1268111679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268111673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioListener
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1 &1273538732
 GameObject:
   m_ObjectHideFlags: 0
@@ -29209,7 +29222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1377147528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34194,7 +34207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1668191850
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40498,7 +40511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2033471339
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40580,6 +40593,13 @@ MonoBehaviour:
   currentPageIndex: 0
   conductPanel: {fileID: 2033471338}
   medicalDataUI: {fileID: 2033471343}
+  somClick:
+    Guid:
+      Data1: -804075512
+      Data2: 1148289980
+      Data3: -580016215
+      Data4: 214636514
+    Path: event:/Interagir/fx_menu_click
 --- !u!114 &2033471343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40617,6 +40637,20 @@ MonoBehaviour:
   avalicaoPeleDropdown: {fileID: 1859235191}
   presencaPeleDropdown: {fileID: 908094724}
   dorEscalaInput: {fileID: 868737946}
+  somSelecao:
+    Guid:
+      Data1: -465755206
+      Data2: 1244057069
+      Data3: -1603699055
+      Data4: -1438093624
+    Path: event:/Interagir/fx_escolher_click
+  somDigitacao:
+    Guid:
+      Data1: 626705246
+      Data2: 1302497752
+      Data3: -71079507
+      Data4: -1066843613
+    Path: event:/Interagir/fx_telefone
 --- !u!1 &2037038767
 GameObject:
   m_ObjectHideFlags: 0
