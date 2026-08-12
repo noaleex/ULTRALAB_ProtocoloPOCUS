@@ -3186,11 +3186,11 @@ MonoBehaviour:
   menuSairConfimacao: {fileID: 0}
   MusicaMenu:
     Guid:
-      Data1: -1399748895
-      Data2: 1157016661
-      Data3: 2017624505
-      Data4: -961166914
-    Path: event:/Musica/mx_musica_menu
+      Data1: 1781288641
+      Data2: 1150087826
+      Data3: 388556187
+      Data4: 753418147
+    Path: event:/Musica/mx_menu
   ClickMenu:
     Guid:
       Data1: -804075512

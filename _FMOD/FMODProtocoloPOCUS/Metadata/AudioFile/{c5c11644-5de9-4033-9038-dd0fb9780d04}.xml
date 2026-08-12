@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{c5c11644-5de9-4033-9038-dd0fb9780d04}">
+		<property name="assetPath">
+			<value>fx_hmH.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>10.24</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b786b97f-2102-419b-857c-bcc952133b01}</destination>
+		</relationship>
+	</object>
+</objects>

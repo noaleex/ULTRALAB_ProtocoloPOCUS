@@ -10077,6 +10077,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonMenu
   pauseController: {fileID: 1866819038}
+  clickSound:
+    Guid:
+      Data1: -804075512
+      Data2: 1148289980
+      Data3: -580016215
+      Data4: 214636514
+    Path: event:/Interagir/fx_menu_click
 --- !u!114 &748466235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10661,6 +10668,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864748808}
   m_CullTransparentMesh: 1
+--- !u!1 &870890980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5445990441201730372, guid: 80e3d17ebf4a3124aaabd8313473f937, type: 3}
+  m_PrefabInstance: {fileID: 8317182661223157649}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &887520846
 GameObject:
   m_ObjectHideFlags: 0
@@ -19786,6 +19798,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5954862613081808867, guid: f96d6c196bacc294b94e77c97dd1e492, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954862613081808867, guid: f96d6c196bacc294b94e77c97dd1e492, type: 3}
+      propertyPath: m_SceneBindings.Array.data[21].key
+      value: 
+      objectReference: {fileID: -1405938052558995948, guid: 5bafc86ab0291a349b1bdca2d33652c9, type: 2}
+    - target: {fileID: 5954862613081808867, guid: f96d6c196bacc294b94e77c97dd1e492, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
       objectReference: {fileID: 930131946}
@@ -19857,6 +19877,10 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[20].value
       value: 
       objectReference: {fileID: 537258947}
+    - target: {fileID: 5954862613081808867, guid: f96d6c196bacc294b94e77c97dd1e492, type: 3}
+      propertyPath: m_SceneBindings.Array.data[21].value
+      value: 
+      objectReference: {fileID: 1914696848}
     - target: {fileID: 6211757047269815164, guid: f96d6c196bacc294b94e77c97dd1e492, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -19976,6 +20000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OpenExams
   panelExam: {fileID: 661179836}
+  panelConduct: {fileID: 0}
   exams: Exams
   patientData: {fileID: 11400000, guid: fec63c220a29010488c02e86307d2d1f, type: 2}
   npcConduta: {fileID: 487279050}
@@ -21019,8 +21044,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -50, y: 37}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -80.145, y: 59}
+  m_SizeDelta: {x: 163.47, y: 163.4699}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1409944987
 MonoBehaviour:
@@ -21725,7 +21750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1458156575
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29886,6 +29911,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894182268}
   m_CullTransparentMesh: 1
+--- !u!1 &1914696848 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2007361617515674475, guid: f96d6c196bacc294b94e77c97dd1e492, type: 3}
+  m_PrefabInstance: {fileID: 1311639541}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1927283510
 GameObject:
   m_ObjectHideFlags: 0
@@ -30177,7 +30207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2002453275
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31128,6 +31158,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2719422475717966085, guid: 80e3d17ebf4a3124aaabd8313473f937, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 2719422475717966085, guid: 80e3d17ebf4a3124aaabd8313473f937, type: 3}
+      propertyPath: m_SceneBindings.Array.data[42].key
+      value: 
+      objectReference: {fileID: 7934016132823760618, guid: 3453499555f1da34881cb32b7a408700, type: 2}
+    - target: {fileID: 2719422475717966085, guid: 80e3d17ebf4a3124aaabd8313473f937, type: 3}
       propertyPath: m_SceneBindings.Array.data[21].value
       value: 
       objectReference: {fileID: 930131946}
@@ -31199,6 +31237,10 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[41].value
       value: 
       objectReference: {fileID: 537258947}
+    - target: {fileID: 2719422475717966085, guid: 80e3d17ebf4a3124aaabd8313473f937, type: 3}
+      propertyPath: m_SceneBindings.Array.data[42].value
+      value: 
+      objectReference: {fileID: 870890980}
     - target: {fileID: 3226926550022471138, guid: 80e3d17ebf4a3124aaabd8313473f937, type: 3}
       propertyPath: m_IsActive
       value: 0
