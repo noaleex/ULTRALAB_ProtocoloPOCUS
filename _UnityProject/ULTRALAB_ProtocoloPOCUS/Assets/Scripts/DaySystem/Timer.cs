@@ -25,7 +25,10 @@ public class Timer : MonoBehaviour
 
         UpdateClockText();
 
-        DayTransition.Instance.BeginDay(CurrentDay, StartDay);
+        DayTransition.Instance.BeginDay(
+            CurrentDay,
+            StartDay
+        );
     }
 
     private void Update()
@@ -38,6 +41,7 @@ public class Timer : MonoBehaviour
         if (secondCounter >= 1f)
         {
             secondCounter = 0f;
+
             AddMinute();
         }
     }
@@ -58,20 +62,30 @@ public class Timer : MonoBehaviour
         {
             timerRunning = false;
 
-            CurrentDay++;
-
-            DayTransition.Instance.BeginDay(CurrentDay, NextDay);
+            EndDay();
         }
+    }
+
+    private void EndDay()
+    {
+        DayTransition.Instance.CheckPatientsAtEndOfDay(
+            NextDay
+        );
     }
 
     private void NextDay()
     {
+        CurrentDay++;
+
         currentHour = startHour;
         currentMinute = 0;
 
         UpdateClockText();
 
-        StartDay();
+        DayTransition.Instance.BeginDay(
+            CurrentDay,
+            StartDay
+        );
     }
 
     private void StartDay()
@@ -80,8 +94,19 @@ public class Timer : MonoBehaviour
         timerRunning = true;
     }
 
+    public void SkipToNextDay()
+    {
+        if (!timerRunning)
+            return;
+
+        timerRunning = false;
+
+        EndDay();
+    }
+
     private void UpdateClockText()
     {
-        timerText.text = $"{currentHour:00}:{currentMinute:00}";
+        timerText.text =
+            $"{currentHour:00}:{currentMinute:00}";
     }
 }
