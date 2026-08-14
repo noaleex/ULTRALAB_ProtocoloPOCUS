@@ -3122,7 +3122,6 @@ GameObject:
   - component: {fileID: 184821380}
   - component: {fileID: 184821383}
   - component: {fileID: 184821382}
-  - component: {fileID: 184821381}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -3151,28 +3150,6 @@ RectTransform:
   m_AnchoredPosition: {x: -140, y: -105}
   m_SizeDelta: {x: 73, y: 54}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &184821381
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184821379}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 03f1f1e7cee67e143810dfbef2073cae, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &184821382
 MonoBehaviour:
   m_ObjectHideFlags: 0
