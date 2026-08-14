@@ -30,7 +30,7 @@ public class ButtonMenu : MonoBehaviour
         }
     }
 
-    private void OnButtonClicked()
+    public void OnButtonClicked()
     {
         PlayClickSound();
         pauseController.OnMenu();

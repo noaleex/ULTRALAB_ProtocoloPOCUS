@@ -1958,6 +1958,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66523845d0367ee45bf2f7b3628a6a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  somCena:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!4 &236006592
 Transform:
   m_ObjectHideFlags: 0
@@ -10013,7 +10020,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 748466231}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 748466228}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &748466231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30207,7 +30226,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2002453275
 RectTransform:
   m_ObjectHideFlags: 0
