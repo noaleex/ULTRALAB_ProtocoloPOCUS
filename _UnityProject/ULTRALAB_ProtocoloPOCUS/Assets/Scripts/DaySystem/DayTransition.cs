@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,18 +12,32 @@ public class DayTransition : MonoBehaviour
     [SerializeField] private Image blackPanel;
     [SerializeField] private TextMeshProUGUI dayText;
 
-    [Header("Config")]
+    [Header("Configuração da Transição")]
     [SerializeField] private float fadeTime = 1f;
     [SerializeField] private float textTime = 1.5f;
+
+    [Header("Verificação dos Pacientes")]
+    [SerializeField] private PatientDayValidator patientDayValidator;
 
     private void Awake()
     {
         Instance = this;
     }
 
-    public void BeginDay(int day, Action onFinished)
+    // =====================================================
+    // COMEÇAR DIA
+    // =====================================================
+
+    public void BeginDay(
+        int day,
+        Action onFinished)
     {
-        StartCoroutine(DayRoutine(day, onFinished));
+        StartCoroutine(
+            DayRoutine(
+                day,
+                onFinished
+            )
+        );
     }
 
     private IEnumerator DayRoutine(
@@ -35,10 +48,14 @@ public class DayTransition : MonoBehaviour
 
         yield return Fade(1);
 
-        dayText.text = $"Dia {day}. . .";
+        dayText.text =
+            $"Dia {day}. . .";
+
         dayText.gameObject.SetActive(true);
 
-        yield return new WaitForSecondsRealtime(textTime);
+        yield return new WaitForSecondsRealtime(
+            textTime
+        );
 
         yield return Fade(0);
 
@@ -49,11 +66,17 @@ public class DayTransition : MonoBehaviour
         onFinished?.Invoke();
     }
 
+    // =====================================================
+    // TENTAR TERMINAR DIA
+    // =====================================================
+
     public void CheckPatientsAtEndOfDay(
         Action onFinished)
     {
         StartCoroutine(
-            CheckPatientsRoutine(onFinished)
+            CheckPatientsRoutine(
+                onFinished
+            )
         );
     }
 
@@ -62,119 +85,58 @@ public class DayTransition : MonoBehaviour
     {
         PauseController.SetPause(true);
 
-        if (PatientManager.Instance == null)
+        if (patientDayValidator == null)
         {
             Debug.LogError(
-                "PatientManager não encontrado!"
+                "PatientDayValidator não foi atribuído no DayTransition!"
             );
-
-            yield break;
-        }
-
-        if (!PatientManager.Instance.AllPatientsCompletedConduct())
-        {
-            dayText.text =
-                "Realize a conduta de todos os pacientes para terminar o dia";
-
-            dayText.gameObject.SetActive(true);
-
-            yield return new WaitForSecondsRealtime(
-                textTime
-            );
-
-            dayText.gameObject.SetActive(false);
 
             PauseController.SetPause(false);
 
             yield break;
         }
 
-        yield return Fade(1);
+        bool finished = false;
 
-        IReadOnlyList<OpenExams> patients =
-            PatientManager.Instance.GetPatients();
+        // =================================================
+        // VALIDAR PACIENTES
+        // =================================================
 
-        bool gameOver = false;
+        yield return StartCoroutine(
+            patientDayValidator
+                .ValidatePatientsAtEndOfDay(
+                    result =>
+                    {
+                        finished = result;
+                    },
+                    dayText
+                )
+        );
 
-        List<OpenExams> patientsToDestroy =
-            new List<OpenExams>();
+        // =================================================
+        // NÃO PODE TERMINAR
+        // =================================================
 
-        foreach (OpenExams patientObject in patients)
+        if (!finished)
         {
-            if (patientObject == null)
-                continue;
+            PauseController.SetPause(false);
 
-            PatientData patient =
-                patientObject.PatientDataReference;
-
-            if (patient == null)
-                continue;
-
-            // PACIENTE GANHOU ALTA
-            if (patient.welfareScore >= 74)
-            {
-                dayText.text =
-                    $"O paciente {patient.patientName} ganhou alta";
-
-                dayText.gameObject.SetActive(true);
-
-                yield return new WaitForSecondsRealtime(
-                    textTime
-                );
-
-                patientsToDestroy.Add(
-                    patientObject
-                );
-            }
-
-            // PACIENTE PIOROU
-            else if (patient.welfareScore <= 0)
-            {
-                dayText.text =
-                    $"O paciente {patient.patientName} piorou, game over";
-
-                dayText.gameObject.SetActive(true);
-
-                yield return new WaitForSecondsRealtime(
-                    textTime
-                );
-
-                gameOver = true;
-
-                break;
-            }
-
-            // PACIENTE CONTINUA
-            else
-            {
-                dayText.text =
-                    $"O paciente {patient.patientName} continua em tratamento";
-
-                dayText.gameObject.SetActive(true);
-
-                yield return new WaitForSecondsRealtime(
-                    textTime
-                );
-            }
-        }
-
-        // DESTRUIR PACIENTES QUE TIVERAM ALTA
-        foreach (OpenExams patient in patientsToDestroy)
-        {
-            if (patient != null)
-            {
-                Destroy(patient.gameObject);
-            }
-        }
-
-        // GAME OVER
-        if (gameOver)
-        {
-            GameOver();
             yield break;
         }
 
-        // PRÓXIMO DIA
+        // =================================================
+        // RESETAR CONDUTAS
+        // =================================================
+
+        patientDayValidator
+            .ResetAllPatientsForNewDay();
+
+        // =================================================
+        // TRANSIÇÃO
+        // =================================================
+
+        yield return Fade(1);
+
         dayText.gameObject.SetActive(false);
 
         yield return Fade(0);
@@ -184,39 +146,55 @@ public class DayTransition : MonoBehaviour
         onFinished?.Invoke();
     }
 
-    private void GameOver()
-    {
-        Debug.Log("GAME OVER");
-        // SceneManager.LoadScene("GameOver");
-    }
+    // =====================================================
+    // FADE
+    // =====================================================
 
-    private IEnumerator Fade(float target)
+    private IEnumerator Fade(
+        float target)
     {
-        float start = blackPanel.color.a;
+        if (blackPanel == null)
+        {
+            Debug.LogError(
+                "Black Panel não foi atribuído!"
+            );
 
-        float t = 0;
+            yield break;
+        }
+
+        float start =
+            blackPanel.color.a;
+
+        float t = 0f;
 
         while (t < fadeTime)
         {
-            t += Time.unscaledDeltaTime;
+            t +=
+                Time.unscaledDeltaTime;
 
-            Color c = blackPanel.color;
+            Color color =
+                blackPanel.color;
 
-            c.a = Mathf.Lerp(
-                start,
-                target,
-                t / fadeTime
-            );
+            color.a =
+                Mathf.Lerp(
+                    start,
+                    target,
+                    t / fadeTime
+                );
 
-            blackPanel.color = c;
+            blackPanel.color =
+                color;
 
             yield return null;
         }
 
-        Color final = blackPanel.color;
+        Color finalColor =
+            blackPanel.color;
 
-        final.a = target;
+        finalColor.a =
+            target;
 
-        blackPanel.color = final;
+        blackPanel.color =
+            finalColor;
     }
 }

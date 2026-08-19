@@ -481,7 +481,8 @@ MonoBehaviour:
   exams: Exams
   patientData: {fileID: 11400000, guid: 9fd270f1378841245b8eba2d8c1a2540, type: 2}
   npcConduta: {fileID: 0}
-  allowedScene: UTI
+  medicalDataUI: {fileID: 2033471343}
+  tutorialScene: 0
   ClickSound:
     Guid:
       Data1: 0
@@ -7453,7 +7454,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &424441415
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9346,6 +9347,7 @@ GameObject:
   - component: {fileID: 513372498}
   - component: {fileID: 513372499}
   - component: {fileID: 513372500}
+  - component: {fileID: 513372501}
   m_Layer: 5
   m_Name: SystemDay
   m_TagString: Untagged
@@ -9391,6 +9393,7 @@ MonoBehaviour:
   dayText: {fileID: 815428982}
   fadeTime: 1
   textTime: 1
+  patientDayValidator: {fileID: 0}
 --- !u!114 &513372500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9406,6 +9409,19 @@ MonoBehaviour:
   timerText: {fileID: 1083919339}
   startHour: 8
   endHour: 16
+--- !u!114 &513372501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513372497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1049f5b22d5433541ae7bbd40b8b4f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PatientDayValidator
+  messageTime: 1.5
 --- !u!1 &516921322
 GameObject:
   m_ObjectHideFlags: 0
@@ -23334,7 +23350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1129937440
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26639,7 +26655,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.016666668
+  m_VoxelSize: 0.06666667
   m_BuildHeightMesh: 0
   m_MinRegionArea: 0
   m_HideEditorLogs: 0
@@ -30182,6 +30198,7 @@ GameObject:
   - component: {fileID: 1379876625}
   - component: {fileID: 1379876628}
   - component: {fileID: 1379876626}
+  - component: {fileID: 1379876629}
   m_Layer: 0
   m_Name: Sr.Arthur
   m_TagString: Untagged
@@ -30309,6 +30326,32 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1379876629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379876624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c6c2394902c7214d8022f9b3d49d8cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OpenExams
+  panelExam: {fileID: 576017666}
+  panelConduct: {fileID: 2033471338}
+  exams: Exams
+  patientData: {fileID: 11400000, guid: f10dcfc8a58913b4896cc36f3d393554, type: 2}
+  npcConduta: {fileID: 0}
+  medicalDataUI: {fileID: 2033471343}
+  tutorialScene: 0
+  ClickSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &1386280899
 GameObject:
   m_ObjectHideFlags: 0
@@ -31237,6 +31280,7 @@ GameObject:
   - component: {fileID: 1414597660}
   - component: {fileID: 1414597662}
   - component: {fileID: 1414597663}
+  - component: {fileID: 1414597664}
   m_Layer: 0
   m_Name: Objects
   m_TagString: Untagged
@@ -31466,6 +31510,22 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!114 &1414597664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414597658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: NavMeshPlus::NavMeshPlus.Components.NavMeshModifier
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1419766623
 GameObject:
   m_ObjectHideFlags: 0
@@ -33018,7 +33078,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.016666668
+  m_VoxelSize: 0.06666667
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: bcf783e456e1c13449b19cd6299ad325, type: 2}
   m_BuildHeightMesh: 0
@@ -33263,7 +33323,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1527530053
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41908,6 +41968,7 @@ GameObject:
   - component: {fileID: 2033471340}
   - component: {fileID: 2033471342}
   - component: {fileID: 2033471343}
+  - component: {fileID: 2033471344}
   m_Layer: 5
   m_Name: CondutaSelection
   m_TagString: Untagged
@@ -41996,6 +42057,7 @@ MonoBehaviour:
   currentPageIndex: 0
   conductPanel: {fileID: 2033471338}
   medicalDataUI: {fileID: 2033471343}
+  conductEvaluator: {fileID: 2033471344}
   somClick:
     Guid:
       Data1: -804075512
@@ -42054,6 +42116,18 @@ MonoBehaviour:
       Data3: -71079507
       Data4: -1066843613
     Path: event:/Interagir/fx_telefone
+--- !u!114 &2033471344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033471338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c26c895f571d8bc4782c0f890a15a554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PatientConductEvaluator
 --- !u!1 &2037038767
 GameObject:
   m_ObjectHideFlags: 0

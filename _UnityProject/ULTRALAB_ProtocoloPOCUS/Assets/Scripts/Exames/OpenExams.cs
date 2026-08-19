@@ -12,31 +12,46 @@ public class OpenExams : MonoBehaviour, IInteractable
 
     [Header("Conduta")]
     [SerializeField] private NPC npcConduta;
+    [SerializeField] private MedicalData medicalDataUI;
 
     [Header("Cena Permitida")]
-    [SerializeField] private string allowedScene;
+    [SerializeField] private bool tutorialScene = false;
 
     [Header("Áudio")]
     public EventReference ClickSound;
 
     private bool conductCompleted = false;
 
-    public bool ConductCompleted => conductCompleted;
+    // Estado individual deste paciente
+    private ConductState conductState =
+        new ConductState();
 
-    public PatientData PatientDataReference => patientData;
+    public bool ConductCompleted =>
+        conductCompleted;
+
+    public PatientData PatientDataReference =>
+        patientData;
+
+    public ConductState ConductState =>
+        conductState;
 
     private void Start()
     {
         if (PatientManager.Instance != null)
         {
             PatientManager.Instance.RegisterPatient(this);
+
+            patientData.welfareScore = 50;
         }
         else
         {
             Debug.LogError(
-                $"PatientManager não encontrado para o paciente {name}."
+                "PatientManager não encontrado!"
             );
         }
+
+        // Começa o dia com prontuário vazio
+        conductState.Clear();
     }
 
     private void OnDestroy()
@@ -57,8 +72,10 @@ public class OpenExams : MonoBehaviour, IInteractable
         PlayClickSound();
 
         panelExam.SetActive(true);
+
         PauseController.SetPause(true);
 
+        // Define paciente atual
         CurrentPatient.Data = patientData;
         CurrentPatient.Object = this;
 
@@ -78,7 +95,11 @@ public class OpenExams : MonoBehaviour, IInteractable
         PlayClickSound();
 
         panelExam.SetActive(false);
+
         PauseController.SetPause(false);
+        
+        CurrentPatient.Data = null;
+        CurrentPatient.Object = null;
 
         if (PlayerReferences.Instance != null)
         {
@@ -102,25 +123,79 @@ public class OpenExams : MonoBehaviour, IInteractable
     {
         PlayClickSound();
 
-        if (SceneManager.GetActiveScene().name == allowedScene)
+        // Define o paciente atual
+        CurrentPatient.Data = patientData;
+        CurrentPatient.Object = this;
+
+        if (medicalDataUI != null)
+        {
+            medicalDataUI.LoadState(
+                conductState
+            );
+        }
+        else
+        {
+            Debug.LogError(
+                $"MedicalData não foi atribuído no paciente " +
+                $"{patientData.patientName}!"
+            );
+        }
+
+        if (tutorialScene)
         {
             panelExam.SetActive(false);
+
+            npcConduta.OnDialogueEnded =
+                ReturnToExamPanel;
+
+            npcConduta.StartDialogueExternally();
+        }
+        else
+        {
+            panelExam.SetActive(false);
+
             panelConduct.SetActive(true);
 
-            if (npcConduta != null)
-            {
-                npcConduta.OnDialogueEnded = ReturnToExamPanel;
-                npcConduta.StartDialogueExternally();
-            }
+            PauseController.SetPause(false);
         }
+    }
+
+    public void SaveConductState()
+    {
+        if (medicalDataUI == null)
+            return;
+
+        conductState =
+            medicalDataUI.GetCurrentState();
+
+        Debug.Log(
+            $"Conduta salva do paciente: " +
+            $"{patientData.patientName}"
+        );
     }
 
     public void CompleteConduct()
     {
+        // Salva primeiro
+        SaveConductState();
+
         conductCompleted = true;
 
         Debug.Log(
-            $"Conduta do paciente {patientData.patientName} foi concluída."
+            $"Conduta do paciente " +
+            $"{patientData.patientName} foi concluída."
+        );
+    }
+
+    public void ResetConductForNewDay()
+    {
+        conductState.Clear();
+
+        conductCompleted = false;
+
+        Debug.Log(
+            $"Conduta do paciente " +
+            $"{patientData.patientName} foi resetada para o novo dia."
         );
     }
 

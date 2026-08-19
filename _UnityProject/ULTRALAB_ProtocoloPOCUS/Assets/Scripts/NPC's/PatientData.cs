@@ -9,7 +9,7 @@ public class PatientData : ScriptableObject
     public int age;
     public string sex;
     public bool tutorial;
-    public int welfareScore = 50;
+    public int welfareScore;
 
     [Header("Visual")]
     public Sprite characterSprite;
