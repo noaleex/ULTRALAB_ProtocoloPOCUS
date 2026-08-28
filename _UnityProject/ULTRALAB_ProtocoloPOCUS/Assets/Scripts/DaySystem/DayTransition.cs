@@ -66,10 +66,6 @@ public class DayTransition : MonoBehaviour
         onFinished?.Invoke();
     }
 
-    // =====================================================
-    // TENTAR TERMINAR DIA
-    // =====================================================
-
     public void CheckPatientsAtEndOfDay(
         Action onFinished)
     {
@@ -113,9 +109,6 @@ public class DayTransition : MonoBehaviour
                 )
         );
 
-        // =================================================
-        // NÃO PODE TERMINAR
-        // =================================================
 
         if (!finished)
         {
@@ -145,10 +138,6 @@ public class DayTransition : MonoBehaviour
 
         onFinished?.Invoke();
     }
-
-    // =====================================================
-    // FADE
-    // =====================================================
 
     private IEnumerator Fade(
         float target)
